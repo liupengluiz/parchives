@@ -1,0 +1,1623 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Krishnababu Krothapalli <kkrothap@redhat.com>, 2008, 2009
+# వి.సౌజన్య <hai_sowjanya@rediffmail.com>, 2005
+# స్రవంతి <sravanthi_reddy7@yahoo.com>, 2005
+msgid ""
+msgstr ""
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-12-06 00:01+0300\n"
+"PO-Revision-Date: 2016-12-05 21:04+0000\n"
+"Last-Translator: monsta <monsta@inbox.ru>\n"
+"Language-Team: Telugu (http://www.transifex.com/mate/MATE/language/te/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: te\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../copy-n-paste/eggdesktopfile.c:165
+#, c-format
+msgid "File is not a valid .desktop file"
+msgstr "దస్త్రము చెల్లునటువంటి .desktop దస్త్రము కాదు"
+
+#: ../copy-n-paste/eggdesktopfile.c:190
+#, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr "గుర్తించని డెస్కుటాపు దస్త్రము వర్షన్ '%s'"
+
+#: ../copy-n-paste/eggdesktopfile.c:959
+#, c-format
+msgid "Starting %s"
+msgstr "%sను ప్రారంభిస్తోంది"
+
+#: ../copy-n-paste/eggdesktopfile.c:1100
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr "అనువర్తనము ఆదేశ వరుసనందు పత్రములను ఆమోదించదు"
+
+#: ../copy-n-paste/eggdesktopfile.c:1168
+#, c-format
+msgid "Unrecognized launch option: %d"
+msgstr "గుర్తించని ప్రారంభ ఐచ్చికము: %d"
+
+#: ../copy-n-paste/eggdesktopfile.c:1367
+#, c-format
+msgid "Can't pass documents to this desktop element"
+msgstr ""
+
+#: ../copy-n-paste/eggdesktopfile.c:1386
+#, c-format
+msgid "Not a launchable item"
+msgstr "ఆరంభించదగిన అంశముకాదు"
+
+#: ../copy-n-paste/eggsmclient.c:225
+msgid "Disable connection to session manager"
+msgstr "సెషన్ నిర్వాహకునికి అనుసంధానమును అచేతనము చేయుము"
+
+#: ../copy-n-paste/eggsmclient.c:228
+msgid "Specify file containing saved configuration"
+msgstr "దాయబడిన ఆకృతీకరణను కలిగివున్న ఫైలును తెలుపుము"
+
+#: ../copy-n-paste/eggsmclient.c:228
+msgid "FILE"
+msgstr "FILE"
+
+#: ../copy-n-paste/eggsmclient.c:231
+msgid "Specify session management ID"
+msgstr "సెషన్ నిర్వహణ IDను తెలుపుము"
+
+#: ../copy-n-paste/eggsmclient.c:231
+msgid "ID"
+msgstr "ID"
+
+#: ../copy-n-paste/eggsmclient.c:252
+msgid "Session management options:"
+msgstr "సెషన్ నిర్వహణా ఐచ్చికములు:"
+
+#: ../copy-n-paste/eggsmclient.c:253
+msgid "Show session management options"
+msgstr "సెషన్ నిర్వహణా ఐచ్చికములను చూపుము"
+
+#: ../data/engrampa.appdata.xml.in.h:1
+msgid "An Archive Manager for the MATE desktop environment"
+msgstr ""
+
+#: ../data/engrampa.appdata.xml.in.h:2
+msgid ""
+"<p> Engrampa is an archive manager for the MATE environment. It allows you "
+"to create and modify archives, view the contents of an archive, view a file "
+"contained in an archive, and extract files from archive. </p> <p> Engrampa "
+"is only a front-end (a graphical interface) to archiving programs like tar "
+"and zip. The supported file types are: </p> <ul> <li>7-Zip Compressed File "
+"(.7z)</li> <li>WinAce Compressed File (.ace)</li> <li>ALZip Compressed File "
+"(.alz)</li> <li>AIX Small Indexed Archive (.ar)</li> <li>ARJ Compressed "
+"Archive (.arj)</li> <li>Cabinet File (.cab)</li> <li>UNIX CPIO Archive "
+"(.cpio)</li> <li>Debian Linux Package (.deb) [Read-only mode]</li> "
+"<li>ISO-9660 CD Disc Image (.iso) [Read-only mode]</li> <li>Java Archive "
+"(.jar)</li> <li>Java Enterprise archive (.ear)</li> <li>Java Web Archive "
+"(.war)</li> <li>LHA Archive (.lzh, .lha)</li> <li>WinRAR Compressed Archive "
+"(.rar)</li> <li>RAR Archived Comic Book (.cbr)</li> <li>RPM Linux Package "
+"(.rpm) [Read-only mode]</li> <li>Tape Archive File uncompressed (.tar) or "
+"compressed with: gzip (.tar.gz, .tgz), bzip (.tar.bz, .tbz), bzip2 "
+"(.tar.bz2, .tbz2), compress (.tar.Z, .taz), lrzip (.tar.lrz, .tlrz), lzip "
+"(.tar.lz, .tlz), lzop (.tar.lzo, .tzo), 7zip (.tar.7z), xz (.tar.xz) </li> "
+"<li>Stuffit Archives (.bin, .sit)</li> <li>ZIP Archive (.zip)</li> <li>ZIP "
+"Archived Comic Book (.cbz)</li> <li>ZOO Compressed Archive File (.zoo)</li> "
+"<li>Single files compressed with gzip, bzip, bzip2, compress, lrzip, lzip, "
+"lzop, rzip, xz</li> </ul> <p> Engrampa is a fork of File Roller and part of "
+"the MATE Desktop Environment. If you would like to know more about MATE and "
+"Engrampa, please visit the project's home page. </p>"
+msgstr ""
+
+#: ../data/engrampa.desktop.in.in.h:1
+msgid "Engrampa Archive Manager"
+msgstr ""
+
+#: ../data/engrampa.desktop.in.in.h:2 ../src/fr-window.c:1981
+#: ../src/fr-window.c:5466
+msgid "Archive Manager"
+msgstr "సంగ్రహ అభికర్త"
+
+#: ../data/engrampa.desktop.in.in.h:3
+msgid "Create and modify an archive"
+msgstr "సంగ్రహమును సృష్టించు మరియు మార్చు"
+
+#: ../data/org.mate.engrampa.gschema.xml.in.h:1
+msgid "How to sort files"
+msgstr ""
+
+#: ../data/org.mate.engrampa.gschema.xml.in.h:2
+msgid ""
+"What criteria must be used to arrange files. Possible values: name, size, "
+"type, time, path."
+msgstr ""
+
+#: ../data/org.mate.engrampa.gschema.xml.in.h:3
+msgid "Sort type"
+msgstr ""
+
+#: ../data/org.mate.engrampa.gschema.xml.in.h:4
+msgid ""
+"Whether to sort in ascending or descending direction. Possible values: "
+"ascending, descending."
+msgstr ""
+
+#: ../data/org.mate.engrampa.gschema.xml.in.h:5
+msgid "List Mode"
+msgstr ""
+
+#: ../data/org.mate.engrampa.gschema.xml.in.h:6
+msgid ""
+"Whether to view all files in the archive (all_files), or view the archive as"
+" a folder (as_folder)."
+msgstr ""
+
+#: ../data/org.mate.engrampa.gschema.xml.in.h:7
+msgid "Display type"
+msgstr ""
+
+#: ../data/org.mate.engrampa.gschema.xml.in.h:8
+msgid "Display the Type column in the main window."
+msgstr ""
+
+#: ../data/org.mate.engrampa.gschema.xml.in.h:9
+msgid "Display size"
+msgstr ""
+
+#: ../data/org.mate.engrampa.gschema.xml.in.h:10
+msgid "Display the Size column in the main window."
+msgstr ""
+
+#: ../data/org.mate.engrampa.gschema.xml.in.h:11
+msgid "Display time"
+msgstr ""
+
+#: ../data/org.mate.engrampa.gschema.xml.in.h:12
+msgid "Display the Time column in the main window."
+msgstr ""
+
+#: ../data/org.mate.engrampa.gschema.xml.in.h:13
+msgid "Display path"
+msgstr ""
+
+#: ../data/org.mate.engrampa.gschema.xml.in.h:14
+msgid "Display the Path column in the main window."
+msgstr ""
+
+#: ../data/org.mate.engrampa.gschema.xml.in.h:15
+msgid "Use MIME icons"
+msgstr ""
+
+#: ../data/org.mate.engrampa.gschema.xml.in.h:16
+msgid ""
+"if TRUE will display icons depending on the file type (slower), otherwise "
+"will use always the same icon for all files (faster)."
+msgstr ""
+
+#: ../data/org.mate.engrampa.gschema.xml.in.h:17
+msgid "Name column width"
+msgstr ""
+
+#: ../data/org.mate.engrampa.gschema.xml.in.h:18
+msgid "The default width of the name column in the file list."
+msgstr ""
+
+#: ../data/org.mate.engrampa.gschema.xml.in.h:19
+msgid "Max history length"
+msgstr ""
+
+#: ../data/org.mate.engrampa.gschema.xml.in.h:20
+msgid "Max number of items in the Open Recents menu."
+msgstr ""
+
+#: ../data/org.mate.engrampa.gschema.xml.in.h:21
+msgid "View toolbar"
+msgstr ""
+
+#: ../data/org.mate.engrampa.gschema.xml.in.h:22
+msgid "Whether to display the toolbar."
+msgstr ""
+
+#: ../data/org.mate.engrampa.gschema.xml.in.h:23
+msgid "View statusbar"
+msgstr ""
+
+#: ../data/org.mate.engrampa.gschema.xml.in.h:24
+msgid "Whether to display the statusbar."
+msgstr ""
+
+#: ../data/org.mate.engrampa.gschema.xml.in.h:25 ../src/ui.h:234
+msgid "View the folders pane"
+msgstr "సంచయముల ఫలకంను దర్శించుము"
+
+#: ../data/org.mate.engrampa.gschema.xml.in.h:26
+msgid "Whether to display the folders pane."
+msgstr ""
+
+#: ../data/org.mate.engrampa.gschema.xml.in.h:27
+msgid "Editors"
+msgstr ""
+
+#: ../data/org.mate.engrampa.gschema.xml.in.h:28
+msgid ""
+"List of applications entered in the Open file dialog and not associated with"
+" the file type."
+msgstr ""
+
+#: ../data/org.mate.engrampa.gschema.xml.in.h:29
+msgid "Compression level"
+msgstr ""
+
+#: ../data/org.mate.engrampa.gschema.xml.in.h:30
+msgid ""
+"Compression level used when adding files to an archive. Possible values: "
+"very_fast, fast, normal, maximum."
+msgstr ""
+
+#: ../data/org.mate.engrampa.gschema.xml.in.h:31
+msgid "Encrypt the archive header"
+msgstr ""
+
+#: ../data/org.mate.engrampa.gschema.xml.in.h:32
+msgid ""
+"Whether to encrypt the archive header. If the header is encrypted the "
+"password will be required to list the archive content as well."
+msgstr ""
+
+#: ../data/org.mate.engrampa.gschema.xml.in.h:33
+msgid "Overwrite existing files"
+msgstr ""
+
+#: ../data/org.mate.engrampa.gschema.xml.in.h:34
+msgid "Do not overwrite newer files"
+msgstr ""
+
+#: ../data/org.mate.engrampa.gschema.xml.in.h:35
+msgid "Recreate the folders stored in the archive"
+msgstr ""
+
+#: ../data/org.mate.engrampa.gschema.xml.in.h:36
+msgid "Default volume size"
+msgstr ""
+
+#: ../data/org.mate.engrampa.gschema.xml.in.h:37
+msgid "The default size for volumes."
+msgstr ""
+
+#: ../caja/caja-engrampa.c:335
+msgid "Extract Here"
+msgstr "ఇక్కడ పొందు"
+
+#. Translators: the current position is the current folder
+#: ../caja/caja-engrampa.c:337
+msgid "Extract the selected archive to the current position"
+msgstr ""
+
+#: ../caja/caja-engrampa.c:354
+msgid "Extract To..."
+msgstr "పొందు..."
+
+#: ../caja/caja-engrampa.c:355
+msgid "Extract the selected archive"
+msgstr "ఈ ఎంపికైన సంగ్రహమును పొందు"
+
+#: ../caja/caja-engrampa.c:374
+msgid "Compress..."
+msgstr "కుదించు..."
+
+#: ../caja/caja-engrampa.c:375
+msgid "Create a compressed archive with the selected objects"
+msgstr "ఎంపికచేసిన ఆబ్జక్టులతో కుదించిన ఆర్చివ్‌ను సృష్టించుము"
+
+#: ../caja/libcaja-engrampa.caja-extension.in.in.h:1 ../src/main.c:330
+#: ../src/server.c:457
+msgid "Engrampa"
+msgstr "ఫైల్ రోలర్"
+
+#: ../caja/libcaja-engrampa.caja-extension.in.in.h:2
+msgid "Allows to create and extract archives"
+msgstr ""
+
+#: ../src/actions.c:157 ../src/actions.c:196 ../src/actions.c:232
+#: ../src/dlg-batch-add.c:163 ../src/dlg-batch-add.c:179
+#: ../src/dlg-batch-add.c:208 ../src/dlg-batch-add.c:253
+#: ../src/dlg-batch-add.c:299 ../src/fr-window.c:2974
+msgid "Could not create the archive"
+msgstr "సంగ్రహము సృష్టించబడదు"
+
+#: ../src/actions.c:159 ../src/dlg-batch-add.c:165 ../src/dlg-batch-add.c:301
+msgid "You have to specify an archive name."
+msgstr " నీవు ఒక సంగ్రహము పేరును పేర్కొనవలెను"
+
+#: ../src/actions.c:198
+msgid "You don't have permission to create an archive in this folder"
+msgstr "ఈ సంచయంలో ఒక సంగ్రహమును సృష్టించుటకు నీకు అనుమతి లేదు"
+
+#: ../src/actions.c:234 ../src/dlg-package-installer.c:269
+#: ../src/dlg-package-installer.c:278 ../src/dlg-package-installer.c:306
+#: ../src/fr-archive.c:1160 ../src/fr-window.c:6099 ../src/fr-window.c:6275
+msgid "Archive type not supported."
+msgstr "సంగ్రహ రకము సహకరించలేదు."
+
+#: ../src/actions.c:248
+msgid "Could not delete the old archive."
+msgstr "ప్రాత సంగ్రహము తొలగించబడదు."
+
+#: ../src/actions.c:382 ../src/fr-window.c:5840
+msgid "Open"
+msgstr "తెరువు"
+
+#: ../src/actions.c:393 ../src/fr-window.c:5285
+msgid "All archives"
+msgstr "సమస్త సంగ్రహములు"
+
+#: ../src/actions.c:400
+msgid "All files"
+msgstr "సమస్త దస్త్రములు"
+
+#: ../src/actions.c:794 ../src/fr-window.c:7287
+msgid "Last Output"
+msgstr "వెనుక దిగుబడి"
+
+#: ../src/actions.c:860
+msgid ""
+"Engrampa is free software; you can redistribute it and/or modify it under "
+"the terms of the GNU General Public License as published by the Free "
+"Software Foundation; either version 2 of the License, or (at your option) "
+"any later version."
+msgstr "ఫైల్ రోలర్ ఉచిత సాఫ్టువేర్; ఉచిత సాఫ్టువేర్ సంస్థ తరుపున ప్రచురితమైనGNU జనరల్ పబ్లిక్ లైసెన్సు కు లోబడి దీనిని మీరు పునఃపంపిణి మరియు/లేదాసవరణ చేయవచ్చు; మీరు అనుసరించవలిసినది లైసెన్సు యొక్క వర్షన్ 2, లేదా(మీ ఐచ్చికం వద్ద) దాని తరువాతి వర్షన్ కాని."
+
+#: ../src/actions.c:864
+msgid ""
+"Engrampa is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+msgstr "ఫైల్ రోలర్ అది ఉపయోగపడుతుందనే నమ్మకం తో పంపిణీ చేయబడింది,అయితే ఏ హామి లేదు; వ్యాపారసంబంధితంగా కాని లేదా ప్రతిపాదిత ప్రయోజనం కొరకుకాని హామీ లేదు. అధికవివరములకొరకు GNU జనరల్ పబ్లిక్ లైసెన్సు నుచూడండి."
+
+#: ../src/actions.c:868
+msgid ""
+"You should have received a copy of the GNU General Public License along with"
+" Engrampa; if not, write to the Free Software Foundation, Inc., 51 Franklin "
+"St, Fifth Floor, Boston, MA  02110-1301 USA"
+msgstr "ఈ ప్రోగ్రామ్ తో మీరు GNU జనరల్ పబ్లిక్ లైసెన్సు నకలు ను పొంది ఉంటారు;పొందకపోతే, Free Software Foundation, Inc., 51 Franklin St, FifthFloor, Boston. MA  02110-1301, USA కు వ్రాయండి"
+
+#: ../src/actions.c:878
+msgid "Copyright © 2001–2010 Free Software Foundation, Inc."
+msgstr ""
+
+#: ../src/actions.c:879
+msgid "An archive manager for MATE."
+msgstr " గ్నోమ్ కొరకు ఒక సంగ్రహ అభికర్త."
+
+#: ../src/actions.c:882
+msgid "translator-credits"
+msgstr "సౌజన్య<hai_sowjanya@rediffmail.com>, 2005\nస్రవంతి<sravanthi_reddy7@yahoo.com>, 2005\nకృష్ణ <kkrothap@redhat.com>, 2008"
+
+#: ../src/dlg-add-files.c:103 ../src/dlg-add-folder.c:136
+msgid "Could not add the files to the archive"
+msgstr "సంగ్రహమునకు దస్త్రములు చేర్చబడవు"
+
+#: ../src/dlg-add-files.c:104 ../src/dlg-add-folder.c:137
+#, c-format
+msgid "You don't have the right permissions to read files from folder \"%s\""
+msgstr "నీకు సంచయము నుండి దస్త్రములను చదువుటకు సరియైన అనుమతి లేదు\"%s\""
+
+#: ../src/dlg-add-files.c:152 ../src/ui.h:47
+msgid "Add Files"
+msgstr "దస్త్రములను చేర్చు"
+
+#. Translators: add a file to the archive only if the disk version is
+#. * newer than the archive version.
+#: ../src/dlg-add-files.c:168 ../src/dlg-add-folder.c:238
+msgid "Add only if _newer"
+msgstr "క్రొత్తది అయితేనే చేర్చు (_n)"
+
+#: ../src/dlg-add-folder.c:224
+msgid "Add a Folder"
+msgstr "ఒక సంచయమును చేర్చు"
+
+#: ../src/dlg-add-folder.c:239
+msgid "_Include subfolders"
+msgstr "ఉపసంచయములను కలుపు(_I)"
+
+#: ../src/dlg-add-folder.c:240
+msgid "Exclude folders that are symbolic lin_ks"
+msgstr "చిహ్న పూరితజోడిలు అయిన సంచయములను మినహాయింపుము(_k)"
+
+#: ../src/dlg-add-folder.c:243 ../src/dlg-add-folder.c:253
+#: ../src/dlg-add-folder.c:263
+msgid "example: *.o; *.bak"
+msgstr "ఉదాహరణ: *.o; *.bak"
+
+#: ../src/dlg-add-folder.c:244
+msgid "Include _files:"
+msgstr "దస్త్రములను కలుపు (_f):"
+
+#: ../src/dlg-add-folder.c:254
+msgid "E_xclude files:"
+msgstr "దస్త్రములను మినహాయించు(_x):"
+
+#: ../src/dlg-add-folder.c:264
+msgid "_Exclude folders:"
+msgstr "ఫోల్డర్స్‍‌ను మినహాయించు (_E):"
+
+#: ../src/dlg-add-folder.c:272
+msgid "_Load Options"
+msgstr "ఇచ్ఛాపూర్వకాలను దిగుమతి చేయి(_L)"
+
+#: ../src/dlg-add-folder.c:273
+msgid "Sa_ve Options"
+msgstr "ఇచ్ఛాపూర్వకాలను దాచు(_v)"
+
+#: ../src/dlg-add-folder.c:274
+msgid "_Reset Options"
+msgstr "ఇచ్ఛాపూర్వకాలను తిరిగివుంచు (_R)"
+
+#: ../src/dlg-add-folder.c:890
+msgid "Save Options"
+msgstr "ఇచ్ఛాపూర్వకాలను దాచు"
+
+#: ../src/dlg-add-folder.c:891
+msgid "_Options Name:"
+msgstr ""
+
+#: ../src/dlg-ask-password.c:124
+#, c-format
+msgid "Enter the password for the archive '%s'."
+msgstr "ఆర్చివ్ '%s' కొరకు సంకేతపదంను ప్రవేశపెట్టండి."
+
+#: ../src/dlg-batch-add.c:180
+#, c-format
+msgid ""
+"The name \"%s\" is not valid because it cannot contain the characters: %s\n"
+"\n"
+"%s"
+msgstr "ఈ పేరు \"%s\"వర్తించదు ఎందుకనగా ఇది ఈ అక్షరాలను కలిగియుండలేదు:%s\n\n%s"
+
+#: ../src/dlg-batch-add.c:183 ../src/fr-window.c:7638 ../src/fr-window.c:7640
+msgid "Please use a different name."
+msgstr "దయచేసి ఒక భిన్నమైన నామమును వినియోగించు."
+
+#: ../src/dlg-batch-add.c:210
+msgid ""
+"You don't have the right permissions to create an archive in the destination"
+" folder."
+msgstr "నీకు ఈ గమ్యసంచయంలో సంగ్రహమును సృష్టించుటకు  సరియైన అనుమతి లేదు ."
+
+#: ../src/dlg-batch-add.c:226 ../src/dlg-extract.c:104 ../src/fr-window.c:6859
+#, c-format
+msgid ""
+"Destination folder \"%s\" does not exist.\n"
+"\n"
+"Do you want to create it?"
+msgstr "గమ్యపు సంచయం \"%s\" లేదు.\n\nమీరు దానిని సృష్టిద్దామని అనుకుంటున్నారా?"
+
+#: ../src/dlg-batch-add.c:235 ../src/dlg-extract.c:113 ../src/fr-window.c:6868
+msgid "Create _Folder"
+msgstr "సంచయంను సృష్టించు(_F)"
+
+#: ../src/dlg-batch-add.c:254 ../src/dlg-extract.c:133 ../src/fr-window.c:6885
+#, c-format
+msgid "Could not create the destination folder: %s."
+msgstr "గమ్యసంచయం సృష్టించబడదు: %s."
+
+#: ../src/dlg-batch-add.c:271
+msgid "Archive not created"
+msgstr "సంగ్రహ సృష్టి కాలేదు"
+
+#: ../src/dlg-batch-add.c:319
+msgid "The archive is already present.  Do you want to overwrite it?"
+msgstr "ఈ సంగ్రహము ముందుగానే ఉన్నది.దీనిని నీవు చెరిపిరాయాలనుకుంటున్నావా?"
+
+#: ../src/dlg-batch-add.c:322
+msgid "_Overwrite"
+msgstr "చెరిపిరాత(_O)"
+
+#: ../src/dlg-extract.c:132 ../src/dlg-extract.c:150 ../src/dlg-extract.c:177
+#: ../src/fr-window.c:4228 ../src/fr-window.c:6889 ../src/fr-window.c:6908
+#: ../src/fr-window.c:6913
+msgid "Extraction not performed"
+msgstr "పొందుట నిర్వహించబడలేదు"
+
+#: ../src/dlg-extract.c:178 ../src/fr-window.c:4397 ../src/fr-window.c:4477
+#, c-format
+msgid ""
+"You don't have the right permissions to extract archives in the folder "
+"\"%s\""
+msgstr "నీకు సంగ్రహములను ఈ సంచయములోనికి పొందుటకు సరైన అనుమతి లేదు \"%s\""
+
+#: ../src/dlg-extract.c:333 ../src/dlg-extract.c:431 ../src/ui.h:122
+msgid "Extract"
+msgstr "పొందు"
+
+#: ../src/dlg-extract.c:354 ../src/ui/delete.ui.h:2
+msgid "_Files:"
+msgstr "దస్త్రములు(_F):"
+
+#: ../src/dlg-extract.c:361 ../src/ui/delete.ui.h:3
+msgid "example: *.txt; *.doc"
+msgstr "ఉదాహరణ: *.txt; *.doc"
+
+#: ../src/dlg-extract.c:364 ../src/ui/delete.ui.h:4
+msgid "_All files"
+msgstr "సమస్త దస్త్రములు(_A)"
+
+#: ../src/dlg-extract.c:369 ../src/ui/delete.ui.h:5
+msgid "_Selected files"
+msgstr "ఎంపికైన దస్త్రములు(_S)"
+
+#: ../src/dlg-extract.c:378
+msgid "Actions"
+msgstr "క్రియలు"
+
+#: ../src/dlg-extract.c:398
+msgid "Re-crea_te folders"
+msgstr "సంచయములను పునఃసృష్టించు(_t)"
+
+#: ../src/dlg-extract.c:402
+msgid "Over_write existing files"
+msgstr "ఉన్న దస్త్రములను చెరిపిరాయి(_w)"
+
+#: ../src/dlg-extract.c:406
+msgid "Do not e_xtract older files"
+msgstr "ప్రాత దస్త్రములను పొందవద్దు(_x)"
+
+#: ../src/dlg-new.c:426
+msgctxt "File"
+msgid "New"
+msgstr ""
+
+#: ../src/dlg-new.c:439
+msgctxt "File"
+msgid "Save"
+msgstr ""
+
+#: ../src/dlg-package-installer.c:108 ../src/dlg-package-installer.c:220
+msgid "There was an internal error trying to search for applications:"
+msgstr ""
+
+#: ../src/dlg-package-installer.c:288
+#, c-format
+msgid ""
+"There is no command installed for %s files.\n"
+"Do you want to search for a command to open this file?"
+msgstr ""
+
+#: ../src/dlg-package-installer.c:293
+msgid "Could not open this file type"
+msgstr ""
+
+#: ../src/dlg-package-installer.c:296
+msgid "_Search Command"
+msgstr ""
+
+#. Translators: after the colon there is a folder name.
+#: ../src/dlg-prop.c:108
+msgid "Location:"
+msgstr "స్థానం:"
+
+#: ../src/dlg-prop.c:120
+msgctxt "File"
+msgid "Name:"
+msgstr ""
+
+#: ../src/dlg-prop.c:126
+#, c-format
+msgid "%s Properties"
+msgstr "%s లక్షణాలు"
+
+#: ../src/dlg-prop.c:135
+msgid "Last modified:"
+msgstr ""
+
+#: ../src/dlg-prop.c:145
+msgid "Archive size:"
+msgstr "సంగ్రహ పరిమాణం:"
+
+#: ../src/dlg-prop.c:156
+msgid "Content size:"
+msgstr "సారం పరిమాణం:"
+
+#: ../src/dlg-prop.c:176
+msgid "Compression ratio:"
+msgstr "సంకుచిత నిష్పత్తి:"
+
+#: ../src/dlg-prop.c:191
+msgid "Number of files:"
+msgstr "దస్త్రముల సంఖ్య:"
+
+#: ../src/dlg-update.c:164
+#, c-format
+msgid "Update the file \"%s\" in the archive \"%s\"?"
+msgstr "దస్త్రము \"%s\" ను ఆర్చివ్ \"%s\" నందు నవీకరించాలా?"
+
+#. secondary text
+#: ../src/dlg-update.c:176 ../src/dlg-update.c:204 ../src/ui/update.ui.h:2
+#, c-format
+msgid ""
+"The file has been modified with an external application. If you don't update"
+" the file in the archive, all of your changes will be lost."
+msgid_plural ""
+"%d files have been modified with an external application. If you don't "
+"update the files in the archive, all of your changes will be lost."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../src/dlg-update.c:193
+#, c-format
+msgid "Update the files in the archive \"%s\"?"
+msgstr "దస్త్రములను ఆర్చీవ్ \"%s\" నందు నవీకరించాలా?"
+
+#: ../src/eggfileformatchooser.c:236
+#, c-format
+msgid "File _Format: %s"
+msgstr ""
+
+#: ../src/eggfileformatchooser.c:397
+msgid "All Files"
+msgstr ""
+
+#: ../src/eggfileformatchooser.c:398
+msgid "All Supported Files"
+msgstr ""
+
+#: ../src/eggfileformatchooser.c:407
+msgid "By Extension"
+msgstr ""
+
+#: ../src/eggfileformatchooser.c:421
+msgid "File Format"
+msgstr ""
+
+#: ../src/eggfileformatchooser.c:439
+msgid "Extension(s)"
+msgstr ""
+
+#: ../src/eggfileformatchooser.c:669
+#, c-format
+msgid ""
+"The program was not able to find out the file format you want to use for "
+"`%s'. Please make sure to use a known extension for that file or manually "
+"choose a file format from the list below."
+msgstr ""
+
+#: ../src/eggfileformatchooser.c:676
+msgid "File format not recognized"
+msgstr ""
+
+#: ../src/fr-archive.c:1140
+msgid "File not found."
+msgstr ""
+
+#: ../src/fr-archive.c:1246
+#, c-format
+msgid "Archive not found"
+msgstr ""
+
+#: ../src/fr-archive.c:2444
+msgid "You don't have the right permissions."
+msgstr "నీకు సరియైన అనుమతి లేదు."
+
+#: ../src/fr-archive.c:2444
+msgid "This archive type cannot be modified"
+msgstr "ఆర్చివ్ రకము సవరించబడదు"
+
+#: ../src/fr-archive.c:2456
+msgid "You can't add an archive to itself."
+msgstr "నీవు ఒక సంగ్రహమును దానికే చేర్చలేవు."
+
+#. Translators: after the colon there is a filename.
+#: ../src/fr-command-7z.c:300 ../src/fr-command-rar.c:399
+#: ../src/fr-command-tar.c:316
+msgid "Adding file: "
+msgstr " చేర్చుతున్న  దస్త్రము: "
+
+#. Translators: after the colon there is a filename.
+#: ../src/fr-command-7z.c:441 ../src/fr-command-rar.c:526
+#: ../src/fr-command-tar.c:437
+msgid "Extracting file: "
+msgstr "పొందుతున్న దస్త్రము: "
+
+#. Translators: after the colon there is a filename.
+#: ../src/fr-command-rar.c:477 ../src/fr-command-tar.c:382
+msgid "Removing file: "
+msgstr "తీసివేస్తున్న  దస్త్రము: "
+
+#: ../src/fr-command-rar.c:665
+#, c-format
+msgid "Could not find the volume: %s"
+msgstr "వాల్యూమ్ కనుగొన లేకపోయింది: %s"
+
+#: ../src/fr-command-tar.c:391
+msgid "Deleting files from archive"
+msgstr "సంగ్రహం నుండి దస్త్రములను తొలగించు"
+
+#: ../src/fr-command-tar.c:497
+msgid "Recompressing archive"
+msgstr "సంగ్రహమును పునఃసంకుచితము చేయుట"
+
+#: ../src/fr-command-tar.c:738
+msgid "Decompressing archive"
+msgstr "సంగ్రహమును "
+
+#: ../src/fr-init.c:61
+msgid "7-Zip (.7z)"
+msgstr "7-Zip (.7z)"
+
+#: ../src/fr-init.c:62
+msgid "Tar compressed with 7z (.tar.7z)"
+msgstr "టార్ 7z (.tar.7z)తో సంకుచించును"
+
+#: ../src/fr-init.c:63
+msgid "Ace (.ace)"
+msgstr "Ace (.ace)"
+
+#: ../src/fr-init.c:65
+msgid "Ar (.ar)"
+msgstr "ఎఆర్ (.ar)"
+
+#: ../src/fr-init.c:66
+msgid "Arj (.arj)"
+msgstr "ఎఆర్ జె (.arj)"
+
+#: ../src/fr-init.c:68
+msgid "Tar compressed with bzip2 (.tar.bz2)"
+msgstr "టార్ బిజిప్2 తో సంకుచించెను(.tar.bz2)"
+
+#: ../src/fr-init.c:70
+msgid "Tar compressed with bzip (.tar.bz)"
+msgstr "టార్ బిజిప్ తో సంకుచించెను(.tar.bz)"
+
+#: ../src/fr-init.c:71
+msgid "Cabinet (.cab)"
+msgstr "కాబినెట్ (.cab)"
+
+#: ../src/fr-init.c:72
+msgid "Rar Archived Comic Book (.cbr)"
+msgstr "రార్ ఆర్చివ్‌డ్ కామిక్ బుక్ (.cbr)"
+
+#: ../src/fr-init.c:73
+msgid "Zip Archived Comic Book (.cbz)"
+msgstr "జిప్ ఆర్చివ్‌డ్ కామిక్ బుక్ (.cbz)"
+
+#: ../src/fr-init.c:76
+msgid "Tar compressed with gzip (.tar.gz)"
+msgstr "టార్ జిజిప్ తో సంకుచించెను(.tar.gz)"
+
+#: ../src/fr-init.c:79
+msgid "Ear (.ear)"
+msgstr "Ear (.ear)"
+
+#: ../src/fr-init.c:80
+msgid "Self-extracting zip (.exe)"
+msgstr "స్వయంగా-బయల్పడు జిప్ (.exe)"
+
+#: ../src/fr-init.c:82
+msgid "Jar (.jar)"
+msgstr "Jar (.jar)"
+
+#: ../src/fr-init.c:83
+msgid "Lha (.lzh)"
+msgstr "ఎల్ హెచ్  ఎ(.lzh)"
+
+#: ../src/fr-init.c:84
+msgid "Lrzip (.lrz)"
+msgstr ""
+
+#: ../src/fr-init.c:85
+msgid "Tar compressed with lrzip (.tar.lrz)"
+msgstr ""
+
+#: ../src/fr-init.c:87
+msgid "Tar compressed with lzip (.tar.lz)"
+msgstr "Tar అనునది lzip (.tar.lz)తో కుదించబడింది"
+
+#: ../src/fr-init.c:89
+msgid "Tar compressed with lzma (.tar.lzma)"
+msgstr "లిజ్మాతో టార్ కుదింపు (.tar.lzma)"
+
+#: ../src/fr-init.c:91
+msgid "Tar compressed with lzop (.tar.lzo)"
+msgstr "టార్ ఎల్ జూప్ తో సంకుచించెను(.tar.lzo)"
+
+#: ../src/fr-init.c:92
+msgid "Windows Imaging Format (.wim)"
+msgstr ""
+
+#: ../src/fr-init.c:93
+msgid "Rar (.rar)"
+msgstr "ఆర్ఎఆర్(.rar)"
+
+#: ../src/fr-init.c:96
+msgid "Tar uncompressed (.tar)"
+msgstr "టార్ సంకుచితము చెందలేదు(.tar)"
+
+#: ../src/fr-init.c:97
+msgid "Tar compressed with compress (.tar.Z)"
+msgstr "టార్ సంకుచితంతో సంకుచించెను(.tar.z)"
+
+#: ../src/fr-init.c:99
+msgid "War (.war)"
+msgstr "War (.war)"
+
+#: ../src/fr-init.c:100
+msgid "Xz (.xz)"
+msgstr "Xz (.xz)"
+
+#: ../src/fr-init.c:101
+msgid "Tar compressed with xz (.tar.xz)"
+msgstr "Tar అనునది xzతో కుదించబడుతుంది (.tar.xz)"
+
+#: ../src/fr-init.c:102
+msgid "Zoo (.zoo)"
+msgstr "Zoo (.zoo)"
+
+#: ../src/fr-init.c:103
+msgid "Zip (.zip)"
+msgstr "Zip (.zip)"
+
+#: ../src/fr-stock.c:42
+msgid "C_reate"
+msgstr "సృష్టించు(_r)"
+
+#: ../src/fr-stock.c:43 ../src/fr-stock.c:44
+msgid "_Add"
+msgstr "చేర్చు(_A)"
+
+#: ../src/fr-stock.c:45
+msgid "_Extract"
+msgstr "పొందు(_E)"
+
+#: ../src/fr-window.c:1517
+#, c-format
+msgid "%d object (%s)"
+msgid_plural "%d objects (%s)"
+msgstr[0] "%d ఆబ్జక్ట్‍ (%s)"
+msgstr[1] "%d ఆబ్జక్ట్స్‍ (%s)"
+
+#: ../src/fr-window.c:1522
+#, c-format
+msgid "%d object selected (%s)"
+msgid_plural "%d objects selected (%s)"
+msgstr[0] "%d ఆబ్జక్ట్‍ ఎంపికకాబడింది (%s)"
+msgstr[1] "%d ఆబ్జక్ట్స్‍ ఎంపికకాబడినవి (%s)"
+
+#: ../src/fr-window.c:1592
+msgid "Folder"
+msgstr "సంచయము"
+
+#: ../src/fr-window.c:1989
+msgid "[read only]"
+msgstr "[చదువుట మాత్రమే]"
+
+#: ../src/fr-window.c:2241
+#, c-format
+msgid "Could not display the folder \"%s\""
+msgstr "ఈ సంచయం ప్రదర్శించబడదు \"%s\""
+
+#. Translators: %s is a filename
+#: ../src/fr-window.c:2315 ../src/fr-window.c:2353
+#, c-format
+msgid "Creating \"%s\""
+msgstr ""
+
+#. Translators: %s is a filename
+#: ../src/fr-window.c:2319
+#, c-format
+msgid "Loading \"%s\""
+msgstr ""
+
+#. Translators: %s is a filename
+#: ../src/fr-window.c:2323
+#, c-format
+msgid "Reading \"%s\""
+msgstr ""
+
+#. Translators: %s is a filename
+#: ../src/fr-window.c:2327
+#, c-format
+msgid "Deleting files from \"%s\""
+msgstr ""
+
+#. Translators: %s is a filename
+#: ../src/fr-window.c:2331
+#, c-format
+msgid "Testing \"%s\""
+msgstr ""
+
+#: ../src/fr-window.c:2334
+msgid "Getting the file list"
+msgstr "దస్త్రముల జాబితాను  తీసుకువచ్చుట"
+
+#. Translators: %s is a filename
+#: ../src/fr-window.c:2338
+#, c-format
+msgid "Copying the files to add to \"%s\""
+msgstr ""
+
+#. Translators: %s is a filename
+#: ../src/fr-window.c:2342
+#, c-format
+msgid "Adding files to \"%s\""
+msgstr ""
+
+#. Translators: %s is a filename
+#: ../src/fr-window.c:2346
+#, c-format
+msgid "Extracting files from \"%s\""
+msgstr ""
+
+#: ../src/fr-window.c:2349
+msgid "Copying the extracted files to the destination"
+msgstr ""
+
+#. Translators: %s is a filename
+#: ../src/fr-window.c:2357
+#, c-format
+msgid "Saving \"%s\""
+msgstr ""
+
+#: ../src/fr-window.c:2504
+msgid "_Open the Archive"
+msgstr "ఆర్చివ్‌ను తెరువు (_O)"
+
+#: ../src/fr-window.c:2505
+msgid "_Show the Files"
+msgstr "దస్త్రములను చూపుము (_S)"
+
+#: ../src/fr-window.c:2686
+#, c-format
+msgid "%d file remaining"
+msgid_plural "%'d files remaining"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../src/fr-window.c:2736
+msgid "Extraction completed successfully"
+msgstr "బయల్పరపు(ఎక్స్‍‌ట్రాక్షన్) సమర్ధవంతంగా పూర్తైనది"
+
+#: ../src/fr-window.c:2759
+msgid "Archive created successfully"
+msgstr "ఆర్చివ్ సమర్ధవంతంగా సృష్టించబడింది"
+
+#: ../src/fr-window.c:2817
+msgid "Please wait…"
+msgstr ""
+
+#: ../src/fr-window.c:2886 ../src/fr-window.c:3021
+msgid "Command exited abnormally."
+msgstr "ఆదేశం అసాధారణంగా బయటకు వచ్చింది."
+
+#: ../src/fr-window.c:2979
+msgid "An error occurred while extracting files."
+msgstr "దస్త్రములను పొందుచున్నప్పుడు ఒక దోషం సంభవించినది."
+
+#: ../src/fr-window.c:2985
+#, c-format
+msgid "Could not open \"%s\""
+msgstr "తెరవబడదు \"%s\""
+
+#: ../src/fr-window.c:2990
+msgid "An error occurred while loading the archive."
+msgstr "సంగ్రహములను దిగుమతి చేసుకుంటున్నప్పుడు  ఒక దోషం సంభవించినది."
+
+#: ../src/fr-window.c:2994
+msgid "An error occurred while deleting files from the archive."
+msgstr "ఈ సంగ్రహమునుండి దస్త్రములను తొలగించునపుడు  ఒక దోషం సంభవించినది."
+
+#: ../src/fr-window.c:3000
+msgid "An error occurred while adding files to the archive."
+msgstr "దస్త్రములను  ఈ సంగ్రహమునకు చేర్చుచున్నప్పుడు ఒక దోషం సంభవించినది."
+
+#: ../src/fr-window.c:3004
+msgid "An error occurred while testing archive."
+msgstr "సంగ్రహమును  పరీక్షిస్తున్నప్పుడు ఒక దోషం సంభవించినది."
+
+#: ../src/fr-window.c:3008
+msgid "An error occurred while saving the archive."
+msgstr "ఆర్చివ్‌ను భద్రపరుచుచున్నప్పుడు ఒక దోషం సంభవించినది."
+
+#: ../src/fr-window.c:3012
+msgid "An error occurred."
+msgstr "దోషము సంభవించింది."
+
+#: ../src/fr-window.c:3018
+msgid "Command not found."
+msgstr "ఆదేశం కనబడలేదు."
+
+#: ../src/fr-window.c:3221
+msgid "Test Result"
+msgstr "ఫలితమును పరీక్షించు"
+
+#: ../src/fr-window.c:4071 ../src/fr-window.c:8190 ../src/fr-window.c:8226
+#: ../src/fr-window.c:8476
+msgid "Could not perform the operation"
+msgstr "ఈ కార్యం నిర్వహించబడదు"
+
+#: ../src/fr-window.c:4097
+msgid ""
+"Do you want to add this file to the current archive or open it as a new "
+"archive?"
+msgstr "నీవు ఈ దస్త్రమును ప్రస్తుత సంగ్రహమునకు చేర్చాలనుకుంటున్నావా లేక  ఒక క్రొత్త సంగ్రహము వలెనా?"
+
+#: ../src/fr-window.c:4127
+msgid "Do you want to create a new archive with these files?"
+msgstr "నీవు ఈ దస్త్రములతో ఒక క్రొత్త సంగ్రహమును సృష్టించాలనుకుంటున్నావా?"
+
+#: ../src/fr-window.c:4130
+msgid "Create _Archive"
+msgstr "సంగ్రహమును సృష్టించు(_A)"
+
+#: ../src/fr-window.c:4728 ../src/fr-window.c:5785
+msgid "Folders"
+msgstr "సంచయములు"
+
+#: ../src/fr-window.c:4766
+msgctxt "File"
+msgid "Size"
+msgstr ""
+
+#: ../src/fr-window.c:4767
+msgctxt "File"
+msgid "Type"
+msgstr ""
+
+#: ../src/fr-window.c:4768
+msgctxt "File"
+msgid "Date Modified"
+msgstr ""
+
+#: ../src/fr-window.c:4769
+msgctxt "File"
+msgid "Location"
+msgstr ""
+
+#: ../src/fr-window.c:4778
+msgctxt "File"
+msgid "Name"
+msgstr ""
+
+#: ../src/fr-window.c:5706
+msgid "Find:"
+msgstr "కనుగొనుము:"
+
+#: ../src/fr-window.c:5797
+msgid "Close the folders pane"
+msgstr "సంచయముల ఫలకంను మూయుము"
+
+#. Translators: this is the label for the "open recent file" sub-menu.
+#: ../src/fr-window.c:5828
+msgid "Open _Recent"
+msgstr "ఇటీవలివాటిని తెరువుము(_R)"
+
+#: ../src/fr-window.c:5829 ../src/fr-window.c:5841
+msgid "Open a recently used archive"
+msgstr "ఇంతకుముందు వినియోగించిన సంగ్రహమును తెరువు"
+
+#. Translators: after the colon there is a folder name.
+#: ../src/fr-window.c:5918 ../src/ui/batch-add-files.ui.h:3
+msgid "_Location:"
+msgstr "స్థానము(_L):"
+
+#: ../src/fr-window.c:6267
+#, c-format
+msgid "Could not save the archive \"%s\""
+msgstr "ఈ సంగ్రహము దాచబడదు \"%s\""
+
+#: ../src/fr-window.c:6766
+#, c-format
+msgid "Replace file \"%s\"?"
+msgstr ""
+
+#: ../src/fr-window.c:6769
+#, c-format
+msgid "Another file with the same name already exists in \"%s\"."
+msgstr ""
+
+#: ../src/fr-window.c:6776
+msgid "Replace _All"
+msgstr ""
+
+#: ../src/fr-window.c:6777
+msgid "_Skip"
+msgstr ""
+
+#: ../src/fr-window.c:6778
+msgid "_Replace"
+msgstr ""
+
+#. Translators: the name references to a filename.  This message can appear
+#. when renaming a file.
+#: ../src/fr-window.c:7592
+msgid "New name is void, please type a name."
+msgstr ""
+
+#. Translators: the name references to a filename.  This message can appear
+#. when renaming a file.
+#: ../src/fr-window.c:7597
+msgid "New name is the same as old one, please type other name."
+msgstr ""
+
+#. Translators: the %s references to a filename.  This message can appear when
+#. renaming a file.
+#: ../src/fr-window.c:7602
+#, c-format
+msgid ""
+"Name \"%s\" is not valid because it contains at least one of the following "
+"characters: %s, please type other name."
+msgstr ""
+
+#: ../src/fr-window.c:7638
+#, c-format
+msgid ""
+"A folder named \"%s\" already exists.\n"
+"\n"
+"%s"
+msgstr "\"%s\" నామముగల సంచయం ఇప్పటికేఉంది.\n\n%s"
+
+#: ../src/fr-window.c:7640
+#, c-format
+msgid ""
+"A file named \"%s\" already exists.\n"
+"\n"
+"%s"
+msgstr "\"%s\" నామముగల సంచయం ఇప్పటికే ఉంది.\n\n%s"
+
+#: ../src/fr-window.c:7710
+msgid "Rename"
+msgstr "పునర్నామకరణ"
+
+#: ../src/fr-window.c:7711
+msgid "_New folder name:"
+msgstr ""
+
+#: ../src/fr-window.c:7711
+msgid "_New file name:"
+msgstr ""
+
+#: ../src/fr-window.c:7715
+msgid "_Rename"
+msgstr "పునర్నామకరణ(_R)"
+
+#: ../src/fr-window.c:7732 ../src/fr-window.c:7751
+msgid "Could not rename the folder"
+msgstr "ఈ సంచయము పునర్నామకరణము చేయబడదు"
+
+#: ../src/fr-window.c:7732 ../src/fr-window.c:7751
+msgid "Could not rename the file"
+msgstr "ఈ దస్త్రము పునర్నామకరణము చేయబడదు"
+
+#: ../src/fr-window.c:8151
+msgid "Paste Selection"
+msgstr "ఎంపికను అతికించు"
+
+#: ../src/fr-window.c:8152
+msgid "_Destination folder:"
+msgstr ""
+
+#: ../src/fr-window.c:8755
+msgid "Add files to an archive"
+msgstr "దస్త్రములను ఒక సంగ్రహమునకు చేర్చు"
+
+#: ../src/fr-window.c:8798 ../src/main.c:185 ../src/server.c:329
+#: ../src/server.c:354 ../src/server.c:377
+msgid "Extract archive"
+msgstr "సంగ్రహమును పొందు"
+
+#. This is the time format used in the "Date Modified" column and
+#. * in the Properties dialog.  See the man page of strftime for an
+#. * explanation of the values.
+#: ../src/glib-utils.c:562
+msgid "%d %B %Y, %H:%M"
+msgstr "%d %B %Y, %H:%M"
+
+#. Expander
+#: ../src/gtk-utils.c:431
+msgid "Command _Line Output"
+msgstr "ఆదేశవాక్యపు దిగుబడి(_L)"
+
+#: ../src/gtk-utils.c:770
+msgid "Could not display help"
+msgstr "సహాయం ప్రదర్శించబడదు"
+
+#: ../src/main.c:51
+msgid "Add files to the specified archive and quit the program"
+msgstr "దస్త్రములను నిర్దేశిత సంగ్రహమునకు చేర్చు మరియు కార్యక్రమమును త్యజించు"
+
+#: ../src/main.c:52
+msgid "ARCHIVE"
+msgstr "సంగ్రహము"
+
+#: ../src/main.c:55
+msgid "Add files asking the name of the archive and quit the program"
+msgstr "సంగ్రహనామమును అడుగుతున్న దస్త్రములను చేర్చు మరియు కార్యక్రమమును త్యజించు"
+
+#: ../src/main.c:59
+msgid "Extract archives to the specified folder and quit the program"
+msgstr "సంగ్రహములను ఈ నిర్దేశిత సంచయమునకు పొందు మరియు కార్యక్రమమును త్యజించు"
+
+#: ../src/main.c:60 ../src/main.c:72
+msgid "FOLDER"
+msgstr "సంచయము"
+
+#: ../src/main.c:63
+msgid "Extract archives asking the destination folder and quit the program"
+msgstr "గమ్యసంచమయములను అడుగుచున్న సంగ్రహములను పొందు మరియు కార్యక్రమమును త్యజించు"
+
+#: ../src/main.c:67
+msgid ""
+"Extract the contents of the archives in the archive folder and quit the "
+"program"
+msgstr "ఆర్చివ్సు ఫోల్డర్ నందలి ఆర్చివ్‌ల సారములను వెలికితీయుము మరియు ప్రోగ్రామ్ నిష్క్రమించుము"
+
+#: ../src/main.c:71
+msgid "Default folder to use for the '--add' and '--extract' commands"
+msgstr " '--చేర్చు' మరియు '--పొందు' ఆదేశముల కొరకు వినియోగించు అప్రమేయ సంచయం"
+
+#: ../src/main.c:75
+msgid "Create destination folder without asking confirmation"
+msgstr "ధృవీకరణ అడగకుండా గమ్య సంచయమును సృష్టించు"
+
+#: ../src/main.c:165 ../src/server.c:296 ../src/ui/batch-add-files.ui.h:1
+msgid "Compress"
+msgstr "కుదించు"
+
+#: ../src/main.c:314 ../src/server.c:444
+msgid "- Create and modify an archive"
+msgstr "- ఆర్చివ్‌ను సృష్టించుము మరియు సవరించుము"
+
+#: ../src/ui/add-options.ui.h:1
+msgid "Load Options"
+msgstr "ఇచ్ఛాపూర్వకాలను దిగుమతి చేయి"
+
+#: ../src/ui/app-menu.ui.h:1 ../src/ui.h:35
+msgid "_Help"
+msgstr "సహాయం(_H)"
+
+#: ../src/ui/app-menu.ui.h:2
+msgid "_About Archive Manager"
+msgstr ""
+
+#: ../src/ui/app-menu.ui.h:3
+msgid "_Quit"
+msgstr ""
+
+#: ../src/ui/batch-add-files.ui.h:2
+msgid "_Filename:"
+msgstr "దస్త్రమునామము (_F):"
+
+#: ../src/ui/batch-add-files.ui.h:4
+msgid "Location"
+msgstr "స్థానం"
+
+#: ../src/ui/batch-add-files.ui.h:5 ../src/ui/batch-password.ui.h:2
+#: ../src/ui/new.ui.h:1 ../src/ui/password.ui.h:3
+msgid "_Password:"
+msgstr "రహస్యపదం(_P):"
+
+#: ../src/ui/batch-add-files.ui.h:6 ../src/ui/new.ui.h:2
+msgid "_Encrypt the file list too"
+msgstr "దస్త్రముల జాబితానుకూడా ఎన్క్రిప్ట్‍ చేయుము (_E)"
+
+#. this is part of a sentence, for example "split into volumes of 10.0 MB",
+#. where MB stands for megabyte.
+#: ../src/ui/batch-add-files.ui.h:8 ../src/ui/new.ui.h:3
+msgid "Split into _volumes of"
+msgstr ""
+
+#. MB means megabytes
+#: ../src/ui/batch-add-files.ui.h:10 ../src/ui/new.ui.h:5
+msgid "MB"
+msgstr "MB"
+
+#: ../src/ui/batch-add-files.ui.h:11 ../src/ui/new.ui.h:6
+msgid "_Other Options"
+msgstr "ఇతర ఐచ్చికాలు (_O)"
+
+#: ../src/ui/batch-password.ui.h:1
+msgid "<span weight=\"bold\" size=\"larger\">Password required</span>"
+msgstr "<span weight=\"bold\" size=\"larger\">సంకేతపదం అవసరం</span>"
+
+#: ../src/ui/delete.ui.h:1
+msgid "Delete"
+msgstr "తొలగించు"
+
+#: ../src/ui.h:32
+msgid "_Archive"
+msgstr ""
+
+#: ../src/ui.h:33
+msgid "_Edit"
+msgstr "సరిచేయు(_E)"
+
+#: ../src/ui.h:34
+msgid "_View"
+msgstr "దర్శనం(_V)"
+
+#: ../src/ui.h:36
+msgid "_Arrange Files"
+msgstr "దస్త్రములను క్రమపఱచు(_A)"
+
+#: ../src/ui.h:40
+msgid "Information about the program"
+msgstr " కార్యక్రమము గురించి సమాచారం"
+
+#: ../src/ui.h:43
+msgid "_Add Files…"
+msgstr ""
+
+#: ../src/ui.h:44 ../src/ui.h:48
+msgid "Add files to the archive"
+msgstr "దస్త్రములను  సంగ్రహమునకు చేర్చు"
+
+#: ../src/ui.h:51
+msgid "Add a _Folder…"
+msgstr ""
+
+#: ../src/ui.h:52 ../src/ui.h:56
+msgid "Add a folder to the archive"
+msgstr "సంచయమును సంగ్రహమునకు చేర్చు"
+
+#: ../src/ui.h:55
+msgid "Add Folder"
+msgstr "సంచయమును జతచేయుము"
+
+#: ../src/ui.h:60
+msgid "Close the current archive"
+msgstr " ఈ ప్రస్తుత సంగ్రహమును మూయి"
+
+#: ../src/ui.h:63
+msgid "Contents"
+msgstr "సాములు"
+
+#: ../src/ui.h:64
+msgid "Display the Engrampa Manual"
+msgstr "ఈ ఫైల్ రోలర్ నిర్దేశికను ప్రదర్శించు"
+
+#: ../src/ui.h:69 ../src/ui.h:90
+msgid "Copy the selection"
+msgstr "ఎంపికను నకలు చేయి"
+
+#: ../src/ui.h:73 ../src/ui.h:94
+msgid "Cut the selection"
+msgstr "ఈ ఎంపికను కోయు"
+
+#: ../src/ui.h:77 ../src/ui.h:98
+msgid "Paste the clipboard"
+msgstr "ఈ క్లిప్ బోర్డును అతికించు"
+
+#: ../src/ui.h:80 ../src/ui.h:101
+msgid "_Rename…"
+msgstr ""
+
+#: ../src/ui.h:81 ../src/ui.h:102
+msgid "Rename the selection"
+msgstr "ఎంపికకు పునర్నామకరణ చేయి"
+
+#: ../src/ui.h:85 ../src/ui.h:106
+msgid "Delete the selection from the archive"
+msgstr "ఎంపికను  ఈ సంగ్రహమునుండి తొలగించు"
+
+#: ../src/ui.h:110
+msgid "Dese_lect All"
+msgstr "సమస్తమును ఎంపికనుండి తొలగించు(_l)"
+
+#: ../src/ui.h:111
+msgid "Deselect all files"
+msgstr "సమస్త దస్త్రములను ఎంపికనుండి తొలగించు"
+
+#: ../src/ui.h:114 ../src/ui.h:118
+msgid "_Extract…"
+msgstr ""
+
+#: ../src/ui.h:115 ../src/ui.h:119 ../src/ui.h:123
+msgid "Extract files from the archive"
+msgstr "ఈ సంగ్రహమునుండి దస్త్రములను పొందుము"
+
+#: ../src/ui.h:126
+msgid "Find…"
+msgstr ""
+
+#: ../src/ui.h:131
+msgid "_Last Output"
+msgstr "వెనుక దిగుబడి(_L)"
+
+#: ../src/ui.h:132
+msgid "View the output produced by the last executed command"
+msgstr "వెనుక నిర్వర్తించిన ఆదేశమునకు ఉత్పత్తియైన దిగుబడిని దర్శించు"
+
+#: ../src/ui.h:135
+msgid "New…"
+msgstr ""
+
+#: ../src/ui.h:136
+msgid "Create a new archive"
+msgstr "ఒక క్రొత్త సంగ్రహమును సృష్ఠించు"
+
+#: ../src/ui.h:139
+msgid "Open…"
+msgstr ""
+
+#: ../src/ui.h:140 ../src/ui.h:144
+msgid "Open archive"
+msgstr "సంగ్రహమును తెరువు"
+
+#: ../src/ui.h:147
+msgid "_Open With…"
+msgstr ""
+
+#: ../src/ui.h:148
+msgid "Open selected files with an application"
+msgstr "ఎంపికైన దస్త్రములను ఒక కార్యక్షేత్రముతో తెరువు"
+
+#: ../src/ui.h:151
+msgid "Pass_word…"
+msgstr ""
+
+#: ../src/ui.h:152
+msgid "Specify a password for this archive"
+msgstr " ఈ సంగ్రహమునకు  ఒక రహస్యపదమును నిర్దేశించుము "
+
+#: ../src/ui.h:156
+msgid "Show archive properties"
+msgstr "సంగ్రహ లక్షణాలను కనబర్చు"
+
+#: ../src/ui.h:160
+msgid "Reload current archive"
+msgstr "ప్రస్తుత సంగ్రహమును పునఃదిగుబడి చేయి"
+
+#: ../src/ui.h:163
+msgid "Save As…"
+msgstr ""
+
+#: ../src/ui.h:164
+msgid "Save the current archive with a different name"
+msgstr "ఈ  ప్రస్తుత సంగ్రహమును భిన్నమైన నామముతో దాచు"
+
+#: ../src/ui.h:168
+msgid "Select all files"
+msgstr "సమస్త  దస్త్రములను ఎంపిక చేయి"
+
+#: ../src/ui.h:172
+msgid "Stop current operation"
+msgstr "ప్రస్తుతకార్యమును నిలిపి వేయి"
+
+#: ../src/ui.h:175
+msgid "_Test Integrity"
+msgstr "పరీక్ష గొప్పతనము(_T)"
+
+#: ../src/ui.h:176
+msgid "Test whether the archive contains errors"
+msgstr " ఈ సంగ్రహము దోషములను కలిగియున్నదేమో పరీక్షించు"
+
+#: ../src/ui.h:180 ../src/ui.h:184
+msgid "Open the selected file"
+msgstr "ఎంపికచేసిన దస్త్రమును తెరువుము"
+
+#: ../src/ui.h:188 ../src/ui.h:192
+msgid "Open the selected folder"
+msgstr "ఎంపికచేసిన సంచయంమును తెరువుము"
+
+#: ../src/ui.h:197
+msgid "Go to the previous visited location"
+msgstr "పూర్వము చూచిన స్ధానముకు వెళ్ళు"
+
+#: ../src/ui.h:201
+msgid "Go to the next visited location"
+msgstr "తర్వాత చూచు స్ధానముకు వెళ్ళు"
+
+#: ../src/ui.h:205
+msgid "Go up one level"
+msgstr "ఒక స్ధాయి పైకి వెళ్ళు"
+
+#. Translators: the home location is the home folder.
+#: ../src/ui.h:210
+msgid "Go to the home location"
+msgstr "నివాస స్ధానమునకు వెళ్ళు"
+
+#: ../src/ui.h:218
+msgid "_Toolbar"
+msgstr "పనిముట్ల పట్టా(_T)"
+
+#: ../src/ui.h:219
+msgid "View the main toolbar"
+msgstr " ఈ ప్రాముఖ్య పనిముట్ల పట్టాను దర్శించు"
+
+#: ../src/ui.h:223
+msgid "Stat_usbar"
+msgstr "సుస్థితి  పట్టీ(_u)"
+
+#: ../src/ui.h:224
+msgid "View the statusbar"
+msgstr "ఈ సుస్థితి  పట్టీని దర్శించు"
+
+#: ../src/ui.h:228
+msgid "_Reversed Order"
+msgstr "ప్రత్యస్థ క్రమం(_R)"
+
+#: ../src/ui.h:229
+msgid "Reverse the list order"
+msgstr "జాబితాక్రమమును ప్రత్యస్థము చేయి "
+
+#: ../src/ui.h:233
+msgid "_Folders"
+msgstr "సంచయములు(_F)"
+
+#: ../src/ui.h:243
+msgid "View All _Files"
+msgstr "సమస్త దస్త్రములను దర్శించు(_F)"
+
+#: ../src/ui.h:246
+msgid "View as a F_older"
+msgstr "ఒక సంచయము వలె దర్శించు(_o)"
+
+#: ../src/ui.h:254
+msgid "by _Name"
+msgstr "నామముతో(_N)"
+
+#: ../src/ui.h:255
+msgid "Sort file list by name"
+msgstr "దస్త్రముల జాబితాను నామముతో చక్కదిద్దు"
+
+#: ../src/ui.h:257
+msgid "by _Size"
+msgstr "పరిమాణముతో(_S)"
+
+#: ../src/ui.h:258
+msgid "Sort file list by file size"
+msgstr "దస్త్రముల జాబితాను దస్త్రపరిమాణముతో చక్కదిద్దు"
+
+#: ../src/ui.h:260
+msgid "by T_ype"
+msgstr "రకముతో(_y)"
+
+#: ../src/ui.h:261
+msgid "Sort file list by type"
+msgstr "దస్త్రముల జాబితాను రకముతో చక్కదిద్దు"
+
+#: ../src/ui.h:263
+msgid "by _Date Modified"
+msgstr ""
+
+#: ../src/ui.h:264
+msgid "Sort file list by modification time"
+msgstr "దస్త్రముల జాబితాను మార్చబడిన సమయంతో చక్కదిద్దు"
+
+#. Translators: this is the "sort by file location" menu item
+#: ../src/ui.h:267
+msgid "by _Location"
+msgstr "స్ధానంతో(_L)"
+
+#. Translators: location is the file location
+#: ../src/ui.h:269
+msgid "Sort file list by location"
+msgstr "దస్త్రముల జాబితాను స్ధానంతో చక్కదిద్దు"
+
+#: ../src/ui/password.ui.h:1
+msgid "Password"
+msgstr "రహస్యపదం"
+
+#: ../src/ui/password.ui.h:2
+msgid "_Encrypt the file list"
+msgstr ""
+
+#: ../src/ui/password.ui.h:4
+msgid ""
+"<i><b>Note:</b> the password will be used to encrypt files you add to the "
+"current archive, and to decrypt files you extract from the current archive. "
+"When the archive is closed the password will be deleted.</i>"
+msgstr "<i><b>నోట్:</b> ఈ రహస్యపదము నీవు ఈ ప్రస్తుత సంగ్రహమునకు చేర్చిన దస్త్రములను రహస్యపరచుటకు   మరియు  నీవు ఈ ప్రస్తుత సంగ్రహమునుండి పొందిన దస్త్రములను బహిర్గతపరచుటకు వినియోగించబడును.ఈ సంగ్రహము మూసివేసినప్పుడు ఈ రహస్యపదం తొలగించబడును.</i>"
+
+#: ../src/ui/update.ui.h:1
+msgid "_Update"
+msgstr "నవీకరించు(_U)"
+
+#: ../src/ui/update.ui.h:3
+msgid "S_elect the files you want to update:"
+msgstr "మీరు నవీరకరించాలని అనుకున్న దస్త్రాలను ఎంపికచేయుము(_e):"

@@ -1,0 +1,31 @@
+From c24df41601ceba5f929b8babea04ea5a6a6ac68b Mon Sep 17 00:00:00 2001
+From: ZenWalker <scow@riseup.net>
+Date: Sat, 20 May 2017 01:59:20 +0200
+Subject: [PATCH] Fix: create zip files in "maximum" compression level
+
+based in file-roller commit:
+https://git.gnome.org/browse/file-roller/commit/?id=f9b8a010e7fe5a9bec158dfc5bd8ef1e11bf3842
+
+Fixes:
+https://bugs.launchpad.net/ubuntu/+source/engrampa/+bug/1580860
+---
+ src/fr-command-7z.c | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+diff --git a/src/fr-command-7z.c b/src/fr-command-7z.c
+index def5dc6..e3230a7 100644
+--- a/src/fr-command-7z.c
++++ b/src/fr-command-7z.c
+@@ -362,7 +362,11 @@ fr_command_7z_add (FrCommand     *comm,
+ 		break;
+ 	case FR_COMPRESSION_MAXIMUM:
+ 		fr_process_add_arg (comm->process, "-mx=9");
+-		fr_process_add_arg (comm->process, "-m0=lzma2");;
++		if (! is_mime_type (comm->mime_type, "application/zip")
++		    && ! is_mime_type (comm->mime_type, "application/x-cbz"))
++		{
++			fr_process_add_arg (comm->process, "-m0=lzma2");;
++		}
+ 		break;
+ 	}
+ 
