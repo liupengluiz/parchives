@@ -1,5 +1,5 @@
 /*
- *  Engrampa
+ *  Parchives
  * 
  *  Copyright (C) 2004 Free Software Foundation, Inc.
  *
@@ -22,16 +22,16 @@
  */
 
 #include <config.h>
-#include <libcaja-extension/caja-extension-types.h>
-#include <libcaja-extension/caja-column-provider.h>
+#include <libpeony-extension/peony-extension-types.h>
+#include <libpeony-extension/peony-column-provider.h>
 #include <glib/gi18n-lib.h>
-#include "caja-engrampa.h"
+#include "peony-parchives.h"
 
 
 void
-caja_module_initialize (GTypeModule*module)
+peony_module_initialize (GTypeModule*module)
 {
-	caja_fr_register_type (module);
+	peony_fr_register_type (module);
 
 	bindtextdomain (GETTEXT_PACKAGE, MATELOCALEDIR);
 	bind_textdomain_codeset (GETTEXT_PACKAGE, "UTF-8");
@@ -39,18 +39,18 @@ caja_module_initialize (GTypeModule*module)
 
 
 void
-caja_module_shutdown (void)
+peony_module_shutdown (void)
 {
 }
 
 
 void 
-caja_module_list_types (const GType **types,
+peony_module_list_types (const GType **types,
 			    int          *num_types)
 {
 	static GType type_list[1];
 	
-	type_list[0] = CAJA_TYPE_FR;
+	type_list[0] = PEONY_TYPE_FR;
 	*types = type_list;
 	*num_types = 1;
 }

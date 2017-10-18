@@ -1,7 +1,7 @@
 SUBDIRS = commands sh ui
 
-bin_PROGRAMS = engrampa
-libexec_PROGRAMS = engrampa-server
+bin_PROGRAMS = parchives
+libexec_PROGRAMS = parchives-server
 noinst_PROGRAMS = test-server
 
 if MKDTEMP_MISSING
@@ -16,10 +16,10 @@ uidir = $(top_srcdir)/data/ui
 privexecdir = $(abs_top_builddir)/src/commands/
 shdir = $(top_srcdir)/src/sh/
 else
-privdatadir = $(datadir)/engrampa/
-uidir = $(datadir)/engrampa/ui
-privexecdir = $(libexecdir)/engrampa/
-shdir = $(libexecdir)/engrampa/
+privdatadir = $(datadir)/parchives/
+uidir = $(datadir)/parchives/ui
+privexecdir = $(libexecdir)/parchives/
+shdir = $(libexecdir)/parchives/
 endif
 
 AM_CPPFLAGS =						\
@@ -192,38 +192,38 @@ fr-enum-types.c: typedefs.h fr-enum-types.h
 	&& (cmp -s xgen-$(@F) fr-enum-types.c || cp xgen-$(@F) fr-enum-types.c ) \
 	&& rm -f xgen-$(@F) )
 
-fr-resources.c: engrampa.gresource.xml $(shell $(GLIB_COMPILE_RESOURCES) --generate-dependencies engrampa.gresource.xml)
-	$(GLIB_COMPILE_RESOURCES) --target=$@ --sourcedir=$(srcdir) --generate --c-name fr $(srcdir)/engrampa.gresource.xml
+fr-resources.c: parchives.gresource.xml $(shell $(GLIB_COMPILE_RESOURCES) --generate-dependencies parchives.gresource.xml)
+	$(GLIB_COMPILE_RESOURCES) --target=$@ --sourcedir=$(srcdir) --generate --c-name fr $(srcdir)/parchives.gresource.xml
 
-fr-resources.h: engrampa.gresource.xml $(shell $(GLIB_COMPILE_RESOURCES) --generate-dependencies engrampa.gresource.xml)
-	$(GLIB_COMPILE_RESOURCES) --target=$@ --sourcedir=$(srcdir) --generate --c-name fr $(srcdir)/engrampa.gresource.xml
+fr-resources.h: parchives.gresource.xml $(shell $(GLIB_COMPILE_RESOURCES) --generate-dependencies parchives.gresource.xml)
+	$(GLIB_COMPILE_RESOURCES) --target=$@ --sourcedir=$(srcdir) --generate --c-name fr $(srcdir)/parchives.gresource.xml
 
-engrampa_SOURCES = 			\
+parchives_SOURCES = 			\
 	$(COMMON_SOURCES)		\
 	main.c
 
-engrampa_LDADD =					\
+parchives_LDADD =					\
 	$(top_builddir)/copy-n-paste/libeggsmclient.la	\
 	$(FR_LIBS)					\
 	${JSON_GLIB_LIBS}
 
-engrampa_server_SOURCES =		\
+parchives_server_SOURCES =		\
 	$(COMMON_SOURCES)		\
 	server.c
 
-engrampa_server_LDADD =		\
-	$(engrampa_LDADD)
+parchives_server_LDADD =		\
+	$(parchives_LDADD)
 
 test_server_SOURCES = test-server.c
 test_server_FLAGS = $(FR_CFLAGS)
 test_server_LDADD = $(FR_LIBS)
 
 if ENABLE_MAGIC
-engrampa_LDADD += $(MAGIC_LIBS)
+parchives_LDADD += $(MAGIC_LIBS)
 endif
 
 EXTRA_DIST = 				\
-	engrampa.gresource.xml		\
+	parchives.gresource.xml		\
 	fr-marshal.list
 
 CLEANFILES = $(BUILT_SOURCES)

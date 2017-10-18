@@ -1,7 +1,7 @@
 [main]
 host = https://www.transifex.com
  
-[MATE.engrampa]
+[MATE.parchives]
 file_filter = po/<lang>.po
-source_file = po/engrampa.pot
+source_file = po/parchives.pot
 source_lang = en

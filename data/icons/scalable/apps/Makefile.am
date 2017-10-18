@@ -5,7 +5,7 @@ context = apps
 iconsdir = $(themedir)/$(size)/$(context)
 
 icons_DATA = \
-	engrampa.svg
+	parchives.svg
 
 noinst_DATA =
 

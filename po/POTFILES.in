@@ -7,13 +7,13 @@ copy-n-paste/eggsmclient.c
 copy-n-paste/eggsmclient.h
 copy-n-paste/eggsmclient-private.h
 copy-n-paste/eggsmclient-xsmp.c
-data/engrampa.appdata.xml.in
-data/engrampa.desktop.in.in
-[type: gettext/gsettings]data/org.mate.engrampa.gschema.xml.in
-caja/engrampa-module.c
-caja/caja-engrampa.c
-caja/caja-engrampa.h
-[type: gettext/ini]caja/libcaja-engrampa.caja-extension.in.in
+data/parchives.appdata.xml.in
+data/parchives.desktop.in.in
+[type: gettext/gsettings]data/org.mate.parchives.gschema.xml.in
+peony/parchives-module.c
+peony/peony-parchives.c
+peony/peony-parchives.h
+[type: gettext/ini]peony/libpeony-parchives.peony-extension.in.in
 src/actions.c
 src/actions.h
 src/commands/rpm2cpio.c

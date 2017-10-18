@@ -1,7 +1,7 @@
 /* -*- Mode: C; tab-width: 8; indent-tabs-mode: t; c-basic-offset: 8 -*- */
 
 /*
- *  Engrampa
+ *  Parchives
  *
  *  Copyright (C) 2003 Free Software Foundation, Inc.
  *
@@ -30,7 +30,7 @@ fr_error_quark (void)
 	static GQuark quark;
         
         if (!quark)
-                quark = g_quark_from_static_string ("engrampa-error");
+                quark = g_quark_from_static_string ("parchives-error");
 	
         return quark;
 }

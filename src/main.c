@@ -1,7 +1,7 @@
 /* -*- Mode: C; tab-width: 8; indent-tabs-mode: t; c-basic-offset: 8 -*- */
 
 /*
- *  Engrampa
+ *  Parchives
  *
  *  Copyright (C) 2001, 2003 Free Software Foundation, Inc.
  *
@@ -327,8 +327,8 @@ main (int argc, char **argv)
 
 	g_option_context_free (context);
 
-	g_set_application_name (_("Engrampa"));
-	gtk_window_set_default_icon_name ("engrampa");
+	g_set_application_name (_("Parchives"));
+	gtk_window_set_default_icon_name ("parchives");
 
 	client = egg_sm_client_get ();
 	g_signal_connect (client, "save-state", G_CALLBACK (fr_save_state), NULL);

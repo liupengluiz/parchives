@@ -89,15 +89,15 @@ msgstr "Настройки на управлението на сесии:"
 msgid "Show session management options"
 msgstr "Показване на настройките за управлението на сесиите"
 
-#: ../data/engrampa.appdata.xml.in.h:1
+#: ../data/parchives.appdata.xml.in.h:1
 msgid "An Archive Manager for the MATE desktop environment"
 msgstr "Мениджър на архивите за работната среда MATE"
 
-#: ../data/engrampa.appdata.xml.in.h:2
+#: ../data/parchives.appdata.xml.in.h:2
 msgid ""
-"<p> Engrampa is an archive manager for the MATE environment. It allows you "
+"<p> Parchives is an archive manager for the MATE environment. It allows you "
 "to create and modify archives, view the contents of an archive, view a file "
-"contained in an archive, and extract files from archive. </p> <p> Engrampa "
+"contained in an archive, and extract files from archive. </p> <p> Parchives "
 "is only a front-end (a graphical interface) to archiving programs like tar "
 "and zip. The supported file types are: </p> <ul> <li>7-Zip Compressed File "
 "(.7z)</li> <li>WinAce Compressed File (.ace)</li> <li>ALZip Compressed File "
@@ -115,217 +115,217 @@ msgid ""
 "<li>Stuffit Archives (.bin, .sit)</li> <li>ZIP Archive (.zip)</li> <li>ZIP "
 "Archived Comic Book (.cbz)</li> <li>ZOO Compressed Archive File (.zoo)</li> "
 "<li>Single files compressed with gzip, bzip, bzip2, compress, lrzip, lzip, "
-"lzop, rzip, xz</li> </ul> <p> Engrampa is a fork of File Roller and part of "
+"lzop, rzip, xz</li> </ul> <p> Parchives is a fork of File Roller and part of "
 "the MATE Desktop Environment. If you would like to know more about MATE and "
-"Engrampa, please visit the project's home page. </p>"
-msgstr "<p> „Engrampa“ е програма за работа с архиви за средата „MATE“. Тя позволява създаването и промяната на архиви, прегледа на съдържанието на архив, прегледа на файл в архив и извличането на файлове от архива. </p> <p> „Engrampa“ е само фасада (графичен потребителски интерфейс) към архивиращите програми, като „tar“ и „zip“. Поддържаните файлови формати са: </p> <ul> <li>Файл, компресиран чрез 7-Zip (.7z)</li> <li>Файл, компресиран чрез WinAce (.ace)</li> <li>Файл, компресиран чрез ALZip (.alz)</li> <li>Малък индексиран архив на AIX (.ar)</li> <li>Архив, компресиран чрез ARJ (.arj)</li> <li>Кабинетен файл (.cab)</li> <li>Архив на UNIX CPIO (.cpio)</li> <li>Пакет за Дебиан (.deb) [само в режим за четене]</li> <li>Изображение за компактдиск по ISO-9660 (.iso) [само в режим за четене]</li> <li>Архив на Java (.jar)</li> <li>Архив на Java Enterprise (.ear)</li> <li>Архив на Java Web (.war)</li> <li>Архив на LHA (.lzh, .lha)</li> <li>Файл, компресиран чрез WinRAR (.rar)</li> <li>Комикс, архивиран чрез RAR (.cbr)</li> <li>Пакет за Линукс RPM (.rpm) [само в режим за четене]</li> <li>Некомпресиран файл TAR (.tar) или компресиран чрез: gzip (.tar.gz, .tgz), bzip (.tar.bz, .tbz), bzip2 (.tar.bz2, .tbz2), compress (.tar.Z, .taz), lrzip (.tar.lrz, .tlrz), lzip (.tar.lz, .tlz), lzop (.tar.lzo, .tzo), 7zip (.tar.7z), xz (.tar.xz) </li> <li>Архиви на Stuffit (.bin, .sit)</li> <li>Архив ZIP (.zip)</li> <li>Комикс, архивиран чрез ZIP (.cbz)</li> <li>Файл, компресиран чрез ZOO (.zoo)</li> <li>Единични файлове, компресирани чрез gzip, bzip, bzip2, compress, lrzip, lzip, lzop, rzip, xz</li> </ul> <p> „Engrampa“ е разклонение на „File Roller“ и част от средата за работен плот „MATE“. Ако искате да научите повече за „MATE“ и „Engrampa“, моля, посетете уеб сайта на проекта. </p>"
+"Parchives, please visit the project's home page. </p>"
+msgstr "<p> „Parchives“ е програма за работа с архиви за средата „MATE“. Тя позволява създаването и промяната на архиви, прегледа на съдържанието на архив, прегледа на файл в архив и извличането на файлове от архива. </p> <p> „Parchives“ е само фасада (графичен потребителски интерфейс) към архивиращите програми, като „tar“ и „zip“. Поддържаните файлови формати са: </p> <ul> <li>Файл, компресиран чрез 7-Zip (.7z)</li> <li>Файл, компресиран чрез WinAce (.ace)</li> <li>Файл, компресиран чрез ALZip (.alz)</li> <li>Малък индексиран архив на AIX (.ar)</li> <li>Архив, компресиран чрез ARJ (.arj)</li> <li>Кабинетен файл (.cab)</li> <li>Архив на UNIX CPIO (.cpio)</li> <li>Пакет за Дебиан (.deb) [само в режим за четене]</li> <li>Изображение за компактдиск по ISO-9660 (.iso) [само в режим за четене]</li> <li>Архив на Java (.jar)</li> <li>Архив на Java Enterprise (.ear)</li> <li>Архив на Java Web (.war)</li> <li>Архив на LHA (.lzh, .lha)</li> <li>Файл, компресиран чрез WinRAR (.rar)</li> <li>Комикс, архивиран чрез RAR (.cbr)</li> <li>Пакет за Линукс RPM (.rpm) [само в режим за четене]</li> <li>Некомпресиран файл TAR (.tar) или компресиран чрез: gzip (.tar.gz, .tgz), bzip (.tar.bz, .tbz), bzip2 (.tar.bz2, .tbz2), compress (.tar.Z, .taz), lrzip (.tar.lrz, .tlrz), lzip (.tar.lz, .tlz), lzop (.tar.lzo, .tzo), 7zip (.tar.7z), xz (.tar.xz) </li> <li>Архиви на Stuffit (.bin, .sit)</li> <li>Архив ZIP (.zip)</li> <li>Комикс, архивиран чрез ZIP (.cbz)</li> <li>Файл, компресиран чрез ZOO (.zoo)</li> <li>Единични файлове, компресирани чрез gzip, bzip, bzip2, compress, lrzip, lzip, lzop, rzip, xz</li> </ul> <p> „Parchives“ е разклонение на „File Roller“ и част от средата за работен плот „MATE“. Ако искате да научите повече за „MATE“ и „Parchives“, моля, посетете уеб сайта на проекта. </p>"
 
-#: ../data/engrampa.desktop.in.in.h:1
-msgid "Engrampa Archive Manager"
-msgstr "Работа с архиви Engrampa"
+#: ../data/parchives.desktop.in.in.h:1
+msgid "Parchives Archive Manager"
+msgstr "Работа с архиви Parchives"
 
-#: ../data/engrampa.desktop.in.in.h:2 ../src/fr-window.c:1981
+#: ../data/parchives.desktop.in.in.h:2 ../src/fr-window.c:1981
 #: ../src/fr-window.c:5466
 msgid "Archive Manager"
 msgstr "Работа с архиви"
 
-#: ../data/engrampa.desktop.in.in.h:3
+#: ../data/parchives.desktop.in.in.h:3
 msgid "Create and modify an archive"
 msgstr "Създаване и промяна на архив"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:1
+#: ../data/org.mate.parchives.gschema.xml.in.h:1
 msgid "How to sort files"
 msgstr "Как да се подреждат файловете"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:2
+#: ../data/org.mate.parchives.gschema.xml.in.h:2
 msgid ""
 "What criteria must be used to arrange files. Possible values: name, size, "
 "type, time, path."
 msgstr "Какъв критерий да се използва за подреждането на файловете. Възможни стойности: name(име), size(размер), type(тип), time(време), path(път)."
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:3
+#: ../data/org.mate.parchives.gschema.xml.in.h:3
 msgid "Sort type"
 msgstr "Тип на подреждането"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:4
+#: ../data/org.mate.parchives.gschema.xml.in.h:4
 msgid ""
 "Whether to sort in ascending or descending direction. Possible values: "
 "ascending, descending."
 msgstr "Подреждане по възходящ или низходящ ред. Възможи стойности: ascending(възходящ), descending(низходящ)."
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:5
+#: ../data/org.mate.parchives.gschema.xml.in.h:5
 msgid "List Mode"
 msgstr "Режим на списъка"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:6
+#: ../data/org.mate.parchives.gschema.xml.in.h:6
 msgid ""
 "Whether to view all files in the archive (all_files), or view the archive as"
 " a folder (as_folder)."
 msgstr "Дали да се виждат всички файлове в архива (all_files) или архива да се вижда като папка (as_folder)."
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:7
+#: ../data/org.mate.parchives.gschema.xml.in.h:7
 msgid "Display type"
 msgstr "Изобразяване на типа"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:8
+#: ../data/org.mate.parchives.gschema.xml.in.h:8
 msgid "Display the Type column in the main window."
 msgstr "Изобразяване на колоната за тип в главния прозорец."
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:9
+#: ../data/org.mate.parchives.gschema.xml.in.h:9
 msgid "Display size"
 msgstr "Изобразяване на размера"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:10
+#: ../data/org.mate.parchives.gschema.xml.in.h:10
 msgid "Display the Size column in the main window."
 msgstr "Изобразяване на колоната за размер в главния прозорец."
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:11
+#: ../data/org.mate.parchives.gschema.xml.in.h:11
 msgid "Display time"
 msgstr "Изобразяване на времето"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:12
+#: ../data/org.mate.parchives.gschema.xml.in.h:12
 msgid "Display the Time column in the main window."
 msgstr "Изобразяване на колоната за време в главния прозорец."
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:13
+#: ../data/org.mate.parchives.gschema.xml.in.h:13
 msgid "Display path"
 msgstr "Изобразяване на пътя"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:14
+#: ../data/org.mate.parchives.gschema.xml.in.h:14
 msgid "Display the Path column in the main window."
 msgstr "Изобразяване на колоната за път в главния прозорец."
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:15
+#: ../data/org.mate.parchives.gschema.xml.in.h:15
 msgid "Use MIME icons"
 msgstr "Използване на иконки за MIME"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:16
+#: ../data/org.mate.parchives.gschema.xml.in.h:16
 msgid ""
 "if TRUE will display icons depending on the file type (slower), otherwise "
 "will use always the same icon for all files (faster)."
 msgstr "Ако е ВЯРНО, ще изобрази иконките в зависимост от типа на файла (по-бавно), а в противен случай ще използва една и съща иконка за всички файлове (по-бързо)."
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:17
+#: ../data/org.mate.parchives.gschema.xml.in.h:17
 msgid "Name column width"
 msgstr "Ширина на колоната за името"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:18
+#: ../data/org.mate.parchives.gschema.xml.in.h:18
 msgid "The default width of the name column in the file list."
 msgstr "Ширината по подразбиране на колоната за името във списъка с файловете."
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:19
+#: ../data/org.mate.parchives.gschema.xml.in.h:19
 msgid "Max history length"
 msgstr "Максимална дължина на историята"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:20
+#: ../data/org.mate.parchives.gschema.xml.in.h:20
 msgid "Max number of items in the Open Recents menu."
 msgstr "Максимален брой елементи в менюто със скоро отворените файлове"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:21
+#: ../data/org.mate.parchives.gschema.xml.in.h:21
 msgid "View toolbar"
 msgstr "Показване на лентата с интрументите"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:22
+#: ../data/org.mate.parchives.gschema.xml.in.h:22
 msgid "Whether to display the toolbar."
 msgstr "Дали да се показва лентата с инструментите."
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:23
+#: ../data/org.mate.parchives.gschema.xml.in.h:23
 msgid "View statusbar"
 msgstr "Показване на лентата за състоянието"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:24
+#: ../data/org.mate.parchives.gschema.xml.in.h:24
 msgid "Whether to display the statusbar."
 msgstr "Дали да се показва лентата за състоянието."
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:25 ../src/ui.h:234
+#: ../data/org.mate.parchives.gschema.xml.in.h:25 ../src/ui.h:234
 msgid "View the folders pane"
 msgstr "Показване на панела с папки"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:26
+#: ../data/org.mate.parchives.gschema.xml.in.h:26
 msgid "Whether to display the folders pane."
 msgstr "Дали да се показва панела с папките."
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:27
+#: ../data/org.mate.parchives.gschema.xml.in.h:27
 msgid "Editors"
 msgstr "Редактори"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:28
+#: ../data/org.mate.parchives.gschema.xml.in.h:28
 msgid ""
 "List of applications entered in the Open file dialog and not associated with"
 " the file type."
 msgstr "Списък с приложения въведени в диалоговия прозорец \"Отвори файл\", които не са асоциирани с конкретен тип на файла."
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:29
+#: ../data/org.mate.parchives.gschema.xml.in.h:29
 msgid "Compression level"
 msgstr "Ниво на комрпесия"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:30
+#: ../data/org.mate.parchives.gschema.xml.in.h:30
 msgid ""
 "Compression level used when adding files to an archive. Possible values: "
 "very_fast, fast, normal, maximum."
 msgstr "Нивото на компресия, което се използва при добавяне на файлове към архив. Възможни стойности: very_fast (много бързо), fast (бързо), normal (умерено), maximum (максимално)."
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:31
+#: ../data/org.mate.parchives.gschema.xml.in.h:31
 msgid "Encrypt the archive header"
 msgstr "Криптиране на заглавната част на архива"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:32
+#: ../data/org.mate.parchives.gschema.xml.in.h:32
 msgid ""
 "Whether to encrypt the archive header. If the header is encrypted the "
 "password will be required to list the archive content as well."
 msgstr "Дали да се криприра заглавната част на архива. Ако заглавната част е криптирана, паролата ще се изисква и за показване на съдържанието на архива."
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:33
+#: ../data/org.mate.parchives.gschema.xml.in.h:33
 msgid "Overwrite existing files"
 msgstr "Презаписване на съществуващите файлове"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:34
+#: ../data/org.mate.parchives.gschema.xml.in.h:34
 msgid "Do not overwrite newer files"
 msgstr "Да не се презаписват по-новите файлове"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:35
+#: ../data/org.mate.parchives.gschema.xml.in.h:35
 msgid "Recreate the folders stored in the archive"
 msgstr "Пресъздаване на папките в архива"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:36
+#: ../data/org.mate.parchives.gschema.xml.in.h:36
 msgid "Default volume size"
 msgstr "Размер по подр. за том"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:37
+#: ../data/org.mate.parchives.gschema.xml.in.h:37
 msgid "The default size for volumes."
 msgstr "Размерът по подразбиране за томовете."
 
-#: ../caja/caja-engrampa.c:335
+#: ../peony/peony-parchives.c:335
 msgid "Extract Here"
 msgstr "Разархивиране тук"
 
 #. Translators: the current position is the current folder
-#: ../caja/caja-engrampa.c:337
+#: ../peony/peony-parchives.c:337
 msgid "Extract the selected archive to the current position"
 msgstr "Разархивиране на избрания архив в текущата папка"
 
-#: ../caja/caja-engrampa.c:354
+#: ../peony/peony-parchives.c:354
 msgid "Extract To..."
 msgstr "Разархивиране в…"
 
-#: ../caja/caja-engrampa.c:355
+#: ../peony/peony-parchives.c:355
 msgid "Extract the selected archive"
 msgstr "Разархивиране на избрания архив"
 
-#: ../caja/caja-engrampa.c:374
+#: ../peony/peony-parchives.c:374
 msgid "Compress..."
 msgstr "Компресиране…"
 
-#: ../caja/caja-engrampa.c:375
+#: ../peony/peony-parchives.c:375
 msgid "Create a compressed archive with the selected objects"
 msgstr "Създаване на компресиран архив с избраните обекти"
 
-#: ../caja/libcaja-engrampa.caja-extension.in.in.h:1 ../src/main.c:330
+#: ../peony/libpeony-parchives.peony-extension.in.in.h:1 ../src/main.c:330
 #: ../src/server.c:457
-msgid "Engrampa"
-msgstr "Engrampa"
+msgid "Parchives"
+msgstr "Parchives"
 
-#: ../caja/libcaja-engrampa.caja-extension.in.in.h:2
+#: ../peony/libpeony-parchives.peony-extension.in.in.h:2
 msgid "Allows to create and extract archives"
 msgstr "Позволява създаване на архиви и извличане на файлове от тях"
 
@@ -372,15 +372,15 @@ msgstr "Последен изход"
 
 #: ../src/actions.c:860
 msgid ""
-"Engrampa is free software; you can redistribute it and/or modify it under "
+"Parchives is free software; you can redistribute it and/or modify it under "
 "the terms of the GNU General Public License as published by the Free "
 "Software Foundation; either version 2 of the License, or (at your option) "
 "any later version."
-msgstr "Тази програма (Engrampa) е свободен софтуер. Можете да я разпространявате и/или променяте под условията на Общия публичен лиценз на GNU (GNU GPL), както е публикуван от Фондацията за свободен софтуер — версия 2 на лиценза или (по ваше решение) по-късна версия."
+msgstr "Тази програма (Parchives) е свободен софтуер. Можете да я разпространявате и/или променяте под условията на Общия публичен лиценз на GNU (GNU GPL), както е публикуван от Фондацията за свободен софтуер — версия 2 на лиценза или (по ваше решение) по-късна версия."
 
 #: ../src/actions.c:864
 msgid ""
-"Engrampa is distributed in the hope that it will be useful, but WITHOUT ANY "
+"Parchives is distributed in the hope that it will be useful, but WITHOUT ANY "
 "WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
 "FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
 "details."
@@ -389,7 +389,7 @@ msgstr "Тази програма се разпространява с наде�
 #: ../src/actions.c:868
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
-" Engrampa; if not, write to the Free Software Foundation, Inc., 51 Franklin "
+" Parchives; if not, write to the Free Software Foundation, Inc., 51 Franklin "
 "St, Fifth Floor, Boston, MA  02110-1301 USA"
 msgstr "Трябва да сте получили копие от Общия публичен лиценз на GNU (GNU GPL) заедно с тази програма. Ако не сте, пишете до Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA."
 
@@ -1383,8 +1383,8 @@ msgid "Contents"
 msgstr "Ръководство"
 
 #: ../src/ui.h:64
-msgid "Display the Engrampa Manual"
-msgstr "Показване на ръководството на Engrampa"
+msgid "Display the Parchives Manual"
+msgstr "Показване на ръководството на Parchives"
 
 #: ../src/ui.h:69 ../src/ui.h:90
 msgid "Copy the selection"

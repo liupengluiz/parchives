@@ -1,5 +1,5 @@
 /*
- *  Engrampa
+ *  Parchives
  *
  *  Copyright (C) 2004 Free Software Foundation, Inc.
  *
@@ -25,21 +25,21 @@
 #include <string.h>
 #include <glib/gi18n-lib.h>
 #include <gio/gio.h>
-#include <libcaja-extension/caja-extension-types.h>
-#include <libcaja-extension/caja-file-info.h>
-#include <libcaja-extension/caja-menu-provider.h>
-#include "caja-engrampa.h"
+#include <libpeony-extension/peony-extension-types.h>
+#include <libpeony-extension/peony-file-info.h>
+#include <libpeony-extension/peony-menu-provider.h>
+#include "peony-parchives.h"
 
 
 static GObjectClass *parent_class;
 
 
 static void
-extract_to_callback (CajaMenuItem *item,
+extract_to_callback (PeonyMenuItem *item,
 		     gpointer          user_data)
 {
 	GList            *files, *scan;
-	CajaFileInfo *file;
+	PeonyFileInfo *file;
 	char             *default_dir;
 	char             *quoted_default_dir;
 	GString          *cmd;
@@ -47,18 +47,18 @@ extract_to_callback (CajaMenuItem *item,
 	files = g_object_get_data (G_OBJECT (item), "files");
 	file = files->data;
 
-	default_dir = caja_file_info_get_parent_uri (file);
+	default_dir = peony_file_info_get_parent_uri (file);
 
 	quoted_default_dir = g_shell_quote (default_dir);
 
-	cmd = g_string_new ("engrampa");
+	cmd = g_string_new ("parchives");
 	g_string_append_printf(cmd," --default-dir=%s --extract", quoted_default_dir);
 
 	for (scan = files; scan; scan = scan->next) {
-		CajaFileInfo *file = scan->data;
+		PeonyFileInfo *file = scan->data;
 		char             *uri, *quoted_uri;
 
-		uri = caja_file_info_get_uri (file);
+		uri = peony_file_info_get_uri (file);
 		quoted_uri = g_shell_quote (uri);
 		g_string_append_printf (cmd, " %s", quoted_uri);
 		g_free (uri);
@@ -78,7 +78,7 @@ extract_to_callback (CajaMenuItem *item,
 
 
 static void
-extract_here_callback (CajaMenuItem *item,
+extract_here_callback (PeonyMenuItem *item,
 		       gpointer          user_data)
 {
 	GList            *files, *scan;
@@ -86,13 +86,13 @@ extract_here_callback (CajaMenuItem *item,
 
 	files = g_object_get_data (G_OBJECT (item), "files");
 
-	cmd = g_string_new ("engrampa --extract-here");
+	cmd = g_string_new ("parchives --extract-here");
 
 	for (scan = files; scan; scan = scan->next) {
-		CajaFileInfo *file = scan->data;
+		PeonyFileInfo *file = scan->data;
 		char             *uri, *quoted_uri;
 
-		uri = caja_file_info_get_uri (file);
+		uri = peony_file_info_get_uri (file);
 		quoted_uri = g_shell_quote (uri);
 		g_string_append_printf (cmd, " %s", quoted_uri);
 		g_free (uri);
@@ -110,11 +110,11 @@ extract_here_callback (CajaMenuItem *item,
 
 
 static void
-add_callback (CajaMenuItem *item,
+add_callback (PeonyMenuItem *item,
 	      gpointer          user_data)
 {
 	GList            *files, *scan;
-	CajaFileInfo *file;
+	PeonyFileInfo *file;
 	char             *uri, *dir;
 	char             *quoted_uri, *quoted_dir;
 	GString          *cmd;
@@ -122,11 +122,11 @@ add_callback (CajaMenuItem *item,
 	files = g_object_get_data (G_OBJECT (item), "files");
 	file = files->data;
 
-	uri = caja_file_info_get_uri (file);
+	uri = peony_file_info_get_uri (file);
 	dir = g_path_get_dirname (uri);
 	quoted_dir = g_shell_quote (dir);
 
-	cmd = g_string_new ("engrampa");
+	cmd = g_string_new ("parchives");
 	g_string_append_printf (cmd," --default-dir=%s --add", quoted_dir);
 
 	g_free (uri);
@@ -134,9 +134,9 @@ add_callback (CajaMenuItem *item,
 	g_free (quoted_dir);
 
 	for (scan = files; scan; scan = scan->next) {
-		CajaFileInfo *file = scan->data;
+		PeonyFileInfo *file = scan->data;
 
-		uri = caja_file_info_get_uri (file);
+		uri = peony_file_info_get_uri (file);
 		quoted_uri = g_shell_quote (uri);
 		g_string_append_printf (cmd, " %s", quoted_uri);
 		g_free (uri);
@@ -213,7 +213,7 @@ typedef struct {
 
 
 static FileMimeInfo
-get_file_mime_info (CajaFileInfo *file)
+get_file_mime_info (PeonyFileInfo *file)
 {
 	FileMimeInfo file_mime_info;
 	int          i;
@@ -223,12 +223,12 @@ get_file_mime_info (CajaFileInfo *file)
 	file_mime_info.is_compressed_archive = FALSE;
 
 	for (i = 0; archive_mime_types[i].mime_type != NULL; i++)
-		if (caja_file_info_is_mime_type (file, archive_mime_types[i].mime_type)) {
+		if (peony_file_info_is_mime_type (file, archive_mime_types[i].mime_type)) {
 			char *mime_type;
 			char *content_type_mime_file;
 			char *content_type_mime_compare;
 
-			mime_type = caja_file_info_get_mime_type (file);
+			mime_type = peony_file_info_get_mime_type (file);
 
 			content_type_mime_file = g_content_type_from_mime_type (mime_type);
 			content_type_mime_compare = g_content_type_from_mime_type (archive_mime_types[i].mime_type);
@@ -250,13 +250,13 @@ get_file_mime_info (CajaFileInfo *file)
 
 
 static gboolean
-unsupported_scheme (CajaFileInfo *file)
+unsupported_scheme (PeonyFileInfo *file)
 {
 	gboolean  result = FALSE;
 	GFile    *location;
 	char     *scheme;
 
-	location = caja_file_info_get_location (file);
+	location = peony_file_info_get_location (file);
 	scheme = g_file_get_uri_scheme (location);
 
 	if (scheme != NULL) {
@@ -276,7 +276,7 @@ unsupported_scheme (CajaFileInfo *file)
 
 
 static GList *
-caja_fr_get_file_items (CajaMenuProvider *provider,
+peony_fr_get_file_items (PeonyMenuProvider *provider,
 			    GtkWidget            *window,
 			    GList                *files)
 {
@@ -294,11 +294,11 @@ caja_fr_get_file_items (CajaMenuProvider *provider,
 	if (files == NULL)
 		return NULL;
 
-	if (unsupported_scheme ((CajaFileInfo *) files->data))
+	if (unsupported_scheme ((PeonyFileInfo *) files->data))
 		return NULL;
 
 	for (scan = files; scan; scan = scan->next) {
-		CajaFileInfo *file = scan->data;
+		PeonyFileInfo *file = scan->data;
 		FileMimeInfo      file_mime_info;
 
 		file_mime_info = get_file_mime_info (file);
@@ -313,10 +313,10 @@ caja_fr_get_file_items (CajaMenuProvider *provider,
 			all_archives_derived = FALSE;
 
 		if (can_write) {
-			CajaFileInfo *parent;
+			PeonyFileInfo *parent;
 
-			parent = caja_file_info_get_parent_info (file);
- 			can_write = caja_file_info_can_write (parent);
+			parent = peony_file_info_get_parent_info (file);
+ 			can_write = peony_file_info_can_write (parent);
 			g_object_unref (parent);
 		}
 	}
@@ -329,9 +329,9 @@ caja_fr_get_file_items (CajaMenuProvider *provider,
 	one_compressed_archive = one_archive && all_archives_compressed;
 
 	if (all_archives && can_write) {
-		CajaMenuItem *item;
+		PeonyMenuItem *item;
 
-		item = caja_menu_item_new ("CajaFr::extract_here",
+		item = peony_menu_item_new ("PeonyFr::extract_here",
 					       _("Extract Here"),
 					       /* Translators: the current position is the current folder */
 					       _("Extract the selected archive to the current position"),
@@ -342,15 +342,15 @@ caja_fr_get_file_items (CajaMenuProvider *provider,
 				  provider);
 		g_object_set_data_full (G_OBJECT (item),
 					"files",
-					caja_file_info_list_copy (files),
-					(GDestroyNotify) caja_file_info_list_free);
+					peony_file_info_list_copy (files),
+					(GDestroyNotify) peony_file_info_list_free);
 
 		items = g_list_append (items, item);
 	}
 	if (all_archives) {
-		CajaMenuItem *item;
+		PeonyMenuItem *item;
 
-		item = caja_menu_item_new ("CajaFr::extract_to",
+		item = peony_menu_item_new ("PeonyFr::extract_to",
 					       _("Extract To..."),
 					       _("Extract the selected archive"),
 					       "drive-harddisk");
@@ -360,17 +360,17 @@ caja_fr_get_file_items (CajaMenuProvider *provider,
 				  provider);
 		g_object_set_data_full (G_OBJECT (item),
 					"files",
-					caja_file_info_list_copy (files),
-					(GDestroyNotify) caja_file_info_list_free);
+					peony_file_info_list_copy (files),
+					(GDestroyNotify) peony_file_info_list_free);
 
 		items = g_list_append (items, item);
 
 	}
 
 	if (! one_compressed_archive || one_derived_archive) {
-		CajaMenuItem *item;
+		PeonyMenuItem *item;
 
-		item = caja_menu_item_new ("CajaFr::add",
+		item = peony_menu_item_new ("PeonyFr::add",
 					       _("Compress..."),
 					       _("Create a compressed archive with the selected objects"),
 					       "mate-mime-application-x-archive");
@@ -380,8 +380,8 @@ caja_fr_get_file_items (CajaMenuProvider *provider,
 				  provider);
 		g_object_set_data_full (G_OBJECT (item),
 					"files",
-					caja_file_info_list_copy (files),
-					(GDestroyNotify) caja_file_info_list_free);
+					peony_file_info_list_copy (files),
+					(GDestroyNotify) peony_file_info_list_free);
 
 		items = g_list_append (items, item);
 	}
@@ -391,20 +391,20 @@ caja_fr_get_file_items (CajaMenuProvider *provider,
 
 
 static void
-caja_fr_menu_provider_iface_init (CajaMenuProviderIface *iface)
+peony_fr_menu_provider_iface_init (PeonyMenuProviderIface *iface)
 {
-	iface->get_file_items = caja_fr_get_file_items;
+	iface->get_file_items = peony_fr_get_file_items;
 }
 
 
 static void
-caja_fr_instance_init (CajaFr *fr)
+peony_fr_instance_init (PeonyFr *fr)
 {
 }
 
 
 static void
-caja_fr_class_init (CajaFrClass *class)
+peony_fr_class_init (PeonyFrClass *class)
 {
 	parent_class = g_type_class_peek_parent (class);
 }
@@ -414,40 +414,40 @@ static GType fr_type = 0;
 
 
 GType
-caja_fr_get_type (void)
+peony_fr_get_type (void)
 {
 	return fr_type;
 }
 
 
 void
-caja_fr_register_type (GTypeModule *module)
+peony_fr_register_type (GTypeModule *module)
 {
 	static const GTypeInfo info = {
-		sizeof (CajaFrClass),
+		sizeof (PeonyFrClass),
 		(GBaseInitFunc) NULL,
 		(GBaseFinalizeFunc) NULL,
-		(GClassInitFunc) caja_fr_class_init,
+		(GClassInitFunc) peony_fr_class_init,
 		NULL,
 		NULL,
-		sizeof (CajaFr),
+		sizeof (PeonyFr),
 		0,
-		(GInstanceInitFunc) caja_fr_instance_init,
+		(GInstanceInitFunc) peony_fr_instance_init,
 	};
 
 	static const GInterfaceInfo menu_provider_iface_info = {
-		(GInterfaceInitFunc) caja_fr_menu_provider_iface_init,
+		(GInterfaceInitFunc) peony_fr_menu_provider_iface_init,
 		NULL,
 		NULL
 	};
 
 	fr_type = g_type_module_register_type (module,
 					       G_TYPE_OBJECT,
-					       "CajaEngrampa",
+					       "PeonyParchives",
 					       &info, 0);
 
 	g_type_module_add_interface (module,
 				     fr_type,
-				     CAJA_TYPE_MENU_PROVIDER,
+				     PEONY_TYPE_MENU_PROVIDER,
 				     &menu_provider_iface_info);
 }

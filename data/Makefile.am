@@ -1,33 +1,33 @@
 SUBDIRS = icons
 
 desktopdir = $(datadir)/applications
-desktop_in_in_files = engrampa.desktop.in.in
+desktop_in_in_files = parchives.desktop.in.in
 desktop_in_files = $(desktop_in_in_files:.desktop.in.in=.desktop.in) 
 desktop_DATA = $(desktop_in_files:.desktop.in=.desktop)
 
 @INTLTOOL_DESKTOP_RULE@
 
-matchdir = $(datadir)/engrampa
+matchdir = $(datadir)/parchives
 match_DATA = packages.match
 
 servicedir = $(datadir)/dbus-1/services
-service_in_files = org.mate.Engrampa.service.in
+service_in_files = org.mate.Parchives.service.in
 service_DATA = $(service_in_files:.service.in=.service)
 $(service_DATA): $(service_in_files) Makefile
 	$(AM_V_GEN) $(SED) -e "s|\@libexecdir\@|$(libexecdir)|" $< > $@
 
 @INTLTOOL_XML_RULE@
 appdatadir = $(datadir)/appdata
-appdata_in_files = engrampa.appdata.xml.in
+appdata_in_files = parchives.appdata.xml.in
 appdata_DATA = $(appdata_in_files:.xml.in=.xml)
 
-gsettingsschema_in_files = org.mate.engrampa.gschema.xml.in
+gsettingsschema_in_files = org.mate.parchives.gschema.xml.in
 gsettings_SCHEMAS = $(gsettingsschema_in_files:.xml.in=.xml)
 .PRECIOUS: $(gsettings_SCHEMAS)
 
 @GSETTINGS_RULES@
 
-man_MANS = engrampa.1
+man_MANS = parchives.1
 
 gtk_update_icon_cache = gtk-update-icon-cache -f -t $(datadir)/icons/hicolor
 
@@ -62,7 +62,7 @@ DISTCLEANFILES = \
 
 CLEANFILES = \
        $(gsettings_SCHEMAS) \
-       engrampa.appdata.xml \
+       parchives.appdata.xml \
        $(NULL)
 
 dist-hook: 

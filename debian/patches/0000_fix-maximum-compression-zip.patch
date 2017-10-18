@@ -7,7 +7,7 @@ based in file-roller commit:
 https://git.gnome.org/browse/file-roller/commit/?id=f9b8a010e7fe5a9bec158dfc5bd8ef1e11bf3842
 
 Fixes:
-https://bugs.launchpad.net/ubuntu/+source/engrampa/+bug/1580860
+https://bugs.launchpad.net/ubuntu/+source/parchives/+bug/1580860
 ---
  src/fr-command-7z.c | 6 +++++-
  1 file changed, 5 insertions(+), 1 deletion(-)

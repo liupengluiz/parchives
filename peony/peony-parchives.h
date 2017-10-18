@@ -1,5 +1,5 @@
 /*
- *  Engrampa
+ *  Parchives
  * 
  *  Copyright (C) 2004 Free Software Foundation, Inc.
  *
@@ -21,31 +21,31 @@
  * 
  */
 
-#ifndef CAJA_RNGRAMPA_H
-#define CAJA_RNGRAMPA_H
+#ifndef PEONY_RNGRAMPA_H
+#define PEONY_RNGRAMPA_H
 
 #include <glib-object.h>
 
 G_BEGIN_DECLS
 
-#define CAJA_TYPE_FR  (caja_fr_get_type ())
-#define CAJA_FR(o)    (G_TYPE_CHECK_INSTANCE_CAST ((o), CAJA_TYPE_FR, CajaFr))
-#define CAJA_IS_FR(o) (G_TYPE_CHECK_INSTANCE_TYPE ((o), CAJA_TYPE_FR))
+#define PEONY_TYPE_FR  (peony_fr_get_type ())
+#define PEONY_FR(o)    (G_TYPE_CHECK_INSTANCE_CAST ((o), PEONY_TYPE_FR, PeonyFr))
+#define PEONY_IS_FR(o) (G_TYPE_CHECK_INSTANCE_TYPE ((o), PEONY_TYPE_FR))
 
-typedef struct _CajaFr      CajaFr;
-typedef struct _CajaFrClass CajaFrClass;
+typedef struct _PeonyFr      PeonyFr;
+typedef struct _PeonyFrClass PeonyFrClass;
 
-struct _CajaFr {
+struct _PeonyFr {
 	GObject __parent;
 };
 
-struct _CajaFrClass {
+struct _PeonyFrClass {
 	GObjectClass __parent;
 };
 
-GType caja_fr_get_type      (void);
-void  caja_fr_register_type (GTypeModule *module);
+GType peony_fr_get_type      (void);
+void  peony_fr_register_type (GTypeModule *module);
 
 G_END_DECLS
 
-#endif /* CAJA_RNGRAMPA_H */
+#endif /* PEONY_RNGRAMPA_H */

@@ -1,7 +1,7 @@
 /* -*- Mode: C; tab-width: 8; indent-tabs-mode: t; c-basic-offset: 8 -*- */
 
 /*
- *  Engrampa
+ *  Parchives
  *
  *  Copyright (C) 2001, 2003, 2004 Free Software Foundation, Inc.
  *
@@ -116,7 +116,7 @@ file_sel_response_cb (GtkWidget    *widget,
 	}
 
 	if (response == GTK_RESPONSE_HELP) {
-		show_help_dialog (GTK_WINDOW (data->dialog), "engrampa-add-options");
+		show_help_dialog (GTK_WINDOW (data->dialog), "parchives-add-options");
 		return TRUE;
 	}
 
@@ -217,7 +217,7 @@ add_folder_cb (GtkWidget *widget,
 	GtkWidget   *align;
 
 	data = g_new0 (DialogData, 1);
-	data->settings = g_settings_new (ENGRAMPA_SCHEMA_ADD);
+	data->settings = g_settings_new (PARCHIVES_SCHEMA_ADD);
 	data->window = callback_data;
 
 	data->dialog = file_sel =

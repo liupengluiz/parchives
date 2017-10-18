@@ -1,7 +1,7 @@
 /* -*- Mode: C; tab-width: 8; indent-tabs-mode: t; c-basic-offset: 8 -*- */
 
 /*
- *  Engrampa
+ *  Parchives
  *
  *  Copyright (C) 2004 Free Software Foundation, Inc.
  *
@@ -280,7 +280,7 @@ new_file_response_cb (GtkWidget  *w,
     }
 
     if (response == GTK_RESPONSE_HELP) {
-        show_help_dialog (GTK_WINDOW (data->dialog), "engrampa-create");
+        show_help_dialog (GTK_WINDOW (data->dialog), "parchives-create");
         return;
     }
 
@@ -435,7 +435,7 @@ save_file_response_cb (GtkWidget  *w,
     }
 
     if (response == GTK_RESPONSE_HELP) {
-        show_help_dialog (GTK_WINDOW (data->dialog), "engrampa-create#engrampa-convert-archive");
+        show_help_dialog (GTK_WINDOW (data->dialog), "parchives-create#parchives-convert-archive");
         return;
     }
 
@@ -447,7 +447,7 @@ save_file_response_cb (GtkWidget  *w,
     encrypt_header = dlg_new_data_get_encrypt_header (data);
     volume_size = dlg_new_data_get_volume_size (data);
 
-    settings = g_settings_new (ENGRAMPA_SCHEMA_BATCH_ADD);
+    settings = g_settings_new (PARCHIVES_SCHEMA_BATCH_ADD);
     g_settings_set_int (settings, PREF_BATCH_ADD_VOLUME_SIZE, volume_size);
     g_object_unref (settings);
 
@@ -727,7 +727,7 @@ activate_action_view_toolbar (GtkAction *action,
 {
     GSettings *settings;
 
-    settings = g_settings_new (ENGRAMPA_SCHEMA_UI);
+    settings = g_settings_new (PARCHIVES_SCHEMA_UI);
     g_settings_set_boolean (settings, PREF_UI_VIEW_TOOLBAR, gtk_toggle_action_get_active (GTK_TOGGLE_ACTION (action)));
     g_object_unref (settings);
 }
@@ -739,7 +739,7 @@ activate_action_view_statusbar (GtkAction *action,
 {
     GSettings *settings;
 
-    settings = g_settings_new (ENGRAMPA_SCHEMA_UI);
+    settings = g_settings_new (PARCHIVES_SCHEMA_UI);
     g_settings_set_boolean (settings, PREF_UI_VIEW_STATUSBAR, gtk_toggle_action_get_active (GTK_TOGGLE_ACTION (action)));
     g_object_unref (settings);
 }
@@ -751,7 +751,7 @@ activate_action_view_folders (GtkAction *action,
 {
     GSettings *settings;
 
-    settings = g_settings_new (ENGRAMPA_SCHEMA_UI);
+    settings = g_settings_new (PARCHIVES_SCHEMA_UI);
     g_settings_set_boolean (settings, PREF_UI_VIEW_FOLDERS, gtk_toggle_action_get_active (GTK_TOGGLE_ACTION (action)));
     g_object_unref (settings);
 }
@@ -857,16 +857,16 @@ activate_action_about (GtkAction *action,
         NULL
     };
     const char *license[] = {
-        N_("Engrampa is free software; you can redistribute it and/or modify "
+        N_("Parchives is free software; you can redistribute it and/or modify "
         "it under the terms of the GNU General Public License as published by "
         "the Free Software Foundation; either version 2 of the License, or "
         "(at your option) any later version."),
-        N_("Engrampa is distributed in the hope that it will be useful, "
+        N_("Parchives is distributed in the hope that it will be useful, "
         "but WITHOUT ANY WARRANTY; without even the implied warranty of "
         "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the "
         "GNU General Public License for more details."),
         N_("You should have received a copy of the GNU General Public License "
-        "along with Engrampa; if not, write to the Free Software Foundation, Inc., "
+        "along with Parchives; if not, write to the Free Software Foundation, Inc., "
         "51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA")
     };
     char *license_text;
@@ -880,7 +880,7 @@ activate_action_about (GtkAction *action,
                    "authors", authors,
                    "documenters", documenters,
                    "translator-credits", _("translator-credits"),
-                   "logo-icon-name", "engrampa",
+                   "logo-icon-name", "parchives",
                    "license", license_text,
                    "wrap-license", TRUE,
                    "website", "http://mate-desktop.org",
