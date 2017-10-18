@@ -5,7 +5,7 @@ context = apps
 iconsdir = $(themedir)/$(size)/$(context)
 
 icons_DATA = \
-	peony-archives.png
+	parchives.png
 
 noinst_DATA =
 

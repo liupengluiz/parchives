@@ -1,5 +1,5 @@
 /*
- *  Peony-archives
+ *  Parchives
  * 
  *  Copyright (C) 2004 Free Software Foundation, Inc.
  *
@@ -21,36 +21,31 @@
  * 
  */
 
-#include <config.h>
-#include <libpeony-extension/peony-extension-types.h>
-#include <libpeony-extension/peony-column-provider.h>
-#include <glib/gi18n-lib.h>
-#include "peony-peony-archives.h"
+#ifndef PEONY_RNGRAMPA_H
+#define PEONY_RNGRAMPA_H
 
+#include <glib-object.h>
 
-void
-peony_module_initialize (GTypeModule*module)
-{
-	peony_fr_register_type (module);
+G_BEGIN_DECLS
 
-	bindtextdomain (GETTEXT_PACKAGE, MATELOCALEDIR);
-	bind_textdomain_codeset (GETTEXT_PACKAGE, "UTF-8");
-}
+#define PEONY_TYPE_FR  (peony_fr_get_type ())
+#define PEONY_FR(o)    (G_TYPE_CHECK_INSTANCE_CAST ((o), PEONY_TYPE_FR, PeonyFr))
+#define PEONY_IS_FR(o) (G_TYPE_CHECK_INSTANCE_TYPE ((o), PEONY_TYPE_FR))
 
+typedef struct _PeonyFr      PeonyFr;
+typedef struct _PeonyFrClass PeonyFrClass;
 
-void
-peony_module_shutdown (void)
-{
-}
+struct _PeonyFr {
+	GObject __parent;
+};
 
+struct _PeonyFrClass {
+	GObjectClass __parent;
+};
 
-void 
-peony_module_list_types (const GType **types,
-			    int          *num_types)
-{
-	static GType type_list[1];
-	
-	type_list[0] = PEONY_TYPE_FR;
-	*types = type_list;
-	*num_types = 1;
-}
+GType peony_fr_get_type      (void);
+void  peony_fr_register_type (GTypeModule *module);
+
+G_END_DECLS
+
+#endif /* PEONY_RNGRAMPA_H */

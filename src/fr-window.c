@@ -1,7 +1,7 @@
 /* -*- Mode: C; tab-width: 8; indent-tabs-mode: t; c-basic-offset: 8 -*- */
 
 /*
- *  Peony-archives
+ *  Parchives
  *
  *  Copyright (C) 2007 Free Software Foundation, Inc.
  *
@@ -95,22 +95,22 @@ static int             dir_tree_icon_size = 0;
 #define XDS_ATOM   gdk_atom_intern  ("XdndDirectSave0", FALSE)
 #define TEXT_ATOM  gdk_atom_intern  ("text/plain", FALSE)
 #define OCTET_ATOM gdk_atom_intern  ("application/octet-stream", FALSE)
-#define XFR_ATOM   gdk_atom_intern  ("XdndPeony-archives0", FALSE)
+#define XFR_ATOM   gdk_atom_intern  ("XdndParchives0", FALSE)
 
 #define FR_CLIPBOARD (gdk_atom_intern_static_string ("_RNGRAMPA_SPECIAL_CLIPBOARD"))
-#define FR_SPECIAL_URI_LIST (gdk_atom_intern_static_string ("application/peony-archives-uri-list"))
+#define FR_SPECIAL_URI_LIST (gdk_atom_intern_static_string ("application/parchives-uri-list"))
 
 static GtkTargetEntry clipboard_targets[] = {
-	{ "application/peony-archives-uri-list", 0, 1 }
+	{ "application/parchives-uri-list", 0, 1 }
 };
 
 static GtkTargetEntry target_table[] = {
-	{ "XdndPeony-archives0", 0, 0 },
+	{ "XdndParchives0", 0, 0 },
 	{ "text/uri-list", 0, 1 },
 };
 
 static GtkTargetEntry folder_tree_targets[] = {
-	{ "XdndPeony-archives0", 0, 0 },
+	{ "XdndParchives0", 0, 0 },
 	{ "XdndDirectSave0", 0, 2 }
 };
 
@@ -805,7 +805,7 @@ fr_window_init (FrWindow *window)
 	window->priv->batch_title = NULL;
 
 	context = gtk_widget_get_style_context (GTK_WIDGET (window));
-	gtk_style_context_add_class (context, "peony-archives-window");
+	gtk_style_context_add_class (context, "parchives-window");
 
 	g_signal_connect (window,
 			  "realize",
@@ -2853,8 +2853,8 @@ fr_window_add_to_recent_list (FrWindow *window,
 
 		recent_data = g_new0 (GtkRecentData, 1);
 		recent_data->mime_type = g_content_type_get_mime_type (window->archive->content_type);
-		recent_data->app_name = "Peony-archives";
-		recent_data->app_exec = "peony-archives";
+		recent_data->app_name = "Parchives";
+		recent_data->app_exec = "parchives";
 		gtk_recent_manager_add_full (gtk_recent_manager_get_default (), uri, recent_data);
 
 		g_free (recent_data);
@@ -5322,7 +5322,7 @@ fr_window_init_recent_chooser (FrWindow         *window,
 	gtk_recent_filter_set_name (filter, _("All archives"));
 	for (i = 0; open_type[i] != -1; i++)
 		gtk_recent_filter_add_mime_type (filter, mime_type_desc[open_type[i]].mime_type);
-	gtk_recent_filter_add_application (filter, "Peony-archives");
+	gtk_recent_filter_add_application (filter, "Parchives");
 	gtk_recent_chooser_add_filter (chooser, filter);
 
 	gtk_recent_chooser_set_local_only (chooser, FALSE);
@@ -5482,10 +5482,10 @@ fr_window_construct (FrWindow *window)
 
         /* Create the settings objects */
 
-	window->priv->settings_listing = g_settings_new (PEONY-ARCHIVES_SCHEMA_LISTING);
-	window->priv->settings_ui = g_settings_new (PEONY-ARCHIVES_SCHEMA_UI);
-	window->priv->settings_general = g_settings_new (PEONY-ARCHIVES_SCHEMA_GENERAL);
-	window->priv->settings_dialogs = g_settings_new (PEONY-ARCHIVES_SCHEMA_DIALOGS);
+	window->priv->settings_listing = g_settings_new (PARCHIVES_SCHEMA_LISTING);
+	window->priv->settings_ui = g_settings_new (PARCHIVES_SCHEMA_UI);
+	window->priv->settings_general = g_settings_new (PARCHIVES_SCHEMA_GENERAL);
+	window->priv->settings_dialogs = g_settings_new (PARCHIVES_SCHEMA_DIALOGS);
 
 	schema_source = g_settings_schema_source_get_default ();
 	peony_schema = g_settings_schema_source_lookup (schema_source, PEONY_SCHEMA, FALSE);
@@ -5930,7 +5930,7 @@ fr_window_construct (FrWindow *window)
 				 g_cclosure_new_swap (G_CALLBACK (fr_window_close), window, NULL));
 
 
-	if (! gtk_ui_manager_add_ui_from_resource (ui, "/org/mate/Peony-archives/ui/menus-toolbars.ui", &error)) {
+	if (! gtk_ui_manager_add_ui_from_resource (ui, "/org/mate/Parchives/ui/menus-toolbars.ui", &error)) {
 		g_message ("building menus failed: %s", error->message);
 		g_error_free (error);
 	}

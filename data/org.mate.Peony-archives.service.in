@@ -1,3 +1,0 @@
-[D-BUS Service]
-Name=org.mate.Peony-archives
-Exec=@libexecdir@/peony-archives-server

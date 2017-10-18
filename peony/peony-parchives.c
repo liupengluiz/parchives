@@ -1,5 +1,5 @@
 /*
- *  Peony-archives
+ *  Parchives
  *
  *  Copyright (C) 2004 Free Software Foundation, Inc.
  *
@@ -28,7 +28,7 @@
 #include <libpeony-extension/peony-extension-types.h>
 #include <libpeony-extension/peony-file-info.h>
 #include <libpeony-extension/peony-menu-provider.h>
-#include "peony-peony-archives.h"
+#include "peony-parchives.h"
 
 
 static GObjectClass *parent_class;
@@ -51,7 +51,7 @@ extract_to_callback (PeonyMenuItem *item,
 
 	quoted_default_dir = g_shell_quote (default_dir);
 
-	cmd = g_string_new ("peony-archives");
+	cmd = g_string_new ("parchives");
 	g_string_append_printf(cmd," --default-dir=%s --extract", quoted_default_dir);
 
 	for (scan = files; scan; scan = scan->next) {
@@ -86,7 +86,7 @@ extract_here_callback (PeonyMenuItem *item,
 
 	files = g_object_get_data (G_OBJECT (item), "files");
 
-	cmd = g_string_new ("peony-archives --extract-here");
+	cmd = g_string_new ("parchives --extract-here");
 
 	for (scan = files; scan; scan = scan->next) {
 		PeonyFileInfo *file = scan->data;
@@ -126,7 +126,7 @@ add_callback (PeonyMenuItem *item,
 	dir = g_path_get_dirname (uri);
 	quoted_dir = g_shell_quote (dir);
 
-	cmd = g_string_new ("peony-archives");
+	cmd = g_string_new ("parchives");
 	g_string_append_printf (cmd," --default-dir=%s --add", quoted_dir);
 
 	g_free (uri);
@@ -443,7 +443,7 @@ peony_fr_register_type (GTypeModule *module)
 
 	fr_type = g_type_module_register_type (module,
 					       G_TYPE_OBJECT,
-					       "PeonyPeony-archives",
+					       "PeonyParchives",
 					       &info, 0);
 
 	g_type_module_add_interface (module,

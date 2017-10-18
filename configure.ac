@@ -2,7 +2,7 @@ dnl Process this file with autoconf to produce a configure script.
 
 AC_PREREQ(2.61)
 
-AC_INIT([peony-archives], [1.18.2], [http://www.mate-desktop.org/])
+AC_INIT([parchives], [1.18.2], [http://www.mate-desktop.org/])
 AM_INIT_AUTOMAKE([1.9 foreign dist-xz no-dist-gzip check-news])
 m4_ifdef([AM_SILENT_RULES], [AM_SILENT_RULES([yes])])
 
@@ -32,7 +32,7 @@ dnl ==========================================================================
 GLIB_REQUIRED=2.32.0
 GIO_REQUIRED=2.25.5
 GTK_REQUIRED=3.14.0
-PEONY_REQUIRED=1.17.1
+PEONY_REQUIRED=1.0.4
 JSON_GLIB_REQUIRED=0.14.0
 
 AC_SUBST(GLIB_REQUIRED)
@@ -153,7 +153,7 @@ fi
 
 dnl ******************************
 
-GETTEXT_PACKAGE=peony-archives
+GETTEXT_PACKAGE=parchives
 AC_SUBST(GETTEXT_PACKAGE)
 AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE, "$GETTEXT_PACKAGE", [GetText Package])
 
@@ -206,8 +206,8 @@ dnl ******************************
 
 AC_CONFIG_FILES([Makefile
 		 data/Makefile
-		 data/peony-archives.desktop.in
-		 data/org.mate.peony-archives.gschema.xml
+		 data/parchives.desktop.in
+		 data/org.mate.parchives.gschema.xml
 		 data/icons/Makefile
 		 data/icons/16x16/Makefile
 		 data/icons/16x16/actions/Makefile
@@ -227,7 +227,7 @@ AC_CONFIG_FILES([Makefile
 		 src/sh/Makefile
 		 src/ui/Makefile
 		 peony/Makefile
-		 peony/libpeony-peony-archives.peony-extension.in
+		 peony/libpeony-parchives.peony-extension.in
 		 help/Makefile
 		 po/Makefile.in])
 AC_OUTPUT

@@ -1,7 +1,7 @@
 /* -*- Mode: C; tab-width: 8; indent-tabs-mode: t; c-basic-offset: 8 -*- */
 
 /*
- *  Peony-archives
+ *  Parchives
  *
  *  Copyright (C) 2001-2009 The Free Software Foundation, Inc.
  *

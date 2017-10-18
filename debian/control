@@ -1,4 +1,4 @@
-Source: peony-archives
+Source: parchives
 Section: x11
 Priority: optional
 Maintainer: MATE Packaging Team <pkg-mate-team@lists.alioth.debian.org>
@@ -19,14 +19,14 @@ Build-Depends: debhelper (>= 10.3~),
                yelp-tools,
 Standards-Version: 4.0.0
 Homepage: http://www.mate-desktop.org/
-Vcs-Browser: https://anonscm.debian.org/git/pkg-mate/peony-archives.git
-Vcs-Git: https://anonscm.debian.org/git/pkg-mate/peony-archives.git
+Vcs-Browser: https://anonscm.debian.org/git/pkg-mate/parchives.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-mate/parchives.git
 
-Package: peony-archives
+Package: parchives
 Architecture: any
 Depends: bzip2 (>= 1.0.1),
          peony-common,
-         peony-archives-common (= ${source:Version}),
+         parchives-common (= ${source:Version}),
          gzip (>= 1.3.2),
          p7zip-full,
          tar (>= 1.13.25),
@@ -53,16 +53,16 @@ Suggests: arj,
           unalz,
           unrar-free | unar | unrar | p7zip-rar,
           zoo,
-Breaks: peony-archives-common (<< 1.8.0),
+Breaks: parchives-common (<< 1.8.0),
 Description: archive manager for MATE
- Peony-archives is an archive manager for the MATE environment. It allows you to:
+ Parchives is an archive manager for the MATE environment. It allows you to:
  .
   * Create and modify archives.
   * View the content of an archive.
   * View a file contained in an archive.
   * Extract files from the archive.
  .
- Peony-archives supports the following formats:
+ Parchives supports the following formats:
   * Tar (.tar) archives, including those compressed with
     gzip (.tar.gz, .tgz), bzip (.tar.bz, .tbz), bzip2 (.tar.bz2, .tbz2),
     compress (.tar.Z, .taz), lzip (.tar.lz, .tlz), lzop (.tar.lzo, .tzo),
@@ -75,15 +75,15 @@ Description: archive manager for MATE
   * Single files compressed with gzip (.gz), bzip (.bz), bzip2 (.bz2),
     compress (.Z), lzip (.lz), lzop (.lzo), lzma (.lzma) and xz (.xz)
  .
- Peony-archives doesn't perform archive operations by itself, but relies on
+ Parchives doesn't perform archive operations by itself, but relies on
  standard tools for this.
 
-Package: peony-archives-common
+Package: parchives-common
 Architecture: all
 Depends: ${misc:Depends},
-Breaks: peony-archives (<= 1.0.3-1),
+Breaks: parchives (<= 1.0.3-1),
 Description: archive manager for MATE (common files)
- Peony-archives is an archive manager for the MATE environment. It allows you to:
+ Parchives is an archive manager for the MATE environment. It allows you to:
  .
   * Create and modify archives.
   * View the content of an archive.

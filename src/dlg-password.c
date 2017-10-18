@@ -1,7 +1,7 @@
 /* -*- Mode: C; tab-width: 8; indent-tabs-mode: t; c-basic-offset: 8 -*- */
 
 /*
- *  Peony-archives
+ *  Parchives
  *
  *  Copyright (C) 2001 The Free Software Foundation, Inc.
  *
@@ -66,7 +66,7 @@ response_cb (GtkWidget  *dialog,
 		{
 			GSettings *settings;
 
-			settings = g_settings_new (PEONY-ARCHIVES_SCHEMA_GENERAL);
+			settings = g_settings_new (PARCHIVES_SCHEMA_GENERAL);
 			g_settings_set_boolean (settings, PREF_GENERAL_ENCRYPT_HEADER, encrypt_header);
 			g_object_unref (settings);
 		}

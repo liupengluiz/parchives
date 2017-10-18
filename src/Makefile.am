@@ -1,7 +1,7 @@
 SUBDIRS = commands sh ui
 
-bin_PROGRAMS = peony-archives
-libexec_PROGRAMS = peony-archives-server
+bin_PROGRAMS = parchives
+libexec_PROGRAMS = parchives-server
 noinst_PROGRAMS = test-server
 
 if MKDTEMP_MISSING
@@ -16,10 +16,10 @@ uidir = $(top_srcdir)/data/ui
 privexecdir = $(abs_top_builddir)/src/commands/
 shdir = $(top_srcdir)/src/sh/
 else
-privdatadir = $(datadir)/peony-archives/
-uidir = $(datadir)/peony-archives/ui
-privexecdir = $(libexecdir)/peony-archives/
-shdir = $(libexecdir)/peony-archives/
+privdatadir = $(datadir)/parchives/
+uidir = $(datadir)/parchives/ui
+privexecdir = $(libexecdir)/parchives/
+shdir = $(libexecdir)/parchives/
 endif
 
 AM_CPPFLAGS =						\
@@ -192,38 +192,38 @@ fr-enum-types.c: typedefs.h fr-enum-types.h
 	&& (cmp -s xgen-$(@F) fr-enum-types.c || cp xgen-$(@F) fr-enum-types.c ) \
 	&& rm -f xgen-$(@F) )
 
-fr-resources.c: peony-archives.gresource.xml $(shell $(GLIB_COMPILE_RESOURCES) --generate-dependencies peony-archives.gresource.xml)
-	$(GLIB_COMPILE_RESOURCES) --target=$@ --sourcedir=$(srcdir) --generate --c-name fr $(srcdir)/peony-archives.gresource.xml
+fr-resources.c: parchives.gresource.xml $(shell $(GLIB_COMPILE_RESOURCES) --generate-dependencies parchives.gresource.xml)
+	$(GLIB_COMPILE_RESOURCES) --target=$@ --sourcedir=$(srcdir) --generate --c-name fr $(srcdir)/parchives.gresource.xml
 
-fr-resources.h: peony-archives.gresource.xml $(shell $(GLIB_COMPILE_RESOURCES) --generate-dependencies peony-archives.gresource.xml)
-	$(GLIB_COMPILE_RESOURCES) --target=$@ --sourcedir=$(srcdir) --generate --c-name fr $(srcdir)/peony-archives.gresource.xml
+fr-resources.h: parchives.gresource.xml $(shell $(GLIB_COMPILE_RESOURCES) --generate-dependencies parchives.gresource.xml)
+	$(GLIB_COMPILE_RESOURCES) --target=$@ --sourcedir=$(srcdir) --generate --c-name fr $(srcdir)/parchives.gresource.xml
 
-peony-archives_SOURCES = 			\
+parchives_SOURCES = 			\
 	$(COMMON_SOURCES)		\
 	main.c
 
-peony-archives_LDADD =					\
+parchives_LDADD =					\
 	$(top_builddir)/copy-n-paste/libeggsmclient.la	\
 	$(FR_LIBS)					\
 	${JSON_GLIB_LIBS}
 
-peony-archives_server_SOURCES =		\
+parchives_server_SOURCES =		\
 	$(COMMON_SOURCES)		\
 	server.c
 
-peony-archives_server_LDADD =		\
-	$(peony-archives_LDADD)
+parchives_server_LDADD =		\
+	$(parchives_LDADD)
 
 test_server_SOURCES = test-server.c
 test_server_FLAGS = $(FR_CFLAGS)
 test_server_LDADD = $(FR_LIBS)
 
 if ENABLE_MAGIC
-peony-archives_LDADD += $(MAGIC_LIBS)
+parchives_LDADD += $(MAGIC_LIBS)
 endif
 
 EXTRA_DIST = 				\
-	peony-archives.gresource.xml		\
+	parchives.gresource.xml		\
 	fr-marshal.list
 
 CLEANFILES = $(BUILT_SOURCES)

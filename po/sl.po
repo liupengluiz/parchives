@@ -87,15 +87,15 @@ msgstr "Možnosti upravljanja seje:"
 msgid "Show session management options"
 msgstr "Pokaži možnosti upravljanja seje"
 
-#: ../data/peony-archives.appdata.xml.in.h:1
+#: ../data/parchives.appdata.xml.in.h:1
 msgid "An Archive Manager for the MATE desktop environment"
 msgstr "Upravljalnik arhivov za namizno okolje MATE"
 
-#: ../data/peony-archives.appdata.xml.in.h:2
+#: ../data/parchives.appdata.xml.in.h:2
 msgid ""
-"<p> Peony-archives is an archive manager for the MATE environment. It allows you "
+"<p> Parchives is an archive manager for the MATE environment. It allows you "
 "to create and modify archives, view the contents of an archive, view a file "
-"contained in an archive, and extract files from archive. </p> <p> Peony-archives "
+"contained in an archive, and extract files from archive. </p> <p> Parchives "
 "is only a front-end (a graphical interface) to archiving programs like tar "
 "and zip. The supported file types are: </p> <ul> <li>7-Zip Compressed File "
 "(.7z)</li> <li>WinAce Compressed File (.ace)</li> <li>ALZip Compressed File "
@@ -113,217 +113,217 @@ msgid ""
 "<li>Stuffit Archives (.bin, .sit)</li> <li>ZIP Archive (.zip)</li> <li>ZIP "
 "Archived Comic Book (.cbz)</li> <li>ZOO Compressed Archive File (.zoo)</li> "
 "<li>Single files compressed with gzip, bzip, bzip2, compress, lrzip, lzip, "
-"lzop, rzip, xz</li> </ul> <p> Peony-archives is a fork of File Roller and part of "
+"lzop, rzip, xz</li> </ul> <p> Parchives is a fork of File Roller and part of "
 "the MATE Desktop Environment. If you would like to know more about MATE and "
-"Peony-archives, please visit the project's home page. </p>"
+"Parchives, please visit the project's home page. </p>"
 msgstr ""
 
-#: ../data/peony-archives.desktop.in.in.h:1
-msgid "Peony-archives Archive Manager"
-msgstr "Upravljalnik arhivov Peony-archives"
+#: ../data/parchives.desktop.in.in.h:1
+msgid "Parchives Archive Manager"
+msgstr "Upravljalnik arhivov Parchives"
 
-#: ../data/peony-archives.desktop.in.in.h:2 ../src/fr-window.c:1981
+#: ../data/parchives.desktop.in.in.h:2 ../src/fr-window.c:1981
 #: ../src/fr-window.c:5466
 msgid "Archive Manager"
 msgstr "Upravljalnik arhivov"
 
-#: ../data/peony-archives.desktop.in.in.h:3
+#: ../data/parchives.desktop.in.in.h:3
 msgid "Create and modify an archive"
 msgstr "Ustvari in spremeni arhiv"
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:1
+#: ../data/org.mate.parchives.gschema.xml.in.h:1
 msgid "How to sort files"
 msgstr "Kako razvrstiti datoteke"
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:2
+#: ../data/org.mate.parchives.gschema.xml.in.h:2
 msgid ""
 "What criteria must be used to arrange files. Possible values: name, size, "
 "type, time, path."
 msgstr "Katera merila je potrebno uporabiti za organizacijo datotek. Možne vrednosti so: ime, velikost, vrsta, čas, pot."
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:3
+#: ../data/org.mate.parchives.gschema.xml.in.h:3
 msgid "Sort type"
 msgstr "Tip urejanja"
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:4
+#: ../data/org.mate.parchives.gschema.xml.in.h:4
 msgid ""
 "Whether to sort in ascending or descending direction. Possible values: "
 "ascending, descending."
 msgstr "Ali razvrstiti v naraščajoči ali padajoči smeri. Možne vrednosti: naraščajoče, padajoče."
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:5
+#: ../data/org.mate.parchives.gschema.xml.in.h:5
 msgid "List Mode"
 msgstr "Način seznama"
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:6
+#: ../data/org.mate.parchives.gschema.xml.in.h:6
 msgid ""
 "Whether to view all files in the archive (all_files), or view the archive as"
 " a folder (as_folder)."
 msgstr "Ali naj bo pogled na vse datoteke v arhivu (vse_datoteke), ali pogled arhiva kot mapo (kot_mapo)."
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:7
+#: ../data/org.mate.parchives.gschema.xml.in.h:7
 msgid "Display type"
 msgstr "Pokaži vrsto"
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:8
+#: ../data/org.mate.parchives.gschema.xml.in.h:8
 msgid "Display the Type column in the main window."
 msgstr "Pokaži stolpec Vrsta v glavnem oknu"
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:9
+#: ../data/org.mate.parchives.gschema.xml.in.h:9
 msgid "Display size"
 msgstr "Pokaži velikost"
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:10
+#: ../data/org.mate.parchives.gschema.xml.in.h:10
 msgid "Display the Size column in the main window."
 msgstr "Pokaži stolpec Velikost v glavnem oknu"
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:11
+#: ../data/org.mate.parchives.gschema.xml.in.h:11
 msgid "Display time"
 msgstr "Pokaži čas"
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:12
+#: ../data/org.mate.parchives.gschema.xml.in.h:12
 msgid "Display the Time column in the main window."
 msgstr "Prikaži stolpec Čas v glavnem oknu."
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:13
+#: ../data/org.mate.parchives.gschema.xml.in.h:13
 msgid "Display path"
 msgstr "Pokaži pot"
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:14
+#: ../data/org.mate.parchives.gschema.xml.in.h:14
 msgid "Display the Path column in the main window."
 msgstr "Pokaži stolpec Pot v glavnem oknu"
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:15
+#: ../data/org.mate.parchives.gschema.xml.in.h:15
 msgid "Use MIME icons"
 msgstr "Uporabi ikone MIME"
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:16
+#: ../data/org.mate.parchives.gschema.xml.in.h:16
 msgid ""
 "if TRUE will display icons depending on the file type (slower), otherwise "
 "will use always the same icon for all files (faster)."
 msgstr ""
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:17
+#: ../data/org.mate.parchives.gschema.xml.in.h:17
 msgid "Name column width"
 msgstr "Vnesi širino stolpca"
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:18
+#: ../data/org.mate.parchives.gschema.xml.in.h:18
 msgid "The default width of the name column in the file list."
 msgstr "Privzeta širina imena stolpca v seznamu datotek."
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:19
+#: ../data/org.mate.parchives.gschema.xml.in.h:19
 msgid "Max history length"
 msgstr ""
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:20
+#: ../data/org.mate.parchives.gschema.xml.in.h:20
 msgid "Max number of items in the Open Recents menu."
 msgstr ""
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:21
+#: ../data/org.mate.parchives.gschema.xml.in.h:21
 msgid "View toolbar"
 msgstr "Pokaži orodno vrstico"
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:22
+#: ../data/org.mate.parchives.gschema.xml.in.h:22
 msgid "Whether to display the toolbar."
 msgstr "Ali naj se prikaže orodna vrstica."
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:23
+#: ../data/org.mate.parchives.gschema.xml.in.h:23
 msgid "View statusbar"
 msgstr "Pokaži vrstico stanja"
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:24
+#: ../data/org.mate.parchives.gschema.xml.in.h:24
 msgid "Whether to display the statusbar."
 msgstr "Ali naj se prikaže vrstica stanja."
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:25 ../src/ui.h:234
+#: ../data/org.mate.parchives.gschema.xml.in.h:25 ../src/ui.h:234
 msgid "View the folders pane"
 msgstr "Pokaži pladenj z mapami"
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:26
+#: ../data/org.mate.parchives.gschema.xml.in.h:26
 msgid "Whether to display the folders pane."
 msgstr "Ali naj se prikaže podokno z mapami."
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:27
+#: ../data/org.mate.parchives.gschema.xml.in.h:27
 msgid "Editors"
 msgstr "Urejevalniki"
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:28
+#: ../data/org.mate.parchives.gschema.xml.in.h:28
 msgid ""
 "List of applications entered in the Open file dialog and not associated with"
 " the file type."
 msgstr "Seznam programov vnesenih v pogovornem oknu Odpri datoteke, niso povezani z vrsto datoteke."
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:29
+#: ../data/org.mate.parchives.gschema.xml.in.h:29
 msgid "Compression level"
 msgstr "Nivo stiskanja"
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:30
+#: ../data/org.mate.parchives.gschema.xml.in.h:30
 msgid ""
 "Compression level used when adding files to an archive. Possible values: "
 "very_fast, fast, normal, maximum."
 msgstr "Stopnja stiskanja pri dodajanju datotek v arhiv. Možne vrednosti: zelo_hitro, hitro, normalno, največje."
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:31
+#: ../data/org.mate.parchives.gschema.xml.in.h:31
 msgid "Encrypt the archive header"
 msgstr "Šifriraj glavo arhiva"
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:32
+#: ../data/org.mate.parchives.gschema.xml.in.h:32
 msgid ""
 "Whether to encrypt the archive header. If the header is encrypted the "
 "password will be required to list the archive content as well."
 msgstr ""
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:33
+#: ../data/org.mate.parchives.gschema.xml.in.h:33
 msgid "Overwrite existing files"
 msgstr "Prepiši obstoječe datoteke"
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:34
+#: ../data/org.mate.parchives.gschema.xml.in.h:34
 msgid "Do not overwrite newer files"
 msgstr "Ne prepiši obstoječih datotek"
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:35
+#: ../data/org.mate.parchives.gschema.xml.in.h:35
 msgid "Recreate the folders stored in the archive"
 msgstr "Poustvari mape, shranjene v arhivu"
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:36
+#: ../data/org.mate.parchives.gschema.xml.in.h:36
 msgid "Default volume size"
 msgstr ""
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:37
+#: ../data/org.mate.parchives.gschema.xml.in.h:37
 msgid "The default size for volumes."
 msgstr ""
 
-#: ../peony/peony-peony-archives.c:335
+#: ../peony/peony-parchives.c:335
 msgid "Extract Here"
 msgstr "Razširi v to mapo"
 
 #. Translators: the current position is the current folder
-#: ../peony/peony-peony-archives.c:337
+#: ../peony/peony-parchives.c:337
 msgid "Extract the selected archive to the current position"
 msgstr "Razširi vsebino izbranega arhiva na trenutno mesto"
 
-#: ../peony/peony-peony-archives.c:354
+#: ../peony/peony-parchives.c:354
 msgid "Extract To..."
 msgstr "Razširi vsebino v ..."
 
-#: ../peony/peony-peony-archives.c:355
+#: ../peony/peony-parchives.c:355
 msgid "Extract the selected archive"
 msgstr "Razširi vsebino izbranega arhiva"
 
-#: ../peony/peony-peony-archives.c:374
+#: ../peony/peony-parchives.c:374
 msgid "Compress..."
 msgstr "Skrči ..."
 
-#: ../peony/peony-peony-archives.c:375
+#: ../peony/peony-parchives.c:375
 msgid "Create a compressed archive with the selected objects"
 msgstr "Ustvari skrčen arhiv z izbranimi predmeti"
 
-#: ../peony/libpeony-peony-archives.peony-extension.in.in.h:1 ../src/main.c:330
+#: ../peony/libpeony-parchives.peony-extension.in.in.h:1 ../src/main.c:330
 #: ../src/server.c:457
-msgid "Peony-archives"
-msgstr "Peony-archives"
+msgid "Parchives"
+msgstr "Parchives"
 
-#: ../peony/libpeony-peony-archives.peony-extension.in.in.h:2
+#: ../peony/libpeony-parchives.peony-extension.in.in.h:2
 msgid "Allows to create and extract archives"
 msgstr ""
 
@@ -370,24 +370,24 @@ msgstr "Zadnji izpis"
 
 #: ../src/actions.c:860
 msgid ""
-"Peony-archives is free software; you can redistribute it and/or modify it under "
+"Parchives is free software; you can redistribute it and/or modify it under "
 "the terms of the GNU General Public License as published by the Free "
 "Software Foundation; either version 2 of the License, or (at your option) "
 "any later version."
-msgstr "Peony-archives je prosta programska oprema; lahko jo širite in spreminjate pod pogoji GNU splošne javne licence, kot jo določa Free Software Foundation; različica 2 ali kasnejše različice."
+msgstr "Parchives je prosta programska oprema; lahko jo širite in spreminjate pod pogoji GNU splošne javne licence, kot jo določa Free Software Foundation; različica 2 ali kasnejše različice."
 
 #: ../src/actions.c:864
 msgid ""
-"Peony-archives is distributed in the hope that it will be useful, but WITHOUT ANY "
+"Parchives is distributed in the hope that it will be useful, but WITHOUT ANY "
 "WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
 "FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
 "details."
-msgstr "Peony-archives se razširja v upanju, da bo uporaben, vendar BREZ VSAKRŠNJEGA JAMSTVA; tudi brez posredne zagotovitve CENOVNE VREDNOSTI ali PRIMERNOSTI ZA DOLOČEN NAMEN. Za več podrobnosti si oglejte dovoljenje GNU General Public License."
+msgstr "Parchives se razširja v upanju, da bo uporaben, vendar BREZ VSAKRŠNJEGA JAMSTVA; tudi brez posredne zagotovitve CENOVNE VREDNOSTI ali PRIMERNOSTI ZA DOLOČEN NAMEN. Za več podrobnosti si oglejte dovoljenje GNU General Public License."
 
 #: ../src/actions.c:868
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
-" Peony-archives; if not, write to the Free Software Foundation, Inc., 51 Franklin "
+" Parchives; if not, write to the Free Software Foundation, Inc., 51 Franklin "
 "St, Fifth Floor, Boston, MA  02110-1301 USA"
 msgstr "S programom bi morali dobiti tudi kopijo GNU splošne javne licence; če je niste, pišite na Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA"
 
@@ -1389,8 +1389,8 @@ msgid "Contents"
 msgstr "Vsebina"
 
 #: ../src/ui.h:64
-msgid "Display the Peony-archives Manual"
-msgstr "Prikaži priročnik programa Peony-archives"
+msgid "Display the Parchives Manual"
+msgstr "Prikaži priročnik programa Parchives"
 
 #: ../src/ui.h:69 ../src/ui.h:90
 msgid "Copy the selection"

@@ -91,15 +91,15 @@ msgstr "Ortam yönetimi seçenekleri:"
 msgid "Show session management options"
 msgstr "Ortam yönetimi seçeneklerini göster"
 
-#: ../data/peony-archives.appdata.xml.in.h:1
+#: ../data/parchives.appdata.xml.in.h:1
 msgid "An Archive Manager for the MATE desktop environment"
 msgstr "MATE masaüstü ortamı için bir Arşiv Yöneticisi"
 
-#: ../data/peony-archives.appdata.xml.in.h:2
+#: ../data/parchives.appdata.xml.in.h:2
 msgid ""
-"<p> Peony-archives is an archive manager for the MATE environment. It allows you "
+"<p> Parchives is an archive manager for the MATE environment. It allows you "
 "to create and modify archives, view the contents of an archive, view a file "
-"contained in an archive, and extract files from archive. </p> <p> Peony-archives "
+"contained in an archive, and extract files from archive. </p> <p> Parchives "
 "is only a front-end (a graphical interface) to archiving programs like tar "
 "and zip. The supported file types are: </p> <ul> <li>7-Zip Compressed File "
 "(.7z)</li> <li>WinAce Compressed File (.ace)</li> <li>ALZip Compressed File "
@@ -117,217 +117,217 @@ msgid ""
 "<li>Stuffit Archives (.bin, .sit)</li> <li>ZIP Archive (.zip)</li> <li>ZIP "
 "Archived Comic Book (.cbz)</li> <li>ZOO Compressed Archive File (.zoo)</li> "
 "<li>Single files compressed with gzip, bzip, bzip2, compress, lrzip, lzip, "
-"lzop, rzip, xz</li> </ul> <p> Peony-archives is a fork of File Roller and part of "
+"lzop, rzip, xz</li> </ul> <p> Parchives is a fork of File Roller and part of "
 "the MATE Desktop Environment. If you would like to know more about MATE and "
-"Peony-archives, please visit the project's home page. </p>"
-msgstr "<p>Peony-archives, MATE ortamı için bir arşiv yöneticisidir. Arşiv oluşturmaya, değiştirmeye, arşivin içeriğini görüntülemeye, arşivde bulunan herhangi bir dosyayı görüntülemeye ve arşivden dosya çıkarmaya imkân sağlar.</p> <p> Peony-archives, tar ve zip gibi arşivleme programları için sadece bir önyüzdür (yani bir grafik arayüzdür). Desteklenen dosya türleri şunlardır: </p> <ul> <li>7-Zip ile Sıkıştırılmış Dosyalar (.7z)</li> <li>WinAce ile Sıkıştırılmış Dosyalar (.ace)</li> <li>ALZip ile Sıkıştırılmış Dosyalar (.alz)</li> <li>AIX Küçük Endeksli Arşivler (.ar)</li> <li>ARJ ile Sıkıştırılmış Dosyalar (.arj)</li> <li>Cabinet Dosyaları (.cab)</li> <li>UNIX CPIO Arşivleri (.cpio)</li> <li>Debian Linux Paketleri (.deb) [Sadece okunabilir kip]</li> <li>ISO-9660 CD Disk Kalıpları (.iso) [Sadece okunabilir kip]</li> <li>Java Arşivleri (.jar)</li> <li>Java Şirket arşivleri (Java Enterprise archive, .ear)</li> <li>Java Ağ Arşivleri (.war)</li> <li>LHA Arşivleri (.lzh, .lha)</li> <li>WinRAR ile Sıkıştırılmış Arşivler (.rar)</li> <li>RAR ile arşivlenmiş Çizgi Romanlar (.cbr)</li> <li>RPM Linux Paketleri (.rpm) [Sadece okunabilir kip]</li> <li>Sıkıştırılmamış Teyp Arşiv Dosyaları (.tar), ya da gzip ile (.tar.gz, .tgz), bzip ile (.tar.bz, .tbz), bzip2 ile (.tar.bz2, .tbz2), compress ile (.tar.Z, .taz), lrzip ile (.tar.lrz, tlrz), lzip ile (.tar.lz, .tlz), lzop ile (.tar.lzo, tzo), 7zip ile (.tar.7z) veya xz ile (tar.xz) sıkıştırılmış teyp arşivleri</li> <li>Stuffit Arşivleri (.bin, .sit)</li> <li>ZIP Arşivleri (.zip)</li> <li>ZIP ile arşivlenmiş Çizgi Romanlar (.cbz)</li> <li>ZOO ile Sıkıştırılmış Arşiv Dosyaları</li> <li>gzip, bzip, bzip2, compress, lrzip, lzip, lzop, rzip ve xz ile sıkıştırılmış tek dosyalar</li> </ul> <p>Peony-archives, File Roller'dan çatallanmıştır ve MATE masaüstü ortamının bir parçasıdır. MATE ve Peony-archives hakkında daha fazla bilgi edinmek istiyorsanız projenin ağ sayfasını ziyaret ediniz.</p>"
+"Parchives, please visit the project's home page. </p>"
+msgstr "<p>Parchives, MATE ortamı için bir arşiv yöneticisidir. Arşiv oluşturmaya, değiştirmeye, arşivin içeriğini görüntülemeye, arşivde bulunan herhangi bir dosyayı görüntülemeye ve arşivden dosya çıkarmaya imkân sağlar.</p> <p> Parchives, tar ve zip gibi arşivleme programları için sadece bir önyüzdür (yani bir grafik arayüzdür). Desteklenen dosya türleri şunlardır: </p> <ul> <li>7-Zip ile Sıkıştırılmış Dosyalar (.7z)</li> <li>WinAce ile Sıkıştırılmış Dosyalar (.ace)</li> <li>ALZip ile Sıkıştırılmış Dosyalar (.alz)</li> <li>AIX Küçük Endeksli Arşivler (.ar)</li> <li>ARJ ile Sıkıştırılmış Dosyalar (.arj)</li> <li>Cabinet Dosyaları (.cab)</li> <li>UNIX CPIO Arşivleri (.cpio)</li> <li>Debian Linux Paketleri (.deb) [Sadece okunabilir kip]</li> <li>ISO-9660 CD Disk Kalıpları (.iso) [Sadece okunabilir kip]</li> <li>Java Arşivleri (.jar)</li> <li>Java Şirket arşivleri (Java Enterprise archive, .ear)</li> <li>Java Ağ Arşivleri (.war)</li> <li>LHA Arşivleri (.lzh, .lha)</li> <li>WinRAR ile Sıkıştırılmış Arşivler (.rar)</li> <li>RAR ile arşivlenmiş Çizgi Romanlar (.cbr)</li> <li>RPM Linux Paketleri (.rpm) [Sadece okunabilir kip]</li> <li>Sıkıştırılmamış Teyp Arşiv Dosyaları (.tar), ya da gzip ile (.tar.gz, .tgz), bzip ile (.tar.bz, .tbz), bzip2 ile (.tar.bz2, .tbz2), compress ile (.tar.Z, .taz), lrzip ile (.tar.lrz, tlrz), lzip ile (.tar.lz, .tlz), lzop ile (.tar.lzo, tzo), 7zip ile (.tar.7z) veya xz ile (tar.xz) sıkıştırılmış teyp arşivleri</li> <li>Stuffit Arşivleri (.bin, .sit)</li> <li>ZIP Arşivleri (.zip)</li> <li>ZIP ile arşivlenmiş Çizgi Romanlar (.cbz)</li> <li>ZOO ile Sıkıştırılmış Arşiv Dosyaları</li> <li>gzip, bzip, bzip2, compress, lrzip, lzip, lzop, rzip ve xz ile sıkıştırılmış tek dosyalar</li> </ul> <p>Parchives, File Roller'dan çatallanmıştır ve MATE masaüstü ortamının bir parçasıdır. MATE ve Parchives hakkında daha fazla bilgi edinmek istiyorsanız projenin ağ sayfasını ziyaret ediniz.</p>"
 
-#: ../data/peony-archives.desktop.in.in.h:1
-msgid "Peony-archives Archive Manager"
-msgstr "Peony-archives Arşiv Yöneticisi"
+#: ../data/parchives.desktop.in.in.h:1
+msgid "Parchives Archive Manager"
+msgstr "Parchives Arşiv Yöneticisi"
 
-#: ../data/peony-archives.desktop.in.in.h:2 ../src/fr-window.c:1981
+#: ../data/parchives.desktop.in.in.h:2 ../src/fr-window.c:1981
 #: ../src/fr-window.c:5466
 msgid "Archive Manager"
 msgstr "Arşiv Yöneticisi"
 
-#: ../data/peony-archives.desktop.in.in.h:3
+#: ../data/parchives.desktop.in.in.h:3
 msgid "Create and modify an archive"
 msgstr "Bir arşiv yarat ve değiştir"
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:1
+#: ../data/org.mate.parchives.gschema.xml.in.h:1
 msgid "How to sort files"
 msgstr "Dosyaların nasıl sıralanacağı"
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:2
+#: ../data/org.mate.parchives.gschema.xml.in.h:2
 msgid ""
 "What criteria must be used to arrange files. Possible values: name, size, "
 "type, time, path."
 msgstr "Dosya düzenleme için kullanılacak kriterler. Olası değerler: isim, boyut, tür, zaman, yol."
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:3
+#: ../data/org.mate.parchives.gschema.xml.in.h:3
 msgid "Sort type"
 msgstr "Sıralama türü"
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:4
+#: ../data/org.mate.parchives.gschema.xml.in.h:4
 msgid ""
 "Whether to sort in ascending or descending direction. Possible values: "
 "ascending, descending."
 msgstr "Artan veya azalan yönde sıralama olup olmaması. Olası değerler: artan, azalan."
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:5
+#: ../data/org.mate.parchives.gschema.xml.in.h:5
 msgid "List Mode"
 msgstr "Liste kipi"
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:6
+#: ../data/org.mate.parchives.gschema.xml.in.h:6
 msgid ""
 "Whether to view all files in the archive (all_files), or view the archive as"
 " a folder (as_folder)."
 msgstr "Arşiv içeriğini tümünün görülüp görülmemesi (all_files), ya da arşivin dizin görünümünde olup olmaması (as_folder)."
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:7
+#: ../data/org.mate.parchives.gschema.xml.in.h:7
 msgid "Display type"
 msgstr "Türü görüntüle"
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:8
+#: ../data/org.mate.parchives.gschema.xml.in.h:8
 msgid "Display the Type column in the main window."
 msgstr "Ana pencere Tür sütununu göster."
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:9
+#: ../data/org.mate.parchives.gschema.xml.in.h:9
 msgid "Display size"
 msgstr "Boyutu görüntüle"
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:10
+#: ../data/org.mate.parchives.gschema.xml.in.h:10
 msgid "Display the Size column in the main window."
 msgstr "Ana pencere Boyut sütununu göster."
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:11
+#: ../data/org.mate.parchives.gschema.xml.in.h:11
 msgid "Display time"
 msgstr "Zamanı görüntüle"
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:12
+#: ../data/org.mate.parchives.gschema.xml.in.h:12
 msgid "Display the Time column in the main window."
 msgstr "Ana pencere Zaman sütununu göster."
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:13
+#: ../data/org.mate.parchives.gschema.xml.in.h:13
 msgid "Display path"
 msgstr "Yolu görüntüle"
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:14
+#: ../data/org.mate.parchives.gschema.xml.in.h:14
 msgid "Display the Path column in the main window."
 msgstr "Ana pencere Yol sütununu göster."
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:15
+#: ../data/org.mate.parchives.gschema.xml.in.h:15
 msgid "Use MIME icons"
 msgstr "MIME simgelerini kullan"
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:16
+#: ../data/org.mate.parchives.gschema.xml.in.h:16
 msgid ""
 "if TRUE will display icons depending on the file type (slower), otherwise "
 "will use always the same icon for all files (faster)."
 msgstr "Eğer doğruysa dosya türüyle bağlantılı simgeler gösterilir (yavaş), aksi durumda tüm dosyalar için aynı simge kullanılır (hızlı)."
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:17
+#: ../data/org.mate.parchives.gschema.xml.in.h:17
 msgid "Name column width"
 msgstr "İsim sütun genişliği"
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:18
+#: ../data/org.mate.parchives.gschema.xml.in.h:18
 msgid "The default width of the name column in the file list."
 msgstr "Listedeki isim sütununun varsayılan genişliği"
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:19
+#: ../data/org.mate.parchives.gschema.xml.in.h:19
 msgid "Max history length"
 msgstr "Maksimum geçmiş uzunluğu"
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:20
+#: ../data/org.mate.parchives.gschema.xml.in.h:20
 msgid "Max number of items in the Open Recents menu."
 msgstr "Son Kullanılanlar menüsündeki öğelerin maksimum sayısı"
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:21
+#: ../data/org.mate.parchives.gschema.xml.in.h:21
 msgid "View toolbar"
 msgstr "Araç çubuğunu göster"
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:22
+#: ../data/org.mate.parchives.gschema.xml.in.h:22
 msgid "Whether to display the toolbar."
 msgstr "Araç çubuğunun görünüp görünmemesi."
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:23
+#: ../data/org.mate.parchives.gschema.xml.in.h:23
 msgid "View statusbar"
 msgstr "Durum çubuğunu göster"
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:24
+#: ../data/org.mate.parchives.gschema.xml.in.h:24
 msgid "Whether to display the statusbar."
 msgstr "Durum çubuğunun görünüp görünmemesi."
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:25 ../src/ui.h:234
+#: ../data/org.mate.parchives.gschema.xml.in.h:25 ../src/ui.h:234
 msgid "View the folders pane"
 msgstr "Dizinler panelini göster"
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:26
+#: ../data/org.mate.parchives.gschema.xml.in.h:26
 msgid "Whether to display the folders pane."
 msgstr "Dizinler bölmesinin görünüp görünmemesi."
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:27
+#: ../data/org.mate.parchives.gschema.xml.in.h:27
 msgid "Editors"
 msgstr "Düzenleyiciler"
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:28
+#: ../data/org.mate.parchives.gschema.xml.in.h:28
 msgid ""
 "List of applications entered in the Open file dialog and not associated with"
 " the file type."
 msgstr "Birlikte aç penceresindeki girili uygulamaların ve dosya türü ile ilişkili olmayan uygulamaların listesi"
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:29
+#: ../data/org.mate.parchives.gschema.xml.in.h:29
 msgid "Compression level"
 msgstr "Sıkıştırma seviyesi"
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:30
+#: ../data/org.mate.parchives.gschema.xml.in.h:30
 msgid ""
 "Compression level used when adding files to an archive. Possible values: "
 "very_fast, fast, normal, maximum."
 msgstr "Bir arşive dosya eklerken kullanılan sıkıştırma düzeyi. Olası değerler: çok_hızlı, hızlı, normal, azami."
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:31
+#: ../data/org.mate.parchives.gschema.xml.in.h:31
 msgid "Encrypt the archive header"
 msgstr "Arşiv başlığını şifrele"
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:32
+#: ../data/org.mate.parchives.gschema.xml.in.h:32
 msgid ""
 "Whether to encrypt the archive header. If the header is encrypted the "
 "password will be required to list the archive content as well."
 msgstr "Arşiv başlığının şifrelenmiş olup olmaması. Eğer arşiv başlığı şifrelenirse, arşiv içeriği listesi için şifre gerekli olacaktır. "
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:33
+#: ../data/org.mate.parchives.gschema.xml.in.h:33
 msgid "Overwrite existing files"
 msgstr "Mevcut dosyaların üstüne yaz"
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:34
+#: ../data/org.mate.parchives.gschema.xml.in.h:34
 msgid "Do not overwrite newer files"
 msgstr "Yeni dosyaların üzerine yazma"
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:35
+#: ../data/org.mate.parchives.gschema.xml.in.h:35
 msgid "Recreate the folders stored in the archive"
 msgstr "Arşivde saklanan dizinleri yeniden oluştur"
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:36
+#: ../data/org.mate.parchives.gschema.xml.in.h:36
 msgid "Default volume size"
 msgstr "Varsayılan birim boyutu"
 
-#: ../data/org.mate.peony-archives.gschema.xml.in.h:37
+#: ../data/org.mate.parchives.gschema.xml.in.h:37
 msgid "The default size for volumes."
 msgstr "Birimlerin varsayılan boyutu"
 
-#: ../peony/peony-peony-archives.c:335
+#: ../peony/peony-parchives.c:335
 msgid "Extract Here"
 msgstr "Buraya Aç"
 
 #. Translators: the current position is the current folder
-#: ../peony/peony-peony-archives.c:337
+#: ../peony/peony-parchives.c:337
 msgid "Extract the selected archive to the current position"
 msgstr "Seçilen arşivi mevcut konuma aç"
 
-#: ../peony/peony-peony-archives.c:354
+#: ../peony/peony-parchives.c:354
 msgid "Extract To..."
 msgstr "Konuma _Aç..."
 
-#: ../peony/peony-peony-archives.c:355
+#: ../peony/peony-parchives.c:355
 msgid "Extract the selected archive"
 msgstr "Seçili arşivi aç"
 
-#: ../peony/peony-peony-archives.c:374
+#: ../peony/peony-parchives.c:374
 msgid "Compress..."
 msgstr "Sıkıştır..."
 
-#: ../peony/peony-peony-archives.c:375
+#: ../peony/peony-parchives.c:375
 msgid "Create a compressed archive with the selected objects"
 msgstr "Seçilen nesnelerle sıkıştırılmış bir arşiv oluştur"
 
-#: ../peony/libpeony-peony-archives.peony-extension.in.in.h:1 ../src/main.c:330
+#: ../peony/libpeony-parchives.peony-extension.in.in.h:1 ../src/main.c:330
 #: ../src/server.c:457
-msgid "Peony-archives"
-msgstr "Peony-archives"
+msgid "Parchives"
+msgstr "Parchives"
 
-#: ../peony/libpeony-peony-archives.peony-extension.in.in.h:2
+#: ../peony/libpeony-parchives.peony-extension.in.in.h:2
 msgid "Allows to create and extract archives"
 msgstr "Arşiv oluşturulmasına ve açılmasına imkân sağlar"
 
@@ -374,24 +374,24 @@ msgstr "Son Çıktı"
 
 #: ../src/actions.c:860
 msgid ""
-"Peony-archives is free software; you can redistribute it and/or modify it under "
+"Parchives is free software; you can redistribute it and/or modify it under "
 "the terms of the GNU General Public License as published by the Free "
 "Software Foundation; either version 2 of the License, or (at your option) "
 "any later version."
-msgstr "Peony-archives özgür yazılımdır; Özgür Yazılım Vakfı tarafından yayınlanan GNU Genel Kamu Lisansının 2. veya (tercihinize bağlı olarak) daha sonraki bir sürümü kapsamında yeniden dağıtabilir ve/veya değiştirebilirsiniz."
+msgstr "Parchives özgür yazılımdır; Özgür Yazılım Vakfı tarafından yayınlanan GNU Genel Kamu Lisansının 2. veya (tercihinize bağlı olarak) daha sonraki bir sürümü kapsamında yeniden dağıtabilir ve/veya değiştirebilirsiniz."
 
 #: ../src/actions.c:864
 msgid ""
-"Peony-archives is distributed in the hope that it will be useful, but WITHOUT ANY "
+"Parchives is distributed in the hope that it will be useful, but WITHOUT ANY "
 "WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
 "FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
 "details."
-msgstr "Peony-archives faydalı olacağı umularak dağıtılmaktadır, fakat HİÇ BİR GARANTİSİ YOKTUR; SATILABİLİRLİĞİ veya HERHANGİBİR AMACA UYGUNLUĞU için dahi zımni bir garanti içermez. Daha fazla bilgi için GNU Genel Kamu Lisansı'na bakın."
+msgstr "Parchives faydalı olacağı umularak dağıtılmaktadır, fakat HİÇ BİR GARANTİSİ YOKTUR; SATILABİLİRLİĞİ veya HERHANGİBİR AMACA UYGUNLUĞU için dahi zımni bir garanti içermez. Daha fazla bilgi için GNU Genel Kamu Lisansı'na bakın."
 
 #: ../src/actions.c:868
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
-" Peony-archives; if not, write to the Free Software Foundation, Inc., 51 Franklin "
+" Parchives; if not, write to the Free Software Foundation, Inc., 51 Franklin "
 "St, Fifth Floor, Boston, MA  02110-1301 USA"
 msgstr "Bu yazılımla birlikte GNU Genel Kamu Lisansı'nın bir kopyası gelmiş olmalıdır; eğer yok ise, lütfen Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA adresine yazın"
 
@@ -1385,8 +1385,8 @@ msgid "Contents"
 msgstr "İçindekiler"
 
 #: ../src/ui.h:64
-msgid "Display the Peony-archives Manual"
-msgstr "Peony-archives Kılavuzunu Görüntüle"
+msgid "Display the Parchives Manual"
+msgstr "Parchives Kılavuzunu Görüntüle"
 
 #: ../src/ui.h:69 ../src/ui.h:90
 msgid "Copy the selection"
