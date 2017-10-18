@@ -1,7 +1,7 @@
 /* -*- Mode: C; tab-width: 8; indent-tabs-mode: t; c-basic-offset: 8 -*- */
 
 /*
- *  Engrampa
+ *  Peony-archives
  *
  *  Copyright (C) 2001, 2004 Free Software Foundation, Inc.
  *
@@ -68,7 +68,7 @@ static int
 help_cb (GtkWidget   *w,
 	 DialogData  *data)
 {
-	show_help_dialog (GTK_WINDOW (data->dialog), "engrampa-view-archive-properties");
+	show_help_dialog (GTK_WINDOW (data->dialog), "peony-archives-view-archive-properties");
 	return TRUE;
 }
 

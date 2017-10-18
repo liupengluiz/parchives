@@ -90,15 +90,15 @@ msgstr "Opsi manajemen sesi:"
 msgid "Show session management options"
 msgstr "Menampilkan opsi manajemen sesi"
 
-#: ../data/engrampa.appdata.xml.in.h:1
+#: ../data/peony-archives.appdata.xml.in.h:1
 msgid "An Archive Manager for the MATE desktop environment"
 msgstr "Manajer arsip untuk lingkungan desktop MATE"
 
-#: ../data/engrampa.appdata.xml.in.h:2
+#: ../data/peony-archives.appdata.xml.in.h:2
 msgid ""
-"<p> Engrampa is an archive manager for the MATE environment. It allows you "
+"<p> Peony-archives is an archive manager for the MATE environment. It allows you "
 "to create and modify archives, view the contents of an archive, view a file "
-"contained in an archive, and extract files from archive. </p> <p> Engrampa "
+"contained in an archive, and extract files from archive. </p> <p> Peony-archives "
 "is only a front-end (a graphical interface) to archiving programs like tar "
 "and zip. The supported file types are: </p> <ul> <li>7-Zip Compressed File "
 "(.7z)</li> <li>WinAce Compressed File (.ace)</li> <li>ALZip Compressed File "
@@ -116,217 +116,217 @@ msgid ""
 "<li>Stuffit Archives (.bin, .sit)</li> <li>ZIP Archive (.zip)</li> <li>ZIP "
 "Archived Comic Book (.cbz)</li> <li>ZOO Compressed Archive File (.zoo)</li> "
 "<li>Single files compressed with gzip, bzip, bzip2, compress, lrzip, lzip, "
-"lzop, rzip, xz</li> </ul> <p> Engrampa is a fork of File Roller and part of "
+"lzop, rzip, xz</li> </ul> <p> Peony-archives is a fork of File Roller and part of "
 "the MATE Desktop Environment. If you would like to know more about MATE and "
-"Engrampa, please visit the project's home page. </p>"
-msgstr "<p> Engrampa adalah manajer arsip untuk lingkungan MATE. Engrampa memungkinkan Anda untuk membuat dan memodifikasi arsip, melihat isi arsip, melihat berkas yang tersimpan pada arsip, dan mengekstrak berkas dari arsip. </p> <p> Engrampa hanyalah front-end (antarmuka grafis) untuk program pengarsipan seperti tar dan zip. Jenis berkas yang didukung adalah </p> <ul> <li>File Terkompresi 7-Zip (.7z)</li> <li>Berkas Terkompresi WinAce (.ace)</li> <li>Berkas Terkompresi  ALZip (.alz)</li> <li>Arsip Index AIX (.ar)</li> <li>Arsip Terkompresi ARJ (.arj)</li> <li>Berkas Cabinet (.cab)</li> <li>Arsip UNIX CPIO (.cpio)</li> <li>Paket Debian Linux (.deb) [mode baca]</li> <li>Citra Disc CD ISO-9660 (.iso) [mode baca]</li> <li>Arsip Java (.jar)</li> <li>Arsip Java Enterprise (.ear)</li> <li>Arsip Java Web (.war)</li> <li>Arsip LHA (.lzh, .lha)</li> <li>Arsip Terkompresi WinRAR (.rar)</li> <li>Buku Komik Arsip RAR (.cbr)</li> <li>Paket RPM Linux (.rpm) [mode baca]</li> <li>Berkas Arsip Tape Tidak Terkompresi (.tar) atau terkompresi dengan: gzip (.tar.gz, .tgz), bzip (.tar.bz, .tbz), bzip2 (.tar.bz2, .tbz2), compress (.tar.Z, .taz), lrzip (.tar.lrz, .tlrz), lzip (.tar.lz, .tlz), lzop (.tar.lzo, .tzo), 7zip (.tar.7z), xz (.tar.xz) </li> <li>Arsip Stuffit (.bin, .sit)</li> <li>Arsip ZIP (.zip)</li> <li>Buku Komik Arsip ZIP (.cbz)</li> <li>Arsip Berkas Terkompresi ZOO (.zoo)</li> <li>Berkas tunggal yang dikompresi dengan gzip, bzip, bzip2, compress, lrzip, lzip, lzop, rzip, xz</li> </ul> <p> Engrampa adalah fork dari File Roller dan merupakan bagian dari Lingkungan Desktop MATE. Jika Anda ingin mengetahui lebih lanjut tentang MATE dan Engrampa, harap mengunjungi laman proyek. </p>"
+"Peony-archives, please visit the project's home page. </p>"
+msgstr "<p> Peony-archives adalah manajer arsip untuk lingkungan MATE. Peony-archives memungkinkan Anda untuk membuat dan memodifikasi arsip, melihat isi arsip, melihat berkas yang tersimpan pada arsip, dan mengekstrak berkas dari arsip. </p> <p> Peony-archives hanyalah front-end (antarmuka grafis) untuk program pengarsipan seperti tar dan zip. Jenis berkas yang didukung adalah </p> <ul> <li>File Terkompresi 7-Zip (.7z)</li> <li>Berkas Terkompresi WinAce (.ace)</li> <li>Berkas Terkompresi  ALZip (.alz)</li> <li>Arsip Index AIX (.ar)</li> <li>Arsip Terkompresi ARJ (.arj)</li> <li>Berkas Cabinet (.cab)</li> <li>Arsip UNIX CPIO (.cpio)</li> <li>Paket Debian Linux (.deb) [mode baca]</li> <li>Citra Disc CD ISO-9660 (.iso) [mode baca]</li> <li>Arsip Java (.jar)</li> <li>Arsip Java Enterprise (.ear)</li> <li>Arsip Java Web (.war)</li> <li>Arsip LHA (.lzh, .lha)</li> <li>Arsip Terkompresi WinRAR (.rar)</li> <li>Buku Komik Arsip RAR (.cbr)</li> <li>Paket RPM Linux (.rpm) [mode baca]</li> <li>Berkas Arsip Tape Tidak Terkompresi (.tar) atau terkompresi dengan: gzip (.tar.gz, .tgz), bzip (.tar.bz, .tbz), bzip2 (.tar.bz2, .tbz2), compress (.tar.Z, .taz), lrzip (.tar.lrz, .tlrz), lzip (.tar.lz, .tlz), lzop (.tar.lzo, .tzo), 7zip (.tar.7z), xz (.tar.xz) </li> <li>Arsip Stuffit (.bin, .sit)</li> <li>Arsip ZIP (.zip)</li> <li>Buku Komik Arsip ZIP (.cbz)</li> <li>Arsip Berkas Terkompresi ZOO (.zoo)</li> <li>Berkas tunggal yang dikompresi dengan gzip, bzip, bzip2, compress, lrzip, lzip, lzop, rzip, xz</li> </ul> <p> Peony-archives adalah fork dari File Roller dan merupakan bagian dari Lingkungan Desktop MATE. Jika Anda ingin mengetahui lebih lanjut tentang MATE dan Peony-archives, harap mengunjungi laman proyek. </p>"
 
-#: ../data/engrampa.desktop.in.in.h:1
-msgid "Engrampa Archive Manager"
-msgstr "Engrampa Archive Manager"
+#: ../data/peony-archives.desktop.in.in.h:1
+msgid "Peony-archives Archive Manager"
+msgstr "Peony-archives Archive Manager"
 
-#: ../data/engrampa.desktop.in.in.h:2 ../src/fr-window.c:1981
+#: ../data/peony-archives.desktop.in.in.h:2 ../src/fr-window.c:1981
 #: ../src/fr-window.c:5466
 msgid "Archive Manager"
 msgstr "Manajer Arsip"
 
-#: ../data/engrampa.desktop.in.in.h:3
+#: ../data/peony-archives.desktop.in.in.h:3
 msgid "Create and modify an archive"
 msgstr "Membuat dan memodifikasi arsip"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:1
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:1
 msgid "How to sort files"
 msgstr "Bagaimana cara menyortir file"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:2
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:2
 msgid ""
 "What criteria must be used to arrange files. Possible values: name, size, "
 "type, time, path."
 msgstr "Kriteria apa yang harus digunakan untuk menyusun file. Nilai yang memungkinkan: nama, ukuran, tipe, waktu, jalur file"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:3
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:3
 msgid "Sort type"
 msgstr "Jenis sortir"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:4
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:4
 msgid ""
 "Whether to sort in ascending or descending direction. Possible values: "
 "ascending, descending."
 msgstr "Apakah mengurutkan secara ascending atau descending. Nilai yang tersedia: ascending (kecil ke besar), descending (besar ke kecil)"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:5
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:5
 msgid "List Mode"
 msgstr "Mode Daftar"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:6
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:6
 msgid ""
 "Whether to view all files in the archive (all_files), or view the archive as"
 " a folder (as_folder)."
 msgstr "Apakah melihat semua berkas pada arsip (all_files), atau melihat arsip sebagai folder (as_folder)."
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:7
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:7
 msgid "Display type"
 msgstr "Jenis tampilan"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:8
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:8
 msgid "Display the Type column in the main window."
 msgstr "Menampilkan kolom Jenis pada jendela utama."
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:9
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:9
 msgid "Display size"
 msgstr "Ukuran tampilan"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:10
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:10
 msgid "Display the Size column in the main window."
 msgstr "Menampilkan kolom Ukuran pada jendela utama"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:11
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:11
 msgid "Display time"
 msgstr "Waktu tampilan"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:12
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:12
 msgid "Display the Time column in the main window."
 msgstr "Menampilkan kolom Waktu pada jendela utama."
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:13
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:13
 msgid "Display path"
 msgstr "Tampilan path"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:14
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:14
 msgid "Display the Path column in the main window."
 msgstr "Menampilkan kolom Path pada jendela utama."
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:15
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:15
 msgid "Use MIME icons"
 msgstr "Gunakan ikon MIME"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:16
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:16
 msgid ""
 "if TRUE will display icons depending on the file type (slower), otherwise "
 "will use always the same icon for all files (faster)."
 msgstr "Jika BENAR akan menampilkan ikon tergantung dari jenis berkas (lambat), selain itu akan selalu menggunakan ikon yang sama untuk semua berkas (cepat)."
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:17
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:17
 msgid "Name column width"
 msgstr "Lebar kolom nama"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:18
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:18
 msgid "The default width of the name column in the file list."
 msgstr "Lebar default dari kolom nama pada daftar berkas."
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:19
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:19
 msgid "Max history length"
 msgstr "Panjang maksimal historis"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:20
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:20
 msgid "Max number of items in the Open Recents menu."
 msgstr "Jumlah maksimal barang pada menu Open Recent."
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:21
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:21
 msgid "View toolbar"
 msgstr "Toolbar tampilan"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:22
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:22
 msgid "Whether to display the toolbar."
 msgstr "Apakah menampilkan toolbar."
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:23
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:23
 msgid "View statusbar"
 msgstr "Statusbar tampilan"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:24
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:24
 msgid "Whether to display the statusbar."
 msgstr "Apakah menampilkan statusbar."
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:25 ../src/ui.h:234
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:25 ../src/ui.h:234
 msgid "View the folders pane"
 msgstr "Menampilkan panel folder"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:26
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:26
 msgid "Whether to display the folders pane."
 msgstr "Apakah menampilkan folder pane."
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:27
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:27
 msgid "Editors"
 msgstr "Editor"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:28
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:28
 msgid ""
 "List of applications entered in the Open file dialog and not associated with"
 " the file type."
 msgstr "Daftar aplikasi yang masuk pada dialog Open file dan tidak berasosiasi dengan jenis berkas."
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:29
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:29
 msgid "Compression level"
 msgstr "Tingkat kompresi"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:30
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:30
 msgid ""
 "Compression level used when adding files to an archive. Possible values: "
 "very_fast, fast, normal, maximum."
 msgstr "Tingkat kompresi yang digunakan saat menambahkan berkas ke arsip. Kemungkinan nilai: sangat_cepat, cepat, normal, maksimum."
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:31
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:31
 msgid "Encrypt the archive header"
 msgstr "Enkripsi header arsip"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:32
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:32
 msgid ""
 "Whether to encrypt the archive header. If the header is encrypted the "
 "password will be required to list the archive content as well."
 msgstr "Apakah mengenkripsi header arsip. Jika header dienkripsi kata sandi juga diperlukan untuk menampilkan isi arsip juga."
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:33
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:33
 msgid "Overwrite existing files"
 msgstr "Timpa berkas yang ada"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:34
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:34
 msgid "Do not overwrite newer files"
 msgstr "Jangan menimpa berkas yang lebih baru"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:35
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:35
 msgid "Recreate the folders stored in the archive"
 msgstr "Buat ulang folder yang tersimpan pada arsip"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:36
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:36
 msgid "Default volume size"
 msgstr "Ukuran volume default"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:37
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:37
 msgid "The default size for volumes."
 msgstr "Ukuran default untuk volume"
 
-#: ../caja/caja-engrampa.c:335
+#: ../peony/peony-peony-archives.c:335
 msgid "Extract Here"
 msgstr "Ekstrak Di Sini"
 
 #. Translators: the current position is the current folder
-#: ../caja/caja-engrampa.c:337
+#: ../peony/peony-peony-archives.c:337
 msgid "Extract the selected archive to the current position"
 msgstr "Mengekstrak arsip yang dipilih pada lokasi sekarang"
 
-#: ../caja/caja-engrampa.c:354
+#: ../peony/peony-peony-archives.c:354
 msgid "Extract To..."
 msgstr "Ekstrak Ke..."
 
-#: ../caja/caja-engrampa.c:355
+#: ../peony/peony-peony-archives.c:355
 msgid "Extract the selected archive"
 msgstr "Mengekstrak arsip yang dipilih"
 
-#: ../caja/caja-engrampa.c:374
+#: ../peony/peony-peony-archives.c:374
 msgid "Compress..."
 msgstr "Kompres..."
 
-#: ../caja/caja-engrampa.c:375
+#: ../peony/peony-peony-archives.c:375
 msgid "Create a compressed archive with the selected objects"
 msgstr "Membuat arsip yang dikompres dari objek yang dipilih"
 
-#: ../caja/libcaja-engrampa.caja-extension.in.in.h:1 ../src/main.c:330
+#: ../peony/libpeony-peony-archives.peony-extension.in.in.h:1 ../src/main.c:330
 #: ../src/server.c:457
-msgid "Engrampa"
-msgstr "Engrampa"
+msgid "Peony-archives"
+msgstr "Peony-archives"
 
-#: ../caja/libcaja-engrampa.caja-extension.in.in.h:2
+#: ../peony/libpeony-peony-archives.peony-extension.in.in.h:2
 msgid "Allows to create and extract archives"
 msgstr "Ijinkan untuk membuat dan mengekstrak arsip"
 
@@ -373,26 +373,26 @@ msgstr "Keluaran Terakhir"
 
 #: ../src/actions.c:860
 msgid ""
-"Engrampa is free software; you can redistribute it and/or modify it under "
+"Peony-archives is free software; you can redistribute it and/or modify it under "
 "the terms of the GNU General Public License as published by the Free "
 "Software Foundation; either version 2 of the License, or (at your option) "
 "any later version."
-msgstr "Engrampa adalah perangkat lunak bebas; Anda dapat mendistribusikan ulang dan/atau mengubahnya di bawah ketentuan GNU General Public License sebagaimana dipublikasikan oleh Free Software Foundation; Lisensi versi 2, atau (sesuai pilihan Anda) menggunakan versi selanjutnya."
+msgstr "Peony-archives adalah perangkat lunak bebas; Anda dapat mendistribusikan ulang dan/atau mengubahnya di bawah ketentuan GNU General Public License sebagaimana dipublikasikan oleh Free Software Foundation; Lisensi versi 2, atau (sesuai pilihan Anda) menggunakan versi selanjutnya."
 
 #: ../src/actions.c:864
 msgid ""
-"Engrampa is distributed in the hope that it will be useful, but WITHOUT ANY "
+"Peony-archives is distributed in the hope that it will be useful, but WITHOUT ANY "
 "WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
 "FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
 "details."
-msgstr "Engrampa didistribusikan dengan harapan dapat berguna, tetapi TANPA ADANYA JAMINAN; termasuk tanpa jaminan DAYA JUAL atau KELAIKAN UNTUK TUJUAN TERTENTU. Lihat GNU General Public License untuk rincian lebih lanjut."
+msgstr "Peony-archives didistribusikan dengan harapan dapat berguna, tetapi TANPA ADANYA JAMINAN; termasuk tanpa jaminan DAYA JUAL atau KELAIKAN UNTUK TUJUAN TERTENTU. Lihat GNU General Public License untuk rincian lebih lanjut."
 
 #: ../src/actions.c:868
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
-" Engrampa; if not, write to the Free Software Foundation, Inc., 51 Franklin "
+" Peony-archives; if not, write to the Free Software Foundation, Inc., 51 Franklin "
 "St, Fifth Floor, Boston, MA  02110-1301 USA"
-msgstr "Anda seharusnya menerima salinan dari GNU General Public License bersama Engrampa; jika tidak, kirimkan surat Anda ke Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA."
+msgstr "Anda seharusnya menerima salinan dari GNU General Public License bersama Peony-archives; jika tidak, kirimkan surat Anda ke Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA."
 
 #: ../src/actions.c:878
 msgid "Copyright © 2001–2010 Free Software Foundation, Inc."
@@ -1380,8 +1380,8 @@ msgid "Contents"
 msgstr "Isi"
 
 #: ../src/ui.h:64
-msgid "Display the Engrampa Manual"
-msgstr "Menampilkan Manual Engrampa"
+msgid "Display the Peony-archives Manual"
+msgstr "Menampilkan Manual Peony-archives"
 
 #: ../src/ui.h:69 ../src/ui.h:90
 msgid "Copy the selection"

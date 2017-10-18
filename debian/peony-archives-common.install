@@ -1,7 +1,7 @@
 usr/share/appdata/
-usr/share/caja/extensions/
+usr/share/peony/extensions/
 usr/share/dbus-1/
-usr/share/engrampa/
+usr/share/peony-archives/
 usr/share/glib-2.0/
 usr/share/help/
 usr/share/icons/

@@ -1,7 +1,7 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: engrampa
+Upstream-Name: peony-archives
 Upstream-Contact: Stefano Karapetsas <stefano@karapetsas.com>
-Source: http://git.mate-desktop.org/engrampa/
+Source: http://git.mate-desktop.org/peony-archives/
 
 Files: src/commands/rpm2cpio.c
        src/dlg-add-files.h
@@ -67,9 +67,9 @@ Files: src/commands/rpm2cpio.c
 Copyright: 2001-2012, The Free Software Foundation, Inc.
 License: GPL-2+
 
-Files: caja/caja-engrampa.c
-       caja/caja-engrampa.h
-       caja/engrampa-module.c
+Files: peony/peony-peony-archives.c
+       peony/peony-peony-archives.h
+       peony/peony-archives-module.c
        src/actions.c
        src/actions.h
        src/dlg-add-files.c
@@ -125,8 +125,8 @@ Copyright: 2007, Novell, Inc.
 License: LGPL-2+
 
 Files: .tx/config
-       caja/libcaja-engrampa.caja-extension.in.in
-       caja/Makefile.am
+       peony/libpeony-peony-archives.peony-extension.in.in
+       peony/Makefile.am
        copy-n-paste/Makefile.am
        data/icons/22x22/Makefile.am
        data/icons/22x22/apps/Makefile.am
@@ -153,7 +153,7 @@ Files: .tx/config
        data/packages.match
        po/LINGUAS
        po/POTFILES.*
-       src/engrampa.gresource.xml
+       src/peony-archives.gresource.xml
        src/ui/Makefile.am
        src/ui/*.ui
        src/sh/Makefile.am
@@ -177,7 +177,7 @@ License: GPL-2+
 Comment:
  Using license from COPYING file.
 
-Files: data/engrampa.1
+Files: data/peony-archives.1
 Copyright: 2007, Sven Arvidsson <sa@whiz.se>
 License: GPL-2+
 
@@ -222,7 +222,7 @@ Files: po/*.po
        po/gnome-copyrights.txt
 Copyright: 2001-2010, Free Software Foundation, Inc.
            2003-2005, Sharif FarsiWeb Inc.
-           2003-2008, engrampa'S COPYRIGHT HOLDER.
+           2003-2008, peony-archives'S COPYRIGHT HOLDER.
            2003, Chris Jackson
            2003, Mətin Əmirov
            2003, Rupak Sinha

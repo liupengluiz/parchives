@@ -1,5 +1,5 @@
 /*
- *  Engrampa
+ *  Peony-archives
  * 
  *  Copyright (C) 2004 Free Software Foundation, Inc.
  *
@@ -21,31 +21,36 @@
  * 
  */
 
-#ifndef CAJA_RNGRAMPA_H
-#define CAJA_RNGRAMPA_H
+#include <config.h>
+#include <libpeony-extension/peony-extension-types.h>
+#include <libpeony-extension/peony-column-provider.h>
+#include <glib/gi18n-lib.h>
+#include "peony-peony-archives.h"
 
-#include <glib-object.h>
 
-G_BEGIN_DECLS
+void
+peony_module_initialize (GTypeModule*module)
+{
+	peony_fr_register_type (module);
 
-#define CAJA_TYPE_FR  (caja_fr_get_type ())
-#define CAJA_FR(o)    (G_TYPE_CHECK_INSTANCE_CAST ((o), CAJA_TYPE_FR, CajaFr))
-#define CAJA_IS_FR(o) (G_TYPE_CHECK_INSTANCE_TYPE ((o), CAJA_TYPE_FR))
+	bindtextdomain (GETTEXT_PACKAGE, MATELOCALEDIR);
+	bind_textdomain_codeset (GETTEXT_PACKAGE, "UTF-8");
+}
 
-typedef struct _CajaFr      CajaFr;
-typedef struct _CajaFrClass CajaFrClass;
 
-struct _CajaFr {
-	GObject __parent;
-};
+void
+peony_module_shutdown (void)
+{
+}
 
-struct _CajaFrClass {
-	GObjectClass __parent;
-};
 
-GType caja_fr_get_type      (void);
-void  caja_fr_register_type (GTypeModule *module);
-
-G_END_DECLS
-
-#endif /* CAJA_RNGRAMPA_H */
+void 
+peony_module_list_types (const GType **types,
+			    int          *num_types)
+{
+	static GType type_list[1];
+	
+	type_list[0] = PEONY_TYPE_FR;
+	*types = type_list;
+	*num_types = 1;
+}

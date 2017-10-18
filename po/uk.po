@@ -87,15 +87,15 @@ msgstr "Параметри керування сесією:"
 msgid "Show session management options"
 msgstr "Показати параметри керування сесією"
 
-#: ../data/engrampa.appdata.xml.in.h:1
+#: ../data/peony-archives.appdata.xml.in.h:1
 msgid "An Archive Manager for the MATE desktop environment"
 msgstr "Керівник архівів для стільничного середовища МАТЕ  "
 
-#: ../data/engrampa.appdata.xml.in.h:2
+#: ../data/peony-archives.appdata.xml.in.h:2
 msgid ""
-"<p> Engrampa is an archive manager for the MATE environment. It allows you "
+"<p> Peony-archives is an archive manager for the MATE environment. It allows you "
 "to create and modify archives, view the contents of an archive, view a file "
-"contained in an archive, and extract files from archive. </p> <p> Engrampa "
+"contained in an archive, and extract files from archive. </p> <p> Peony-archives "
 "is only a front-end (a graphical interface) to archiving programs like tar "
 "and zip. The supported file types are: </p> <ul> <li>7-Zip Compressed File "
 "(.7z)</li> <li>WinAce Compressed File (.ace)</li> <li>ALZip Compressed File "
@@ -113,217 +113,217 @@ msgid ""
 "<li>Stuffit Archives (.bin, .sit)</li> <li>ZIP Archive (.zip)</li> <li>ZIP "
 "Archived Comic Book (.cbz)</li> <li>ZOO Compressed Archive File (.zoo)</li> "
 "<li>Single files compressed with gzip, bzip, bzip2, compress, lrzip, lzip, "
-"lzop, rzip, xz</li> </ul> <p> Engrampa is a fork of File Roller and part of "
+"lzop, rzip, xz</li> </ul> <p> Peony-archives is a fork of File Roller and part of "
 "the MATE Desktop Environment. If you would like to know more about MATE and "
-"Engrampa, please visit the project's home page. </p>"
-msgstr "<p> Engrampa – керівник архівів середовища MATE. Він дозволяє створювати та змінювати архіви, переглядати вміст архіву і файли всередині нього, видобувати файли з архіву. </p> <p> Engrampa – це лише фронтенд (графічний інтерфейс) до застосунків для архівування таких як tar і zip. Підтримувані типи файлів: </p> <ul> <li>Стиснений файл 7-Zip (.7z)</li> <li>Стиснений файл WinAce (.ace)</li> <li>Стиснений файл ALZip (.alz)</li> <li>Маленький індексований архів AIX (.ar)</li> <li>Стиснений архів ARJ (.arj)</li> <li>Файл Cabinet (.cab)</li> <li>Архів UNIX CPIO (.cpio)</li> <li>Пакунок Debian Linux (.deb) [Режим лише для читання]</li> <li>Образ диску КД ISO-9660(.iso) [Режим лише для читання]</li> <li>Архів Java (.jar)</li> <li>Архів Java Enterprise (.ear)</li> <li>Мережевий архів Java (.war)</li> <li>Архів LHA (.lzh, .lha)</li> <li>Стиснений архів WinRAR (.rar)</li> <li>RAR Archived Comic Book (.cbr)</li> <li>Пакунок RPM для Linux (.rpm) [Режим лише для читання]</li> <li>Tape Archive File не стиснений (.tar) або стиснений з: gzip (.tar.gz, .tgz), bzip (.tar.bz, .tbz), bzip2 (.tar.bz2, .tbz2), compress (.tar.Z, .taz), lrzip (.tar.lrz, .tlrz), lzip (.tar.lz, .tlz), lzop (.tar.lzo, .tzo), 7zip (.tar.7z), xz (.tar.xz) </li> <li>Архіви Stuffit (.bin, .sit)</li> <li>Архів ZIP (.zip)</li> <li>ZIP Archived Comic Book (.cbz)</li> <li>Стиснений архівний файл ZOO (.zoo)</li> <li>Одинарні файли, стиснені з gzip, bzip, bzip2, compress, lrzip, lzip, lzop, rzip, xz</li> </ul> <p> Engrampa – відгалуження(форк) File Roller і частина стільничного середовища MATE. Якщо Ви бажаєте знати більше про MATE і Engrampa, будь ласка, відвідайте домашню сторінку проєкту. </p>"
+"Peony-archives, please visit the project's home page. </p>"
+msgstr "<p> Peony-archives – керівник архівів середовища MATE. Він дозволяє створювати та змінювати архіви, переглядати вміст архіву і файли всередині нього, видобувати файли з архіву. </p> <p> Peony-archives – це лише фронтенд (графічний інтерфейс) до застосунків для архівування таких як tar і zip. Підтримувані типи файлів: </p> <ul> <li>Стиснений файл 7-Zip (.7z)</li> <li>Стиснений файл WinAce (.ace)</li> <li>Стиснений файл ALZip (.alz)</li> <li>Маленький індексований архів AIX (.ar)</li> <li>Стиснений архів ARJ (.arj)</li> <li>Файл Cabinet (.cab)</li> <li>Архів UNIX CPIO (.cpio)</li> <li>Пакунок Debian Linux (.deb) [Режим лише для читання]</li> <li>Образ диску КД ISO-9660(.iso) [Режим лише для читання]</li> <li>Архів Java (.jar)</li> <li>Архів Java Enterprise (.ear)</li> <li>Мережевий архів Java (.war)</li> <li>Архів LHA (.lzh, .lha)</li> <li>Стиснений архів WinRAR (.rar)</li> <li>RAR Archived Comic Book (.cbr)</li> <li>Пакунок RPM для Linux (.rpm) [Режим лише для читання]</li> <li>Tape Archive File не стиснений (.tar) або стиснений з: gzip (.tar.gz, .tgz), bzip (.tar.bz, .tbz), bzip2 (.tar.bz2, .tbz2), compress (.tar.Z, .taz), lrzip (.tar.lrz, .tlrz), lzip (.tar.lz, .tlz), lzop (.tar.lzo, .tzo), 7zip (.tar.7z), xz (.tar.xz) </li> <li>Архіви Stuffit (.bin, .sit)</li> <li>Архів ZIP (.zip)</li> <li>ZIP Archived Comic Book (.cbz)</li> <li>Стиснений архівний файл ZOO (.zoo)</li> <li>Одинарні файли, стиснені з gzip, bzip, bzip2, compress, lrzip, lzip, lzop, rzip, xz</li> </ul> <p> Peony-archives – відгалуження(форк) File Roller і частина стільничного середовища MATE. Якщо Ви бажаєте знати більше про MATE і Peony-archives, будь ласка, відвідайте домашню сторінку проєкту. </p>"
 
-#: ../data/engrampa.desktop.in.in.h:1
-msgid "Engrampa Archive Manager"
-msgstr "Керівник архівів Engrampa "
+#: ../data/peony-archives.desktop.in.in.h:1
+msgid "Peony-archives Archive Manager"
+msgstr "Керівник архівів Peony-archives "
 
-#: ../data/engrampa.desktop.in.in.h:2 ../src/fr-window.c:1981
+#: ../data/peony-archives.desktop.in.in.h:2 ../src/fr-window.c:1981
 #: ../src/fr-window.c:5466
 msgid "Archive Manager"
 msgstr "Керівник архівів"
 
-#: ../data/engrampa.desktop.in.in.h:3
+#: ../data/peony-archives.desktop.in.in.h:3
 msgid "Create and modify an archive"
 msgstr "Проґрама створення та зміни архівів"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:1
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:1
 msgid "How to sort files"
 msgstr "Як ґатункувати файли"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:2
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:2
 msgid ""
 "What criteria must be used to arrange files. Possible values: name, size, "
 "type, time, path."
 msgstr "Які критерії повинні бути використані для ґатункування файлів. Можливі значення: name, size, type, time, path."
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:3
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:3
 msgid "Sort type"
 msgstr "Тип ґатункування"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:4
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:4
 msgid ""
 "Whether to sort in ascending or descending direction. Possible values: "
 "ascending, descending."
 msgstr "Ґатункувати за зростанням або за спаданням. Можливі значення: ascending, descending."
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:5
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:5
 msgid "List Mode"
 msgstr "Режим переліку"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:6
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:6
 msgid ""
 "Whether to view all files in the archive (all_files), or view the archive as"
 " a folder (as_folder)."
 msgstr "Показувати усі файли в архіві (all_files), чи показувати архів як теку (as_folder)."
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:7
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:7
 msgid "Display type"
 msgstr "Показувати тип"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:8
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:8
 msgid "Display the Type column in the main window."
 msgstr "Показувати стовпчик Тип у головному вікні."
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:9
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:9
 msgid "Display size"
 msgstr "Показувати розмір"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:10
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:10
 msgid "Display the Size column in the main window."
 msgstr "Показувати стовпчик Розмір у головному вікні."
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:11
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:11
 msgid "Display time"
 msgstr "Показувати час"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:12
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:12
 msgid "Display the Time column in the main window."
 msgstr "Показувати стовпчик Час у головному вікні."
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:13
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:13
 msgid "Display path"
 msgstr "Показувати шлях"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:14
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:14
 msgid "Display the Path column in the main window."
 msgstr "Показувати стовпчик Шлях у головному вікні."
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:15
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:15
 msgid "Use MIME icons"
 msgstr "Використовувати MIME-піктограми"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:16
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:16
 msgid ""
 "if TRUE will display icons depending on the file type (slower), otherwise "
 "will use always the same icon for all files (faster)."
 msgstr "Якщо TRUE буде відображати піктограми в залежности від типу файлу (повільніше) , у иньшому випадку буде завжди використовувати одну й ту саму піктограму для усіх файлів (швидше)."
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:17
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:17
 msgid "Name column width"
 msgstr "Ширина стовпця ім'я"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:18
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:18
 msgid "The default width of the name column in the file list."
 msgstr "Типова ширина стовпця ім'я у переліку файлів."
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:19
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:19
 msgid "Max history length"
 msgstr "Максимальний розмір минулопису"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:20
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:20
 msgid "Max number of items in the Open Recents menu."
 msgstr "Максимальна кількість елементів у меню Нещодавно відкриті."
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:21
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:21
 msgid "View toolbar"
 msgstr "Показати панель знарядь"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:22
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:22
 msgid "Whether to display the toolbar."
 msgstr "Чи показувати панель знарядь."
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:23
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:23
 msgid "View statusbar"
 msgstr "Показувати рядок стану"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:24
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:24
 msgid "Whether to display the statusbar."
 msgstr "Чи показувати панель стану."
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:25 ../src/ui.h:234
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:25 ../src/ui.h:234
 msgid "View the folders pane"
 msgstr "Показати панель тек"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:26
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:26
 msgid "Whether to display the folders pane."
 msgstr "Чи показувати панель тек."
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:27
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:27
 msgid "Editors"
 msgstr "Редактори"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:28
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:28
 msgid ""
 "List of applications entered in the Open file dialog and not associated with"
 " the file type."
 msgstr "Перелік додатків уведений в діялоґовому вікні Відкрити файл і не пов'язаний з типом файлу."
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:29
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:29
 msgid "Compression level"
 msgstr "Рівень стиснення"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:30
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:30
 msgid ""
 "Compression level used when adding files to an archive. Possible values: "
 "very_fast, fast, normal, maximum."
 msgstr "Ступінь стиснення, що використовується при додаванні файлів в архів. Припустимі значення: very_fast, fast, normal, maximum."
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:31
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:31
 msgid "Encrypt the archive header"
 msgstr "Зашифрувати заголовок архіву"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:32
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:32
 msgid ""
 "Whether to encrypt the archive header. If the header is encrypted the "
 "password will be required to list the archive content as well."
 msgstr "Якщо заголовок архіву зашифровано, то для перегляду переліку файлів архіву необхідно увести потайслово."
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:33
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:33
 msgid "Overwrite existing files"
 msgstr "Перезаписувати файли, які вже існують"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:34
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:34
 msgid "Do not overwrite newer files"
 msgstr "Не перезаписувати файли, які вже існують"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:35
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:35
 msgid "Recreate the folders stored in the archive"
 msgstr "Відновити теки збережені в архіві"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:36
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:36
 msgid "Default volume size"
 msgstr "Типовий розмір тому"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:37
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:37
 msgid "The default size for volumes."
 msgstr "Типовий розмір для томів."
 
-#: ../caja/caja-engrampa.c:335
+#: ../peony/peony-peony-archives.c:335
 msgid "Extract Here"
 msgstr "Розпакувати сюди"
 
 #. Translators: the current position is the current folder
-#: ../caja/caja-engrampa.c:337
+#: ../peony/peony-peony-archives.c:337
 msgid "Extract the selected archive to the current position"
 msgstr "Розпакувати виділений архів у поточну теку"
 
-#: ../caja/caja-engrampa.c:354
+#: ../peony/peony-peony-archives.c:354
 msgid "Extract To..."
 msgstr "Розпакувати у..."
 
-#: ../caja/caja-engrampa.c:355
+#: ../peony/peony-peony-archives.c:355
 msgid "Extract the selected archive"
 msgstr "Розпакувати виділений архів"
 
-#: ../caja/caja-engrampa.c:374
+#: ../peony/peony-peony-archives.c:374
 msgid "Compress..."
 msgstr "Стиснути..."
 
-#: ../caja/caja-engrampa.c:375
+#: ../peony/peony-peony-archives.c:375
 msgid "Create a compressed archive with the selected objects"
 msgstr "Створити стиснений архів з виділеними об'єктами"
 
-#: ../caja/libcaja-engrampa.caja-extension.in.in.h:1 ../src/main.c:330
+#: ../peony/libpeony-peony-archives.peony-extension.in.in.h:1 ../src/main.c:330
 #: ../src/server.c:457
-msgid "Engrampa"
+msgid "Peony-archives"
 msgstr "Архіватор файлів"
 
-#: ../caja/libcaja-engrampa.caja-extension.in.in.h:2
+#: ../peony/libpeony-peony-archives.peony-extension.in.in.h:2
 msgid "Allows to create and extract archives"
 msgstr "Дозволяє створювати і розпаковувати архіви"
 
@@ -370,26 +370,26 @@ msgstr "Журнал повідомлень"
 
 #: ../src/actions.c:860
 msgid ""
-"Engrampa is free software; you can redistribute it and/or modify it under "
+"Peony-archives is free software; you can redistribute it and/or modify it under "
 "the terms of the GNU General Public License as published by the Free "
 "Software Foundation; either version 2 of the License, or (at your option) "
 "any later version."
-msgstr "Engrampa ― вільна проґрама. Ви можете розповсюджувати або змінювати її за умовами GNU General Public License, що видана Free Software Foundation; або версії 2 ліцензії, або (на ваш розсуд) будь-якої пізнішої версії."
+msgstr "Peony-archives ― вільна проґрама. Ви можете розповсюджувати або змінювати її за умовами GNU General Public License, що видана Free Software Foundation; або версії 2 ліцензії, або (на ваш розсуд) будь-якої пізнішої версії."
 
 #: ../src/actions.c:864
 msgid ""
-"Engrampa is distributed in the hope that it will be useful, but WITHOUT ANY "
+"Peony-archives is distributed in the hope that it will be useful, but WITHOUT ANY "
 "WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
 "FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
 "details."
-msgstr "Engrampa розповсюджується зі сподіванням, що проґрама буде корисною, але БЕЗ БУДЬ-ЯКИХ ЗАПОРУК; не гарантується навіть ПРИДАТНІСТЬ чи ВІДПОВІДНІСТЬ БУДЬ-ЯКИМ ВИМОГАМ. Для отримання додаткової інформації ознайомтеся з GNU General Public License."
+msgstr "Peony-archives розповсюджується зі сподіванням, що проґрама буде корисною, але БЕЗ БУДЬ-ЯКИХ ЗАПОРУК; не гарантується навіть ПРИДАТНІСТЬ чи ВІДПОВІДНІСТЬ БУДЬ-ЯКИМ ВИМОГАМ. Для отримання додаткової інформації ознайомтеся з GNU General Public License."
 
 #: ../src/actions.c:868
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
-" Engrampa; if not, write to the Free Software Foundation, Inc., 51 Franklin "
+" Peony-archives; if not, write to the Free Software Foundation, Inc., 51 Franklin "
 "St, Fifth Floor, Boston, MA  02110-1301 USA"
-msgstr "Ви мали отримати копію GNU General Public License з Engrampa. Якщо цього не відбулося, напишіть до Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA"
+msgstr "Ви мали отримати копію GNU General Public License з Peony-archives. Якщо цього не відбулося, напишіть до Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA"
 
 #: ../src/actions.c:878
 msgid "Copyright © 2001–2010 Free Software Foundation, Inc."
@@ -1385,7 +1385,7 @@ msgid "Contents"
 msgstr "Зміст"
 
 #: ../src/ui.h:64
-msgid "Display the Engrampa Manual"
+msgid "Display the Peony-archives Manual"
 msgstr "Показати вказівки до вжитку"
 
 #: ../src/ui.h:69 ../src/ui.h:90

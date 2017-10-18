@@ -1,7 +1,7 @@
 /* -*- Mode: C; tab-width: 8; indent-tabs-mode: t; c-basic-offset: 8 -*- */
 
 /*
- *  Engrampa
+ *  Peony-archives
  *
  *  Copyright (C) 2001 The Free Software Foundation, Inc.
  *
@@ -26,7 +26,7 @@
 #include "gtk-utils.h"
 
 #define LOAD_BUFFER_SIZE 65536
-#define ENGRAMPA_RESOURCE_UI_PATH "/org/mate/Engrampa/ui/"
+#define PEONY-ARCHIVES_RESOURCE_UI_PATH "/org/mate/Peony-archives/ui/"
 
 static void
 count_selected (GtkTreeModel *model,
@@ -760,7 +760,7 @@ show_help_dialog (GtkWindow  *parent,
 	char   *uri;
 	GError *error = NULL;
 
-	uri = g_strconcat ("help:engrampa", section ? "/" : NULL, section, NULL);
+	uri = g_strconcat ("help:peony-archives", section ? "/" : NULL, section, NULL);
 	if (! show_uri (gtk_window_get_screen (parent), uri, GDK_CURRENT_TIME, &error)) {
   		GtkWidget *dialog;
 
@@ -813,7 +813,7 @@ _gtk_builder_new_from_resource (const char *resource_path)
 	GError     *error = NULL;
 
 	builder = gtk_builder_new ();
-	full_path = g_strconcat (ENGRAMPA_RESOURCE_UI_PATH, resource_path, NULL);
+	full_path = g_strconcat (PEONY-ARCHIVES_RESOURCE_UI_PATH, resource_path, NULL);
         if (! gtk_builder_add_from_resource (builder, full_path, &error)) {
                 g_warning ("%s\n", error->message);
                 g_clear_error (&error);

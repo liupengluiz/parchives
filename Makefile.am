@@ -1,10 +1,10 @@
 ## Process this file with automake to produce Makefile.in.
 ACLOCAL_AMFLAGS = -I m4 ${ACLOCAL_FLAGS}
 
-if ENABLE_CAJA_ACTIONS
-CAJA = caja
+if ENABLE_PEONY_ACTIONS
+PEONY = peony
 else
-CAJA =
+PEONY =
 endif
 
 SUBDIRS =		\
@@ -12,7 +12,7 @@ SUBDIRS =		\
 	data		\
 	src		\
 	help		\
-	$(CAJA)	\
+	$(PEONY)	\
 	po
 
 distcleancheck_listfiles = find . -type f -print | grep -v 'omf\.out'
@@ -36,7 +36,7 @@ DISTCLEANFILES =                        \
 	intltool-merge                  \
 	intltool-update
 
-DISTCHECK_CONFIGURE_FLAGS = --with-cajadir='$${libdir}/caja/extensions-2.0-distcheck'
+DISTCHECK_CONFIGURE_FLAGS = --with-peonydir='$${libdir}/peony/extensions-2.0-distcheck'
 
 
 MAINTAINERCLEANFILES = \

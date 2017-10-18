@@ -1,7 +1,7 @@
 /* -*- Mode: C; tab-width: 8; indent-tabs-mode: t; c-basic-offset: 8 -*- */
 
 /*
- *  Engrampa
+ *  Peony-archives
  *
  *  Copyright (C) 2001 The Free Software Foundation, Inc.
  *
@@ -28,7 +28,7 @@
 
 #define MEGABYTE (1024 * 1024)
 
-#define ADD_FOLDER_OPTIONS_DIR  "engrampa/options"
+#define ADD_FOLDER_OPTIONS_DIR  "peony-archives/options"
 
 typedef enum { /*< skip >*/
 	FR_WINDOW_SORT_BY_NAME = 0,

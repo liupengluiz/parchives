@@ -1,7 +1,7 @@
 /* -*- Mode: C; tab-width: 8; indent-tabs-mode: t; c-basic-offset: 8 -*- */
 
 /*
- *  Engrampa
+ *  Peony-archives
  *
  *  Copyright (C) 2010 Free Software Foundation, Inc.
  *
@@ -28,8 +28,8 @@
 #include "fr-init.h"
 
 
-#define FR_SERVICE_NAME "org.mate.Engrampa"
-#define FR_SERVICE_PATH "/org/mate/Engrampa"
+#define FR_SERVICE_NAME "org.mate.Peony-archives"
+#define FR_SERVICE_PATH "/org/mate/Peony-archives"
 
 
 static const char introspection_xml[] =
@@ -454,8 +454,8 @@ main (int argc, char *argv[])
 
 	g_option_context_free (context);
 
-	g_set_application_name (_("Engrampa"));
-	gtk_window_set_default_icon_name ("engrampa");
+	g_set_application_name (_("Peony-archives"));
+	gtk_window_set_default_icon_name ("peony-archives");
 
 	gtk_icon_theme_append_search_path (gtk_icon_theme_get_default (),
 					   PKG_DATA_DIR G_DIR_SEPARATOR_S "icons");

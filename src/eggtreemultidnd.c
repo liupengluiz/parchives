@@ -1,5 +1,5 @@
 /*
- * Engrampa
+ * Peony-archives
  *
  * Copyright (C) 2005 Free Software Foundation, Inc.
  * Author: Paolo Bacchilega
@@ -33,7 +33,7 @@
 
 static GtkTargetEntry target_table[] = {
         { "XdndDirectSave0", 0, 0 },
-        { "XdndEngrampa0", 0, 1 }
+        { "XdndPeony-archives0", 0, 1 }
 };
 
 typedef struct

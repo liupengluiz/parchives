@@ -84,15 +84,15 @@ msgstr "作業階段管理選項:"
 msgid "Show session management options"
 msgstr "顯示作業階段管理選項"
 
-#: ../data/engrampa.appdata.xml.in.h:1
+#: ../data/peony-archives.appdata.xml.in.h:1
 msgid "An Archive Manager for the MATE desktop environment"
 msgstr "適用於 MATE 桌面環境的壓縮檔管理員"
 
-#: ../data/engrampa.appdata.xml.in.h:2
+#: ../data/peony-archives.appdata.xml.in.h:2
 msgid ""
-"<p> Engrampa is an archive manager for the MATE environment. It allows you "
+"<p> Peony-archives is an archive manager for the MATE environment. It allows you "
 "to create and modify archives, view the contents of an archive, view a file "
-"contained in an archive, and extract files from archive. </p> <p> Engrampa "
+"contained in an archive, and extract files from archive. </p> <p> Peony-archives "
 "is only a front-end (a graphical interface) to archiving programs like tar "
 "and zip. The supported file types are: </p> <ul> <li>7-Zip Compressed File "
 "(.7z)</li> <li>WinAce Compressed File (.ace)</li> <li>ALZip Compressed File "
@@ -110,217 +110,217 @@ msgid ""
 "<li>Stuffit Archives (.bin, .sit)</li> <li>ZIP Archive (.zip)</li> <li>ZIP "
 "Archived Comic Book (.cbz)</li> <li>ZOO Compressed Archive File (.zoo)</li> "
 "<li>Single files compressed with gzip, bzip, bzip2, compress, lrzip, lzip, "
-"lzop, rzip, xz</li> </ul> <p> Engrampa is a fork of File Roller and part of "
+"lzop, rzip, xz</li> </ul> <p> Peony-archives is a fork of File Roller and part of "
 "the MATE Desktop Environment. If you would like to know more about MATE and "
-"Engrampa, please visit the project's home page. </p>"
-msgstr "<p> Engrampa 是一個 MATE 桌面環境的壓縮檔管理員。它讓您可以建立及修改壓縮檔、觀看壓縮檔內容以及從壓縮檔內解壓縮檔案。 </p> <p> Engrampa 只是一個壓縮程式，像是 tar 及 zip，的（圖形化）前端。支援的檔案類型有： </p> <ul> <li>7-Zip 壓縮檔 (.7z)</li> <li>WinAce 壓縮檔 (.ace)</li> <li>ALZip 壓縮檔 (.alz)</li> <li>AIX Small Indexed Archive (.ar)</li> <li>ARJ 壓縮檔 (.arj)</li> <li>Cabinet 檔案 (.cab)</li> <li>UNIX CPIO Archive (.cpio)</li> <li>Debian Linux 軟體包 (.deb) [唯讀模式]</li> <li>ISO-9660 CD 光碟映像檔 (.iso) [唯讀模式]</li> <li>Java Archive (.jar)</li> <li>Java Enterprise archive (.ear)</li> <li>Java Web Archive (.war)</li> <li>LHA Archive (.lzh, .lha)</li> <li>WinRAR 壓縮檔 (.rar)</li> <li>RAR 壓縮漫畫書 (.cbr)</li> <li>RPM Linux Package (.rpm) [唯讀模式]</li> <li>Tape Archive File 未壓縮 (.tar) 或是以下列程式壓縮： gzip (.tar.gz, .tgz)、bzip (.tar.bz, .tbz)、bzip2 (.tar.bz2, .tbz2)、compress (.tar.Z, .taz)、lrzip (.tar.lrz, .tlrz)、lzip (.tar.lz, .tlz)、lzop (.tar.lzo, .tzo)、7zip (.tar.7z)、xz (.tar.xz) </li> <li>Stuffit Archives (.bin, .sit)</li> <li>ZIP Archive (.zip)</li> <li>ZIP 壓縮漫畫書 (.cbz)</li> <li>ZOO 壓縮檔 (.zoo)</li> <li>以下列程式壓縮的單一檔案：gzip、bzip、bzip2、compress、lrzip、lzip、lzop、rzip、xz</li> </ul> <p> Engrampa 是一個 File Roller 的衍生產品，且為 MATE 桌面環境的一部份。如果您想要知道更多關於 MATE 及 Engrampa 的詳細資訊，請參觀專案首頁。 </p>"
+"Peony-archives, please visit the project's home page. </p>"
+msgstr "<p> Peony-archives 是一個 MATE 桌面環境的壓縮檔管理員。它讓您可以建立及修改壓縮檔、觀看壓縮檔內容以及從壓縮檔內解壓縮檔案。 </p> <p> Peony-archives 只是一個壓縮程式，像是 tar 及 zip，的（圖形化）前端。支援的檔案類型有： </p> <ul> <li>7-Zip 壓縮檔 (.7z)</li> <li>WinAce 壓縮檔 (.ace)</li> <li>ALZip 壓縮檔 (.alz)</li> <li>AIX Small Indexed Archive (.ar)</li> <li>ARJ 壓縮檔 (.arj)</li> <li>Cabinet 檔案 (.cab)</li> <li>UNIX CPIO Archive (.cpio)</li> <li>Debian Linux 軟體包 (.deb) [唯讀模式]</li> <li>ISO-9660 CD 光碟映像檔 (.iso) [唯讀模式]</li> <li>Java Archive (.jar)</li> <li>Java Enterprise archive (.ear)</li> <li>Java Web Archive (.war)</li> <li>LHA Archive (.lzh, .lha)</li> <li>WinRAR 壓縮檔 (.rar)</li> <li>RAR 壓縮漫畫書 (.cbr)</li> <li>RPM Linux Package (.rpm) [唯讀模式]</li> <li>Tape Archive File 未壓縮 (.tar) 或是以下列程式壓縮： gzip (.tar.gz, .tgz)、bzip (.tar.bz, .tbz)、bzip2 (.tar.bz2, .tbz2)、compress (.tar.Z, .taz)、lrzip (.tar.lrz, .tlrz)、lzip (.tar.lz, .tlz)、lzop (.tar.lzo, .tzo)、7zip (.tar.7z)、xz (.tar.xz) </li> <li>Stuffit Archives (.bin, .sit)</li> <li>ZIP Archive (.zip)</li> <li>ZIP 壓縮漫畫書 (.cbz)</li> <li>ZOO 壓縮檔 (.zoo)</li> <li>以下列程式壓縮的單一檔案：gzip、bzip、bzip2、compress、lrzip、lzip、lzop、rzip、xz</li> </ul> <p> Peony-archives 是一個 File Roller 的衍生產品，且為 MATE 桌面環境的一部份。如果您想要知道更多關於 MATE 及 Peony-archives 的詳細資訊，請參觀專案首頁。 </p>"
 
-#: ../data/engrampa.desktop.in.in.h:1
-msgid "Engrampa Archive Manager"
-msgstr "Engrampa 壓縮檔管理員"
+#: ../data/peony-archives.desktop.in.in.h:1
+msgid "Peony-archives Archive Manager"
+msgstr "Peony-archives 壓縮檔管理員"
 
-#: ../data/engrampa.desktop.in.in.h:2 ../src/fr-window.c:1981
+#: ../data/peony-archives.desktop.in.in.h:2 ../src/fr-window.c:1981
 #: ../src/fr-window.c:5466
 msgid "Archive Manager"
 msgstr "壓縮檔管理員"
 
-#: ../data/engrampa.desktop.in.in.h:3
+#: ../data/peony-archives.desktop.in.in.h:3
 msgid "Create and modify an archive"
 msgstr "建立及更改壓縮檔"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:1
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:1
 msgid "How to sort files"
 msgstr "如何排序檔案"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:2
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:2
 msgid ""
 "What criteria must be used to arrange files. Possible values: name, size, "
 "type, time, path."
 msgstr "要使用什麼標準來排列檔案。可能的值：name、size、type、time、path。"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:3
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:3
 msgid "Sort type"
 msgstr "排序類型"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:4
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:4
 msgid ""
 "Whether to sort in ascending or descending direction. Possible values: "
 "ascending, descending."
 msgstr "是否要以遞增或遞減的方向排序。可能的值：遞增、遞減。"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:5
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:5
 msgid "List Mode"
 msgstr "清單模式"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:6
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:6
 msgid ""
 "Whether to view all files in the archive (all_files), or view the archive as"
 " a folder (as_folder)."
 msgstr "是否在壓縮檔中檢視所有的檔案 (all_files)，或是將壓縮檔作為一個資料夾檢視 (as_folder)。"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:7
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:7
 msgid "Display type"
 msgstr "顯示類型"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:8
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:8
 msgid "Display the Type column in the main window."
 msgstr "在主視窗中顯示類型欄。"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:9
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:9
 msgid "Display size"
 msgstr "顯示大小"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:10
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:10
 msgid "Display the Size column in the main window."
 msgstr "在主視窗中顯示大小欄。"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:11
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:11
 msgid "Display time"
 msgstr "顯示時間"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:12
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:12
 msgid "Display the Time column in the main window."
 msgstr "在主視窗中顯示時間欄。"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:13
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:13
 msgid "Display path"
 msgstr "顯示路徑"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:14
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:14
 msgid "Display the Path column in the main window."
 msgstr "在主視窗中顯示路徑欄。"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:15
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:15
 msgid "Use MIME icons"
 msgstr "使用 MIME 圖示"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:16
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:16
 msgid ""
 "if TRUE will display icons depending on the file type (slower), otherwise "
 "will use always the same icon for all files (faster)."
 msgstr "若設定為 TRUE 將會依據檔案類型顯示圖示（較慢），否則將會總是在所有的檔案上使用相同的圖示（較快）。"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:17
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:17
 msgid "Name column width"
 msgstr "名稱欄寬度"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:18
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:18
 msgid "The default width of the name column in the file list."
 msgstr "在檔案清單中的預設名稱欄位寬度。"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:19
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:19
 msgid "Max history length"
 msgstr "最大歷史長度"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:20
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:20
 msgid "Max number of items in the Open Recents menu."
 msgstr "在開啟的最近使用選單中的最大項目數。"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:21
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:21
 msgid "View toolbar"
 msgstr "檢視工具列"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:22
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:22
 msgid "Whether to display the toolbar."
 msgstr "是否顯示工具列"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:23
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:23
 msgid "View statusbar"
 msgstr "檢視狀態列"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:24
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:24
 msgid "Whether to display the statusbar."
 msgstr "是否顯示狀態列。"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:25 ../src/ui.h:234
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:25 ../src/ui.h:234
 msgid "View the folders pane"
 msgstr "檢視資料夾窗格"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:26
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:26
 msgid "Whether to display the folders pane."
 msgstr "是否顯示資料夾面板。"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:27
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:27
 msgid "Editors"
 msgstr "編輯器"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:28
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:28
 msgid ""
 "List of applications entered in the Open file dialog and not associated with"
 " the file type."
 msgstr "進入開啟檔案對話框，而未關聯到檔案類型的應用程式清單。"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:29
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:29
 msgid "Compression level"
 msgstr "壓縮等級"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:30
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:30
 msgid ""
 "Compression level used when adding files to an archive. Possible values: "
 "very_fast, fast, normal, maximum."
 msgstr "壓縮等級會用於加入檔案到壓縮檔中時。可能的值：very_fast、fast、normal、maximum。"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:31
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:31
 msgid "Encrypt the archive header"
 msgstr "加密壓縮檔檔頭"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:32
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:32
 msgid ""
 "Whether to encrypt the archive header. If the header is encrypted the "
 "password will be required to list the archive content as well."
 msgstr "是否加密壓縮檔檔頭。若檔頭被加密，則列出壓縮檔內容時也需要密碼。"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:33
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:33
 msgid "Overwrite existing files"
 msgstr "覆寫已存在的檔案"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:34
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:34
 msgid "Do not overwrite newer files"
 msgstr "不要覆寫較新的檔案"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:35
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:35
 msgid "Recreate the folders stored in the archive"
 msgstr "重新建立儲存在壓縮檔內的資料夾"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:36
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:36
 msgid "Default volume size"
 msgstr "預設卷冊大小"
 
-#: ../data/org.mate.engrampa.gschema.xml.in.h:37
+#: ../data/org.mate.peony-archives.gschema.xml.in.h:37
 msgid "The default size for volumes."
 msgstr "卷冊的預設大小。"
 
-#: ../caja/caja-engrampa.c:335
+#: ../peony/peony-peony-archives.c:335
 msgid "Extract Here"
 msgstr "在此解壓縮"
 
 #. Translators: the current position is the current folder
-#: ../caja/caja-engrampa.c:337
+#: ../peony/peony-peony-archives.c:337
 msgid "Extract the selected archive to the current position"
 msgstr "在目前的位置解開已選取的壓縮檔"
 
-#: ../caja/caja-engrampa.c:354
+#: ../peony/peony-peony-archives.c:354
 msgid "Extract To..."
 msgstr "解壓縮至…"
 
-#: ../caja/caja-engrampa.c:355
+#: ../peony/peony-peony-archives.c:355
 msgid "Extract the selected archive"
 msgstr "解開已選的壓縮檔"
 
-#: ../caja/caja-engrampa.c:374
+#: ../peony/peony-peony-archives.c:374
 msgid "Compress..."
 msgstr "壓縮…"
 
-#: ../caja/caja-engrampa.c:375
+#: ../peony/peony-peony-archives.c:375
 msgid "Create a compressed archive with the selected objects"
 msgstr "以選取的物件建立一個新的壓縮檔"
 
-#: ../caja/libcaja-engrampa.caja-extension.in.in.h:1 ../src/main.c:330
+#: ../peony/libpeony-peony-archives.peony-extension.in.in.h:1 ../src/main.c:330
 #: ../src/server.c:457
-msgid "Engrampa"
-msgstr "Engrampa"
+msgid "Peony-archives"
+msgstr "Peony-archives"
 
-#: ../caja/libcaja-engrampa.caja-extension.in.in.h:2
+#: ../peony/libpeony-peony-archives.peony-extension.in.in.h:2
 msgid "Allows to create and extract archives"
 msgstr "允許建立且解開壓縮檔"
 
@@ -367,26 +367,26 @@ msgstr "上一個輸出訊息"
 
 #: ../src/actions.c:860
 msgid ""
-"Engrampa is free software; you can redistribute it and/or modify it under "
+"Peony-archives is free software; you can redistribute it and/or modify it under "
 "the terms of the GNU General Public License as published by the Free "
 "Software Foundation; either version 2 of the License, or (at your option) "
 "any later version."
-msgstr "Engrampa 是自由軟體，您可以遵照自由軟體基金會 (Free Software Foundation) 出版的 GNU 通用公共許可證條款 (GNU General Public License) 第二版來修改和重新發布這一程式，或者自由選擇使用任何更新的版本。"
+msgstr "Peony-archives 是自由軟體，您可以遵照自由軟體基金會 (Free Software Foundation) 出版的 GNU 通用公共許可證條款 (GNU General Public License) 第二版來修改和重新發布這一程式，或者自由選擇使用任何更新的版本。"
 
 #: ../src/actions.c:864
 msgid ""
-"Engrampa is distributed in the hope that it will be useful, but WITHOUT ANY "
+"Peony-archives is distributed in the hope that it will be useful, but WITHOUT ANY "
 "WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
 "FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
 "details."
-msgstr "發布 Engrampa 的目的是希望它有用，但沒有任何擔保。甚至沒有適合特定目的而隱含的擔保。更詳細的情況請參閱 GNU 通用公共許可證。"
+msgstr "發布 Peony-archives 的目的是希望它有用，但沒有任何擔保。甚至沒有適合特定目的而隱含的擔保。更詳細的情況請參閱 GNU 通用公共許可證。"
 
 #: ../src/actions.c:868
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
-" Engrampa; if not, write to the Free Software Foundation, Inc., 51 Franklin "
+" Peony-archives; if not, write to the Free Software Foundation, Inc., 51 Franklin "
 "St, Fifth Floor, Boston, MA  02110-1301 USA"
-msgstr "您應該已經和 Engrampa 一起收到一份 GNU 通用公共許可證的副本。如果還沒有，寫信給：Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA"
+msgstr "您應該已經和 Peony-archives 一起收到一份 GNU 通用公共許可證的副本。如果還沒有，寫信給：Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA"
 
 #: ../src/actions.c:878
 msgid "Copyright © 2001–2010 Free Software Foundation, Inc."
@@ -1374,8 +1374,8 @@ msgid "Contents"
 msgstr "內容"
 
 #: ../src/ui.h:64
-msgid "Display the Engrampa Manual"
-msgstr "顯示 Engrampa 的說明文件"
+msgid "Display the Peony-archives Manual"
+msgstr "顯示 Peony-archives 的說明文件"
 
 #: ../src/ui.h:69 ../src/ui.h:90
 msgid "Copy the selection"

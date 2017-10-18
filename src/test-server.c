@@ -1,7 +1,7 @@
 /* -*- Mode: C; tab-width: 8; indent-tabs-mode: t; c-basic-offset: 8 -*- */
 
 /*
- *  Engrampa
+ *  Peony-archives
  *
  *  Copyright (C) 2010 The Free Software Foundation, Inc.
  *
@@ -27,7 +27,7 @@ GMainLoop *loop;
 
 
 static void
-engrampa_getsupportedtypes_ready_cb (GObject      *source_object,
+peony-archives_getsupportedtypes_ready_cb (GObject      *source_object,
 				    GAsyncResult *res,
 				    gpointer      user_data)
 {
@@ -91,7 +91,7 @@ engrampa_getsupportedtypes_ready_cb (GObject      *source_object,
 
 
 static void
-engrampa_addtoarchive_ready_cb (GObject      *source_object,
+peony-archives_addtoarchive_ready_cb (GObject      *source_object,
 				  GAsyncResult *res,
 				  gpointer      user_data)
 {
@@ -146,8 +146,8 @@ main (int argc, char *argv[])
 		proxy = g_dbus_proxy_new_sync (connection,
 					       G_DBUS_PROXY_FLAGS_NONE,
 					       NULL,
-					       "org.mate.Engrampa",
-					       "/org/mate/Engrampa",
+					       "org.mate.Peony-archives",
+					       "/org/mate/Peony-archives",
 					       "org.mate.ArchiveManager",
 					       NULL,
 					       &error);
@@ -168,7 +168,7 @@ main (int argc, char *argv[])
 					   G_DBUS_CALL_FLAGS_NONE,
 					   G_MAXINT,
 					   NULL,
-					   engrampa_getsupportedtypes_ready_cb,
+					   peony-archives_getsupportedtypes_ready_cb,
 					   NULL);
 #endif
 
@@ -191,7 +191,7 @@ main (int argc, char *argv[])
 					   G_DBUS_CALL_FLAGS_NONE,
 					   G_MAXINT,
 					   NULL,
-					   engrampa_addtoarchive_ready_cb,
+					   peony-archives_addtoarchive_ready_cb,
 					   NULL);
 
 			g_free (archive);
@@ -218,7 +218,7 @@ main (int argc, char *argv[])
 					   G_DBUS_CALL_FLAGS_NONE,
 					   G_MAXINT,
 					   NULL,
-					   engrampa_addtoarchive_ready_cb,
+					   peony-archives_addtoarchive_ready_cb,
 					   NULL);
 
 			g_strfreev (files);
@@ -235,7 +235,7 @@ main (int argc, char *argv[])
 					   G_DBUS_CALL_FLAGS_NONE,
 					   G_MAXINT,
 					   NULL,
-					   engrampa_addtoarchive_ready_cb,
+					   peony-archives_addtoarchive_ready_cb,
 					   NULL);
 
 			/* -- ExtractHere -- */
@@ -248,7 +248,7 @@ main (int argc, char *argv[])
 					   G_DBUS_CALL_FLAGS_NONE,
 					   G_MAXINT,
 					   NULL,
-					   engrampa_addtoarchive_ready_cb,
+					   peony-archives_addtoarchive_ready_cb,
 					   NULL);
 
 #endif

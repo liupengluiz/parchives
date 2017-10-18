@@ -1,7 +1,7 @@
 /* -*- Mode: C; tab-width: 8; indent-tabs-mode: t; c-basic-offset: 8 -*- */
 
 /*
- *  Engrampa
+ *  Peony-archives
  *
  *  Copyright (C) 2001, 2003 Free Software Foundation, Inc.
  *
@@ -27,15 +27,15 @@
 #include "typedefs.h"
 #include "fr-window.h"
 
-#define ENGRAMPA_SCHEMA			"org.mate.engrampa"
-#define ENGRAMPA_SCHEMA_LISTING		ENGRAMPA_SCHEMA	".listing"
-#define ENGRAMPA_SCHEMA_UI		ENGRAMPA_SCHEMA	".ui"
-#define ENGRAMPA_SCHEMA_GENERAL		ENGRAMPA_SCHEMA	".general"
-#define ENGRAMPA_SCHEMA_DIALOGS		ENGRAMPA_SCHEMA	".dialogs"
-#define ENGRAMPA_SCHEMA_ADD		ENGRAMPA_SCHEMA_DIALOGS	".add"
-#define ENGRAMPA_SCHEMA_BATCH_ADD 	ENGRAMPA_SCHEMA_DIALOGS ".batch-add"
-#define ENGRAMPA_SCHEMA_EXTRACT		ENGRAMPA_SCHEMA_DIALOGS ".extract"
-#define ENGRAMPA_SCHEMA_LAST_OUTPUT	ENGRAMPA_SCHEMA_DIALOGS ".last-output"
+#define PEONY-ARCHIVES_SCHEMA			"org.mate.peony-archives"
+#define PEONY-ARCHIVES_SCHEMA_LISTING		PEONY-ARCHIVES_SCHEMA	".listing"
+#define PEONY-ARCHIVES_SCHEMA_UI		PEONY-ARCHIVES_SCHEMA	".ui"
+#define PEONY-ARCHIVES_SCHEMA_GENERAL		PEONY-ARCHIVES_SCHEMA	".general"
+#define PEONY-ARCHIVES_SCHEMA_DIALOGS		PEONY-ARCHIVES_SCHEMA	".dialogs"
+#define PEONY-ARCHIVES_SCHEMA_ADD		PEONY-ARCHIVES_SCHEMA_DIALOGS	".add"
+#define PEONY-ARCHIVES_SCHEMA_BATCH_ADD 	PEONY-ARCHIVES_SCHEMA_DIALOGS ".batch-add"
+#define PEONY-ARCHIVES_SCHEMA_EXTRACT		PEONY-ARCHIVES_SCHEMA_DIALOGS ".extract"
+#define PEONY-ARCHIVES_SCHEMA_LAST_OUTPUT	PEONY-ARCHIVES_SCHEMA_DIALOGS ".last-output"
 
 #define PREF_LISTING_SORT_METHOD	"sort-method"
 #define PREF_LISTING_SORT_TYPE		"sort-type"
@@ -76,8 +76,8 @@
 #define PREF_BATCH_ADD_OTHER_OPTIONS	 "other-options"
 #define PREF_BATCH_ADD_VOLUME_SIZE	 "volume-size"
 
-#define CAJA_SCHEMA			"org.mate.caja.preferences"
-#define CAJA_CLICK_POLICY		"click-policy"
+#define PEONY_SCHEMA			"org.mate.peony.preferences"
+#define PEONY_CLICK_POLICY		"click-policy"
 
 void pref_util_save_window_geometry (GtkWindow *window,
                                      const char *dialog_id);

@@ -1,7 +1,7 @@
 SUBDIRS = commands sh ui
 
-bin_PROGRAMS = engrampa
-libexec_PROGRAMS = engrampa-server
+bin_PROGRAMS = peony-archives
+libexec_PROGRAMS = peony-archives-server
 noinst_PROGRAMS = test-server
 
 if MKDTEMP_MISSING
@@ -16,10 +16,10 @@ uidir = $(top_srcdir)/data/ui
 privexecdir = $(abs_top_builddir)/src/commands/
 shdir = $(top_srcdir)/src/sh/
 else
-privdatadir = $(datadir)/engrampa/
-uidir = $(datadir)/engrampa/ui
-privexecdir = $(libexecdir)/engrampa/
-shdir = $(libexecdir)/engrampa/
+privdatadir = $(datadir)/peony-archives/
+uidir = $(datadir)/peony-archives/ui
+privexecdir = $(libexecdir)/peony-archives/
+shdir = $(libexecdir)/peony-archives/
 endif
 
 AM_CPPFLAGS =						\
@@ -192,38 +192,38 @@ fr-enum-types.c: typedefs.h fr-enum-types.h
 	&& (cmp -s xgen-$(@F) fr-enum-types.c || cp xgen-$(@F) fr-enum-types.c ) \
 	&& rm -f xgen-$(@F) )
 
-fr-resources.c: engrampa.gresource.xml $(shell $(GLIB_COMPILE_RESOURCES) --generate-dependencies engrampa.gresource.xml)
-	$(GLIB_COMPILE_RESOURCES) --target=$@ --sourcedir=$(srcdir) --generate --c-name fr $(srcdir)/engrampa.gresource.xml
+fr-resources.c: peony-archives.gresource.xml $(shell $(GLIB_COMPILE_RESOURCES) --generate-dependencies peony-archives.gresource.xml)
+	$(GLIB_COMPILE_RESOURCES) --target=$@ --sourcedir=$(srcdir) --generate --c-name fr $(srcdir)/peony-archives.gresource.xml
 
-fr-resources.h: engrampa.gresource.xml $(shell $(GLIB_COMPILE_RESOURCES) --generate-dependencies engrampa.gresource.xml)
-	$(GLIB_COMPILE_RESOURCES) --target=$@ --sourcedir=$(srcdir) --generate --c-name fr $(srcdir)/engrampa.gresource.xml
+fr-resources.h: peony-archives.gresource.xml $(shell $(GLIB_COMPILE_RESOURCES) --generate-dependencies peony-archives.gresource.xml)
+	$(GLIB_COMPILE_RESOURCES) --target=$@ --sourcedir=$(srcdir) --generate --c-name fr $(srcdir)/peony-archives.gresource.xml
 
-engrampa_SOURCES = 			\
+peony-archives_SOURCES = 			\
 	$(COMMON_SOURCES)		\
 	main.c
 
-engrampa_LDADD =					\
+peony-archives_LDADD =					\
 	$(top_builddir)/copy-n-paste/libeggsmclient.la	\
 	$(FR_LIBS)					\
 	${JSON_GLIB_LIBS}
 
-engrampa_server_SOURCES =		\
+peony-archives_server_SOURCES =		\
 	$(COMMON_SOURCES)		\
 	server.c
 
-engrampa_server_LDADD =		\
-	$(engrampa_LDADD)
+peony-archives_server_LDADD =		\
+	$(peony-archives_LDADD)
 
 test_server_SOURCES = test-server.c
 test_server_FLAGS = $(FR_CFLAGS)
 test_server_LDADD = $(FR_LIBS)
 
 if ENABLE_MAGIC
-engrampa_LDADD += $(MAGIC_LIBS)
+peony-archives_LDADD += $(MAGIC_LIBS)
 endif
 
 EXTRA_DIST = 				\
-	engrampa.gresource.xml		\
+	peony-archives.gresource.xml		\
 	fr-marshal.list
 
 CLEANFILES = $(BUILT_SOURCES)

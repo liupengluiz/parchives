@@ -1,7 +1,7 @@
 /* -*- Mode: C; tab-width: 8; indent-tabs-mode: t; c-basic-offset: 8 -*- */
 
 /*
- *  Engrampa
+ *  Peony-archives
  *
  *  Copyright (C) 2007 Free Software Foundation, Inc.
  *
@@ -95,22 +95,22 @@ static int             dir_tree_icon_size = 0;
 #define XDS_ATOM   gdk_atom_intern  ("XdndDirectSave0", FALSE)
 #define TEXT_ATOM  gdk_atom_intern  ("text/plain", FALSE)
 #define OCTET_ATOM gdk_atom_intern  ("application/octet-stream", FALSE)
-#define XFR_ATOM   gdk_atom_intern  ("XdndEngrampa0", FALSE)
+#define XFR_ATOM   gdk_atom_intern  ("XdndPeony-archives0", FALSE)
 
 #define FR_CLIPBOARD (gdk_atom_intern_static_string ("_RNGRAMPA_SPECIAL_CLIPBOARD"))
-#define FR_SPECIAL_URI_LIST (gdk_atom_intern_static_string ("application/engrampa-uri-list"))
+#define FR_SPECIAL_URI_LIST (gdk_atom_intern_static_string ("application/peony-archives-uri-list"))
 
 static GtkTargetEntry clipboard_targets[] = {
-	{ "application/engrampa-uri-list", 0, 1 }
+	{ "application/peony-archives-uri-list", 0, 1 }
 };
 
 static GtkTargetEntry target_table[] = {
-	{ "XdndEngrampa0", 0, 0 },
+	{ "XdndPeony-archives0", 0, 0 },
 	{ "text/uri-list", 0, 1 },
 };
 
 static GtkTargetEntry folder_tree_targets[] = {
-	{ "XdndEngrampa0", 0, 0 },
+	{ "XdndPeony-archives0", 0, 0 },
 	{ "XdndDirectSave0", 0, 2 }
 };
 
@@ -394,7 +394,7 @@ struct _FrWindowPrivateData {
 	GSettings *settings_ui;
 	GSettings *settings_general;
 	GSettings *settings_dialogs;
-	GSettings *settings_caja;
+	GSettings *settings_peony;
 
 	gulong            theme_changed_handler_id;
 	gboolean          non_interactive;
@@ -631,8 +631,8 @@ fr_window_free_private_data (FrWindow *window)
 	_g_object_unref (window->priv->settings_general);
 	_g_object_unref (window->priv->settings_dialogs);
 
-	if (window->priv->settings_caja)
-		_g_object_unref (window->priv->settings_caja);
+	if (window->priv->settings_peony)
+		_g_object_unref (window->priv->settings_peony);
 }
 
 
@@ -805,7 +805,7 @@ fr_window_init (FrWindow *window)
 	window->priv->batch_title = NULL;
 
 	context = gtk_widget_get_style_context (GTK_WIDGET (window));
-	gtk_style_context_add_class (context, "engrampa-window");
+	gtk_style_context_add_class (context, "peony-archives-window");
 
 	g_signal_connect (window,
 			  "realize",
@@ -2853,8 +2853,8 @@ fr_window_add_to_recent_list (FrWindow *window,
 
 		recent_data = g_new0 (GtkRecentData, 1);
 		recent_data->mime_type = g_content_type_get_mime_type (window->archive->content_type);
-		recent_data->app_name = "Engrampa";
-		recent_data->app_exec = "engrampa";
+		recent_data->app_name = "Peony-archives";
+		recent_data->app_exec = "peony-archives";
 		gtk_recent_manager_add_full (gtk_recent_manager_get_default (), uri, recent_data);
 
 		g_free (recent_data);
@@ -4323,7 +4323,7 @@ context_offers_target (GdkDragContext *context,
 
 
 static gboolean
-caja_xds_dnd_is_valid_xds_context (GdkDragContext *context)
+peony_xds_dnd_is_valid_xds_context (GdkDragContext *context)
 {
 	char *tmp;
 	gboolean ret;
@@ -4413,7 +4413,7 @@ fr_window_folder_tree_drag_data_get (GtkWidget        *widget,
 		return TRUE;
 	}
 
-	if (! caja_xds_dnd_is_valid_xds_context (context))
+	if (! peony_xds_dnd_is_valid_xds_context (context))
 		return FALSE;
 
 	destination = get_xds_atom_value (context);
@@ -4493,7 +4493,7 @@ fr_window_file_list_drag_data_get (FrWindow         *window,
 		return TRUE;
 	}
 
-	if (! caja_xds_dnd_is_valid_xds_context (context))
+	if (! peony_xds_dnd_is_valid_xds_context (context))
 		return FALSE;
 
 	destination = get_xds_atom_value (context);
@@ -4703,8 +4703,8 @@ is_single_click_policy (FrWindow *window)
 	char     *value;
 	gboolean  result = FALSE;
 
-	if (window->priv->settings_caja) {
-		value = g_settings_get_string (window->priv->settings_caja, CAJA_CLICK_POLICY);
+	if (window->priv->settings_peony) {
+		value = g_settings_get_string (window->priv->settings_peony, PEONY_CLICK_POLICY);
 		result = (value != NULL) && (strncmp (value, "single", 6) == 0);
 		g_free (value);
 	}
@@ -5322,7 +5322,7 @@ fr_window_init_recent_chooser (FrWindow         *window,
 	gtk_recent_filter_set_name (filter, _("All archives"));
 	for (i = 0; open_type[i] != -1; i++)
 		gtk_recent_filter_add_mime_type (filter, mime_type_desc[open_type[i]].mime_type);
-	gtk_recent_filter_add_application (filter, "Engrampa");
+	gtk_recent_filter_add_application (filter, "Peony-archives");
 	gtk_recent_chooser_add_filter (chooser, filter);
 
 	gtk_recent_chooser_set_local_only (chooser, FALSE);
@@ -5468,7 +5468,7 @@ fr_window_construct (FrWindow *window)
 	GtkUIManager     *ui;
 	GError           *error = NULL;
 	GSettingsSchemaSource *schema_source;
-	GSettingsSchema  *caja_schema;
+	GSettingsSchema  *peony_schema;
 
 	/* data common to all windows. */
 
@@ -5482,16 +5482,16 @@ fr_window_construct (FrWindow *window)
 
         /* Create the settings objects */
 
-	window->priv->settings_listing = g_settings_new (ENGRAMPA_SCHEMA_LISTING);
-	window->priv->settings_ui = g_settings_new (ENGRAMPA_SCHEMA_UI);
-	window->priv->settings_general = g_settings_new (ENGRAMPA_SCHEMA_GENERAL);
-	window->priv->settings_dialogs = g_settings_new (ENGRAMPA_SCHEMA_DIALOGS);
+	window->priv->settings_listing = g_settings_new (PEONY-ARCHIVES_SCHEMA_LISTING);
+	window->priv->settings_ui = g_settings_new (PEONY-ARCHIVES_SCHEMA_UI);
+	window->priv->settings_general = g_settings_new (PEONY-ARCHIVES_SCHEMA_GENERAL);
+	window->priv->settings_dialogs = g_settings_new (PEONY-ARCHIVES_SCHEMA_DIALOGS);
 
 	schema_source = g_settings_schema_source_get_default ();
-	caja_schema = g_settings_schema_source_lookup (schema_source, CAJA_SCHEMA, FALSE);
-	if (caja_schema) {
-		window->priv->settings_caja = g_settings_new (CAJA_SCHEMA);
-		g_settings_schema_unref (caja_schema);
+	peony_schema = g_settings_schema_source_lookup (schema_source, PEONY_SCHEMA, FALSE);
+	if (peony_schema) {
+		window->priv->settings_peony = g_settings_new (PEONY_SCHEMA);
+		g_settings_schema_unref (peony_schema);
 	}
 
 	/* Create the application. */
@@ -5930,7 +5930,7 @@ fr_window_construct (FrWindow *window)
 				 g_cclosure_new_swap (G_CALLBACK (fr_window_close), window, NULL));
 
 
-	if (! gtk_ui_manager_add_ui_from_resource (ui, "/org/mate/Engrampa/ui/menus-toolbars.ui", &error)) {
+	if (! gtk_ui_manager_add_ui_from_resource (ui, "/org/mate/Peony-archives/ui/menus-toolbars.ui", &error)) {
 		g_message ("building menus failed: %s", error->message);
 		g_error_free (error);
 	}
@@ -6090,9 +6090,9 @@ fr_window_construct (FrWindow *window)
 			G_CALLBACK (pref_use_mime_icons_changed),
 			window);
 
-	if (window->priv->settings_caja)
-		g_signal_connect (window->priv->settings_caja,
-				"changed::" CAJA_CLICK_POLICY,
+	if (window->priv->settings_peony)
+		g_signal_connect (window->priv->settings_peony,
+				"changed::" PEONY_CLICK_POLICY,
 				G_CALLBACK (pref_click_policy_changed),
 				window);
 

@@ -1,7 +1,7 @@
 /* -*- Mode: C; tab-width: 8; indent-tabs-mode: t; c-basic-offset: 8 -*- */
 
 /*
- *  Engrampa
+ *  Peony-archives
  *
  *  Copyright (C) 2001, 2003, 2004, 2005 Free Software Foundation, Inc.
  *
@@ -261,7 +261,7 @@ file_sel_response_cb (GtkWidget    *widget,
 	}
 
 	if (response == GTK_RESPONSE_HELP) {
-		show_help_dialog (GTK_WINDOW (data->dialog), "engrampa-extract-options");
+		show_help_dialog (GTK_WINDOW (data->dialog), "peony-archives-extract-options");
 		return TRUE;
 	}
 
@@ -421,7 +421,7 @@ dlg_extract__common (FrWindow *window,
 	GtkWidget  *file_sel;
 
 	data = g_new0 (DialogData, 1);
-	data->settings = g_settings_new (ENGRAMPA_SCHEMA_EXTRACT);
+	data->settings = g_settings_new (PEONY-ARCHIVES_SCHEMA_EXTRACT);
 	data->window = window;
 	data->selected_files = selected_files;
 	data->base_dir_for_selection = base_dir_for_selection;

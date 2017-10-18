@@ -1,7 +1,7 @@
 /* -*- Mode: C; tab-width: 8; indent-tabs-mode: t; c-basic-offset: 8 -*- */
 
 /*
- *  Engrampa
+ *  Peony-archives
  *
  *  Copyright (C) 2001, 2003, 2004 Free Software Foundation, Inc.
  *
@@ -129,7 +129,7 @@ static void
 help_clicked_cb (GtkWidget  *widget,
 		 DialogData *data)
 {
-	show_help_dialog (GTK_WINDOW (GET_WIDGET ("dialog")), "engrampa-fmgr-add");
+	show_help_dialog (GTK_WINDOW (GET_WIDGET ("dialog")), "peony-archives-fmgr-add");
 }
 
 
@@ -485,8 +485,8 @@ dlg_batch_add_files (FrWindow *window,
 		return;
 
 	data = g_new0 (DialogData, 1);
-	data->settings = g_settings_new (ENGRAMPA_SCHEMA_BATCH_ADD);
-	data->settings_general = g_settings_new (ENGRAMPA_SCHEMA_GENERAL);
+	data->settings = g_settings_new (PEONY-ARCHIVES_SCHEMA_BATCH_ADD);
+	data->settings_general = g_settings_new (PEONY-ARCHIVES_SCHEMA_GENERAL);
 
 	data->builder = _gtk_builder_new_from_resource ("batch-add-files.ui");
 	if (data->builder == NULL) {
