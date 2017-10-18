@@ -3,8 +3,7 @@ Upstream-Name: parchives
 Upstream-Contact: Stefano Karapetsas <stefano@karapetsas.com>
 Source: http://git.mate-desktop.org/parchives/
 
-Files: src/commands/rpm2cpio.c
-       src/dlg-add-files.h
+Files: src/dlg-add-files.h
        src/dlg-add-folder.h
        src/dlg-ask-password.c
        src/dlg-ask-password.h
@@ -41,8 +40,6 @@ Files: src/commands/rpm2cpio.c
        src/fr-command-rpm.c
        src/fr-command-rpm.h
        src/fr-command-tar.h
-       src/fr-command-unarchiver.c
-       src/fr-command-unarchiver.h
        src/fr-command-unstuff.c
        src/fr-command-unstuff.h
        src/fr-command-zip.c
@@ -52,13 +49,23 @@ Files: src/commands/rpm2cpio.c
        src/fr-command.h
        src/fr-init.c
        src/fr-init.h
-       src/fr-proc-error.c
-       src/fr-proc-error.h
        src/gtk-utils.c
        src/java-utils.c
        src/java-utils.h
        src/open-file.c
        src/open-file.h
+       src/server.c
+       src/test-server.c
+       src/typedefs.h
+Copyright: 2001-2012, The Free Software Foundation, Inc.
+           2017, Tianjin KYLIN Information Technology Co., Ltd.
+License: GPL-2+
+
+Files: src/commands/rpm2cpio.c
+       src/fr-command-unarchiver.c
+       src/fr-command-unarchiver.h
+       src/fr-proc-error.c
+       src/fr-proc-error.h     
        src/rar-utils.c
        src/rar-utils.h
        src/server.c
@@ -110,10 +117,14 @@ Files: peony/peony-parchives.c
        src/glib-utils.h
        src/gtk-utils.h
        src/main.c
-       src/mkdtemp.h
        src/preferences.c
        src/preferences.h
        src/ui.h
+Copyright: 2001-2008, Free Software Foundation, Inc.
+           2017, Tianjin KYLIN Information Technology Co., Ltd.
+License: GPL-2+
+
+Files: src/mkdtemp.h      
 Copyright: 2001-2008, Free Software Foundation, Inc.
 License: GPL-2+
 
@@ -123,6 +134,7 @@ Files: copy-n-paste/eggdesktopfile.h
        copy-n-paste/eggsmclient.h
 Copyright: 2007, Novell, Inc.
 License: LGPL-2+
+
 
 Files: .tx/config
        peony/libpeony-parchives.peony-extension.in.in
@@ -179,6 +191,7 @@ Comment:
 
 Files: data/parchives.1
 Copyright: 2007, Sven Arvidsson <sa@whiz.se>
+           2017, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 
 Files: src/eggfileformatchooser.c
@@ -199,6 +212,7 @@ License: LGPL-2+
 Files: src/eggtreemultidnd.c
 Copyright: 2001, Red Hat, Inc.
            2005, Free Software Foundation, Inc.
+	   2017, Tianjin KYLIN Information Technology Co., Ltd.
 License: LGPL-2+
 
 Files: copy-n-paste/eggdesktopfile.c
@@ -213,6 +227,7 @@ License: LGPL-2+
 
 Files: src/egg-macros.h
 Copyright: 2001, Ben Tea Spoons, Inc.
+           2017, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 Comment:
  Using license from COPYING file.
@@ -222,7 +237,7 @@ Files: po/*.po
        po/gnome-copyrights.txt
 Copyright: 2001-2010, Free Software Foundation, Inc.
            2003-2005, Sharif FarsiWeb Inc.
-           2003-2008, parchives'S COPYRIGHT HOLDER.
+           2003-2008, engrampa'S COPYRIGHT HOLDER.
            2003, Chris Jackson
            2003, Mətin Əmirov
            2003, Rupak Sinha
@@ -234,6 +249,7 @@ Copyright: 2001-2010, Free Software Foundation, Inc.
            2006-2008, Rosetta Contributors
            2007, Ihar Hrachyshka
            2010, Fran Diéguez.
+	   2017, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+
 Comment:
  Using license from COPYING file.
@@ -274,11 +290,13 @@ Copyright: Carles Ferrando Garcia <carles.ferrando@gmail.com>
            Philip Withnall <philip@tecnocode.co.uk>
            Raykov <zbrox@i-space.org>
            Simos Xenitellis <simos@gnome.org>
+	   2017, Tianjin KYLIN Information Technology Co., Ltd.
 License: GFDL-1.1+
 
 Files: debian/*
 Copyright: 2011-2014, Stefano Karapetsas <stefano@karapetsas.com>
            2014, Mike Gabriel <sunweaver@debian.org>
+	   2017, Tianjin KYLIN Information Technology Co., Ltd.
 License: GPL-2+ or LGPL-2+
 
 License: GPL-2+
